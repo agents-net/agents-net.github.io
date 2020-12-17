@@ -1,9 +1,10 @@
 name: Build Documentation
 
 on:
+  repository_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
