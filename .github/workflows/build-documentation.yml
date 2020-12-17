@@ -1,0 +1,109 @@
+name: Build Documentation
+
+on:
+  repository_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      
+    - name: Checkout live branch
+      uses: actions/checkout@v2
+      with:
+        ref: live
+        path: live
+        
+    - name: Clear live docs repo
+      run: |
+        for entry in live/* live/.*; do
+            if [ $entry != 'live/.' ] && [ $entry != 'live/..' ] && [ $entry != 'live/.git' ];
+            then
+                echo $entry
+                rm -rf $entry
+            fi
+        done
+        echo ".docfx/**" >> .gitignore
+      
+    - name: Checkout Agents.Net
+      uses: actions/checkout@v2
+      with:
+        repository: agents-net/agents.net
+        path: agents.net
+        
+    - name: Checkout Agents.Net Wiki
+      uses: actions/checkout@v2
+      with:
+        repository: agents-net/agents.net.wiki
+        path: articles/agents.net
+        
+    - name: Prepare Agents.Net Wiki
+      run: |
+        cp articles/agents.net/images/*.* images
+        rm -r articles/agents.net/images
+        echo '- name: Agents.Net
+          href: agents.net/Home.md
+          items:' >> articles/toc.yml
+        for f in articles/agents.net/*.md; do
+            fname=$(basename "$f")
+            filename="${fname%.*}"
+            echo "Filename is $filename"
+            displayname=$(echo $filename | sed -e 's/-/ /g')
+            echo "Displayname is $displayname"
+            sed -i -e '1s/^/---\
+        uid: '"$filename"'\
+        ---\
+        /' -e 's/\[\[\([^|]*\)|\([^]]*\)\]\]/!\[\2\](\1)/g' -e 's/\[\([^]]*\)\](\([^)#/\.]*\))/\[\1\](xref:\2)/g' -e 's/\/blob\/master/\/raw\/master/g' $f
+            echo "file:"
+            cat $f
+            if [ $filename != Home ];
+            then
+                echo '    - name: '"$displayname"'
+              href: agents.net/'"$fname" >> articles/toc.yml
+            fi
+        done
+        echo
+        echo "toc:"
+        cat articles/toc.yml
+        
+#-e 's/\[\[\([^|]*\)\|\([^\]]*\)\]\]/!\[\2\](\1)/g' -e 's/\[\([^]]*\)\](\([^)#/\.]*\))/\[\1\](xref:\2)/g'
+
+    - name: Get mono
+      run: |
+        sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+        echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+        sudo apt-get update
+        sudo apt-get install mono-complete --yes
+        
+    - name: Get docfx
+      run: |
+        curl -L https://github.com/dotnet/docfx/releases/download/v2.56.4/docfx.zip -o docfx.zip
+        unzip -d .docfx docfx.zip
+        
+    - name: Build docs
+      run:  mono .docfx/docfx.exe
+      
+    - name: Debug output
+      run: |
+        sudo apt-get install tree
+        tree -a
+        
+    - name: Commit and push to live branch
+      run: |
+        export GIT_COMMITTER_NAME=$(git show -s --format='%cn')
+        export GIT_COMMITTER_EMAIL=$(git show -s --format='%ce')
+        export GIT_AUTHOR_NAME=$(git show -s --format='%an')
+        export GIT_AUTHOR_EMAIL=$(git show -s --format='%ae')
+        export COMMIT_HASH=$(git show -s --format='%H')
+        export SUBJECT=$(git show -s --format='%s')
+        cd live
+        git add -A
+        git commit -m "$SUBJECT" -m "Original commit: $COMMIT_HASH"
+        git push --force origin HEAD:live
