@@ -46,5 +46,5 @@ jobs:
         cd live
         git add .
         git commit -m "$SUBJECT" -m "Original commit: $COMMIT_HASH"
-        git --force push origin HEAD:live
+        git push --force origin HEAD:live
         curl -XPOST -H"Authorization: token ${GITHUB_TOKEN}" -H"Accept: application/vnd.github.mister-fantastic-preview+json" https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds
