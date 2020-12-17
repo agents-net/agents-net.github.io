@@ -30,6 +30,11 @@ jobs:
         repository: agents-net/agents.net
         path: agents.net
         
+    - name: Debug agents repo
+      run: |
+        cat agents.net/src/Agents.Net/Agents.Net.csproj
+        find | sed 's|[^/]*/|- |g'
+        
     - name: Build Documentation
       uses: nikeee/docfx-action@v1.0.0
       with:
