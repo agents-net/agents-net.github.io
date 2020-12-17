@@ -1,0 +1,45 @@
+name: Build Documentation
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      
+    - name: Checkout live branch
+      uses: actions/checkout@v2
+      with:
+        ref: live
+        path: live
+        
+    - name: Clear live docs repo
+      run: rm -rf live/*
+      
+    - name: Checkout Agents.Net
+      uses: actions/checkout@v2
+      with:
+        repository: agents-net/agents.net
+        path: agents.net
+        
+    - name: Build Documentation
+      uses: nikeee/docfx-action@v1.0.0
+      with:
+        args: docfx.json
+        
+    - name: Commit and push to live branch
+      run: |
+        export COMMIT_HASH=$(git show -s --format='%H')
+        export SUBJECT=$(git show -s --format='%s')
+        cd live
+        git add .
+        git commit -m "$SUBJECT" -m "Original commit: $COMMIT_HASH"
+        git --force push origin HEAD:live
+        curl -XPOST -H"Authorization: token ${GITHUB_TOKEN}" -H"Accept: application/vnd.github.mister-fantastic-preview+json" https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds
