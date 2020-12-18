@@ -30,15 +30,25 @@ jobs:
         repository: agents-net/agents.net
         path: agents.net
         
-    - name: Debug agents repo
+    #- name: Setup .NET Core
+    #  uses: actions/setup-dotnet@v1
+    #  with:
+    #    dotnet-version: 5.0.101
+
+    - name: Get mono
       run: |
-        cat agents.net/src/Agents.Net/Agents.Net.csproj
-        find | sed 's|[^/]*/|- |g'
+        sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+        echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+        sudo apt-get update
+        sudo apt-get install mono-complete --yes
         
-    - name: Build Documentation
-      uses: nikeee/docfx-action@v1.0.0
-      with:
-        args: docfx.json
+    - name: Get docfx
+      run: |
+        curl -L https://github.com/dotnet/docfx/releases/download/v2.56.4/docfx.zip -o docfx.zip
+        unzip -d .docfx docfx.zip
+        
+    - name: Build docs
+      run:  mono .docfx/docfx.exe
         
     - name: Commit and push to live branch
       run: |
