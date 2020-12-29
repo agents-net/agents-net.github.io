@@ -52,7 +52,7 @@ jobs:
             sed -i -e '1s/^/---\
             uid: '"$filename"'\
             ---\
-            /' -e 's/\[\[/!\[replace\]/g' $f
+            /' -e 's/\[\[\([^|]*\)/!\[\1\]/g' $f
             echo "file:"
             cat $f
             echo '    - name: '"$displayname"'
