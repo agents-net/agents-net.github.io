@@ -41,8 +41,8 @@ jobs:
         cp articles/agents.net/images/*.* images
         rm -r articles/agents.net/images
         echo '- name: Agents.Net
-          href: articles/agents.net/Home.md
-          items:' >> toc.yml
+          href: agents.net/Home.md
+          items:' >> articles/toc.yml
         for f in articles/agents.net/*.md; do
             fname=$(basename "$f")
             filename="${fname%.*}"
@@ -50,16 +50,17 @@ jobs:
             displayname=$(echo $filename | sed -e 's/-/ /g')
             echo "Displayname is $displayname"
             sed -i -e '1s/^/---\
-            uid: '"$filename"'\
-            ---\
-            /' -e 's/\[\[\([^|]*\)|\([^]]*\)\]\]/!\[\2\](\1)/g' -e 's/\[\([^]]*\)\](\([^)#/\.]*\))/\[\1\](xref:\2)/g' $f
+        uid: '"$filename"'\
+        ---\
+        /' -e 's/\[\[\([^|]*\)|\([^]]*\)\]\]/!\[\2\](\1)/g' -e 's/\[\([^]]*\)\](\([^)#/\.]*\))/\[\1\](xref:\2)/g' $f
             echo "file:"
             cat $f
             echo '    - name: '"$displayname"'
-              href: articles/agents.net/'"$fname" >> toc.yml
+              href: agents.net/'"$fname" >> articles/toc.yml
         done
+        echo
         echo "toc:"
-        cat toc.yml
+        cat articles/toc.yml
         
 #-e 's/\[\[\([^|]*\)\|\([^\]]*\)\]\]/!\[\2\](\1)/g' -e 's/\[\([^]]*\)\](\([^)#/\.]*\))/\[\1\](xref:\2)/g'
 
