@@ -78,6 +78,9 @@ jobs:
         
     - name: Build docs
       run:  mono .docfx/docfx.exe
+      
+    - name: Debug output
+      run: tree
         
     - name: Commit and push to live branch
       run: |
