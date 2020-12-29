@@ -88,6 +88,6 @@ jobs:
         export COMMIT_HASH=$(git show -s --format='%H')
         export SUBJECT=$(git show -s --format='%s')
         cd live
-        git add .
+        git add -A
         git commit -m "$SUBJECT" -m "Original commit: $COMMIT_HASH"
         git push --force origin HEAD:live

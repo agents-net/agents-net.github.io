@@ -5,5 +5,5 @@
 	"_appFaviconPath": "images/favicon.ico",
 	"_enableSearch": true,
 	"_enableNewTab": true,
-	"_disableBreadcrumb": true
+	"_disableBreadcrumb": false
 }
