@@ -20,9 +20,14 @@ jobs:
       with:
         ref: live
         path: live
+      
+    - name: Debug output
+      run: |
+        sudo apt-get install tree
+        tree
         
     - name: Clear live docs repo
-      run: rm -rf live/!(.git*)
+      run: rm -rf $(find live -name "*" ! -path ".git/*" ! -name ".git")
       
     - name: Checkout Agents.Net
       uses: actions/checkout@v2
@@ -81,7 +86,6 @@ jobs:
       
     - name: Debug output
       run: |
-        sudo apt-get install tree
         tree
         
     - name: Commit and push to live branch
