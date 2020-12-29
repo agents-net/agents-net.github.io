@@ -30,10 +30,39 @@ jobs:
         repository: agents-net/agents.net
         path: agents.net
         
-    #- name: Setup .NET Core
-    #  uses: actions/setup-dotnet@v1
-    #  with:
-    #    dotnet-version: 5.0.101
+    - name: Checkout Agents.Net Wiki
+      uses: actions/checkout@v2
+      with:
+        repository: agents-net/agents.net.wiki
+        path: articles/agents.net
+        
+    - name: Prepare Agents.Net Wiki
+      run: |
+        cp articles/agents.net/images/*.* images
+        rm -r articles/agents.net/images
+        echo '- name: Agents.Net/
+          href: agents.net/Home.md/
+          items:' >> toc.yml
+        for f in articles/agents.net/*.md; do
+            fname=$(basename "$f")
+            filename="${fname%.*}"
+            echo "Filename is $filename"
+            displayname=$(echo $filename | sed -e 's/-/ /g')
+            echo "Displayname is $displayname"
+            header='1s/^/---\
+            uid: '"$filename"'\
+            ---\
+            /'
+            echo "header:"
+            echo $header
+            sed -i -e $header -e 's/\\\[\\\[\\([^|]*\\)\|\\([^\]]*\\)\\\]\\\]/!\\\[\\2\\\](\\1)/g' -e 's/\\\[\\([^\]]*\\)\\\](\\([^)#/\.]*\\))/\\\[\\1\\\](xref:\\2)/g' $filename
+            echo "file:"
+            cat $f
+            echo '    - name: '"$displayname"'/
+                  href:agents.net/'"$fname" >> toc.yml
+        done
+        echo "toc:"
+        cat toc.yml
 
     - name: Get mono
       run: |
