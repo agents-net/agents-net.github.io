@@ -56,7 +56,7 @@ jobs:
             echo "file:"
             cat $f
             echo '    - name: '"$displayname"'
-              href:agents.net'"$fname" >> toc.yml
+              href: agents.net/'"$fname" >> toc.yml
         done
         echo "toc:"
         cat toc.yml
