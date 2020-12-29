@@ -80,7 +80,9 @@ jobs:
       run:  mono .docfx/docfx.exe
       
     - name: Debug output
-      run: tree
+      run: |
+        sudo apt-get install tree
+        tree
         
     - name: Commit and push to live branch
       run: |
