@@ -179,14 +179,9 @@
     "title": "Welcome to agents.net | Agents.Net Documentation",
     "keywords": "Welcome to agents.net agents.net is a .NET class library to easily build self-organizing agents based systems. But that is not all. Beside being another .NET class library it is also a programming technique like test driven development , behavior driven development or domain driven design . It encompasses both the design and the implementation phase and can be combined with almost all other techniques mentioned before. In a sense it reduces the complexity of object oriented programming with all its design patterns but using only two types of classes, agents and messages. Agents in that case are the logic of the program while messages are the communication interfaces between agents. Overall programming with agents.net is easy , intuitive and fast . Please feel free to browse around freely. For those how are new, the Getting Started guide is a good place to start. Beside that we have the benchmarks of the current release documented here as well. <!-- MARKDOWN LINKS & IMAGES --> <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->"
   },
-  "articles/intro.html": {
-    "href": "articles/intro.html",
-    "title": "Nothing here yet | Agents.Net Documentation",
-    "keywords": "Nothing here yet"
-  },
   "index.html": {
     "href": "index.html",
     "title": "Agents.Net - build agent based system for .NET | Agents.Net Documentation",
-    "keywords": "Agents.Net - build agent based system for .NET Agents.Net is a .NET class library to easily build self-organizing agents based systems. Notice This is a site in progress. It is currently only used to show the API Documentation"
+    "keywords": "Agents.Net - build agent based system for .NET Agents.Net is a .NET class library to easily build self-organizing agents based systems. This site combines the documentation for the .Net Class Library as well as all tools related to this framework. Notice This is a site in progress. It is currently only used to show the API Documentation and the Wiki Pages for Agents.Net"
   }
 }
