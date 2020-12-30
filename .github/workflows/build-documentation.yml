@@ -24,7 +24,8 @@ jobs:
     - name: Clear live docs repo
       run: |
         for entry in live/* live/*/ live/.*; do
-            if [ $entry != 'live/.' ] && [ $entry != 'live/..' ] then
+            if [ $entry != 'live/.' ] && [ $entry != 'live/..' ];
+            then
                 echo $entry
                 rm -rf $entry
             fi
