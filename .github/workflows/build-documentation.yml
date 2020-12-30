@@ -24,8 +24,10 @@ jobs:
     - name: Clear live docs repo
       run: |
         for entry in live/* live/*/ live/.*; do
-            echo $entry
-            rm -rf $entry
+            if [ $entry != 'live/.' ] && [ $entry != 'live/..' ]
+                echo $entry
+                rm -rf $entry
+            fi
         done
         echo ".docfx/**" >> .gitignore
       
