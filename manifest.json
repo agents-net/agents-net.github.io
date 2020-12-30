@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/agents.net/Benchmarks.html",
-          "hash": "JMe4quuPPBniRDD4j67KeA=="
+          "hash": "nM9bFTNV5a+no+t2ZYisZQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/agents.net/Getting-Started.html",
-          "hash": "87CacxMD5x9ygvKAgNQjVQ=="
+          "hash": "KB0+JRnnUTsQs09qQ9ugGg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/agents.net/Home.html",
-          "hash": "bFAgE5XJ4zYcfVS6r0Lycw=="
+          "hash": "mKu+6j4awZAA2SrDuJ+rAg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "QWMtXclXEFfhQc6d4XkaPQ=="
+          "hash": "Bwddz0ItWHEqHDEvSe/2Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "nZFluPV1h6enG5mcFVok8Q=="
         }
       },
       "is_incremental": false,
@@ -640,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "RRZNPxLp6KKDVg1dz09NgA=="
+          "hash": "jwLAyMpkSbAnG6U1m/ocrA=="
         }
       },
       "is_incremental": false,
