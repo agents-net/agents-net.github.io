@@ -23,9 +23,11 @@ jobs:
         
     - name: Clear live docs repo
       run: |
-        for entry in live/* live/*/; do
-            rm -rf entry
+        for entry in live/* live/*/ live/.*; do
+            echo $entry
+            rm -rf $entry
         done
+        echo ".docfx/**" >> .gitignore
       
     - name: Checkout Agents.Net
       uses: actions/checkout@v2
