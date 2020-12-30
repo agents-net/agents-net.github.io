@@ -24,7 +24,7 @@ jobs:
     - name: Debug output
       run: |
         sudo apt-get install tree
-        tree
+        tree -a
         
     - name: Clear live docs repo
       run: rm -rf $(find live -name "*" ! -path ".git/*" ! -name ".git")
@@ -86,7 +86,7 @@ jobs:
       
     - name: Debug output
       run: |
-        tree
+        tree -a
         
     - name: Commit and push to live branch
       run: |
