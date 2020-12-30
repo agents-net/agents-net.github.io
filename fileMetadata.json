@@ -1,8 +1,0 @@
-{
-	"_gitContribute" : {
-        "obj/api/Agents.Net/**.yml": {
-          "repo": "https://github.com/agents-net/agents.net",
-          "branch": "master"
-        }
-    }
-}

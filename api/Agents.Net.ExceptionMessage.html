@@ -1,0 +1,547 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExceptionMessage
+   | Agents.Net Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExceptionMessage
+   | Agents.Net Documentation ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Agents.Net.ExceptionMessage">
+  
+  
+  <h1 id="Agents_Net_ExceptionMessage" data-uid="Agents.Net.ExceptionMessage" class="text-break">Class ExceptionMessage
+  </h1>
+  <div class="markdown level0 summary"><p>This message is send whenever there is an exception during the execution of an <a class="xref" href="Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_Agent">Agent</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Agents.Net.Message.html">Message</a></div>
+    <div class="level2"><span class="xref">ExceptionMessage</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Id">Message.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_ReplaceWith_Agents_Net_Message_">Message.ReplaceWith(Message)</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Predecessors">Message.Predecessors</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_SetChild_Agents_Net_Message_">Message.SetChild(Message)</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Is__1">Message.Is&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Get__1">Message.Get&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_TryGet__1___0__">Message.TryGet&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_TryGetPredecessor__1___0__">Message.TryGetPredecessor&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_MessageDomain">Message.MessageDomain</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Child">Message.Child</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_ToString">Message.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Equals_Agents_Net_Message_">Message.Equals(Message)</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Equals_System_Object_">Message.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_GetHashCode">Message.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_DelayDispose">Message.DelayDispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Dispose_System_Boolean_">Message.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Dispose">Message.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_ToMessageLog">Message.ToMessageLog()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Agents.Net.html">Agents.Net</a></h6>
+  <h6><strong>Assembly</strong>: Agents.Net.dll</h6>
+  <h5 id="Agents_Net_ExceptionMessage_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ExceptionMessage : Message, IDisposable</code></pre>
+  </div>
+  <h5 id="Agents_Net_ExceptionMessage_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+When there is a known error state in an <a class="xref" href="Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_Agent">Agent</a> it should send the exception message directly because it is faster than throwing an exception and catching it again.
+</p>
+<p>
+No one will handle these messages by default. That means, that the program will continue to be executed even after an exception occured. In order to change that behavior an <a class="xref" href="Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_Agent">Agent</a> must be defined which handles these messages and decides when to stop the program. For that exceptions are captured with their respective <see cref="!:ExceptionDispatchInfo"></see>. With that the exception can be recreated together with the stacktrace by calling <see cref="!:ExceptionDispatchInfo.Throw()"></see>.
+</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage__ctor_ExceptionDispatchInfo_Agents_Net_Message_Agents_Net_Agent_.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.%23ctor(ExceptionDispatchInfo%2CAgents.Net.Message%2CAgents.Net.Agent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L54">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage__ctor_" data-uid="Agents.Net.ExceptionMessage.#ctor*"></a>
+  <h4 id="Agents_Net_ExceptionMessage__ctor_ExceptionDispatchInfo_Agents_Net_Message_Agents_Net_Agent_" data-uid="Agents.Net.ExceptionMessage.#ctor(ExceptionDispatchInfo,Agents.Net.Message,Agents.Net.Agent)">ExceptionMessage(ExceptionDispatchInfo, Message, Agent)</h4>
+  <div class="markdown level1 summary"><p>Initialized a new instance of the class <a class="xref" href="Agents.Net.ExceptionMessage.html">ExceptionMessage</a> with a captured exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExceptionMessage(ExceptionDispatchInfo exceptionInfo, Message message, Agent agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ExceptionDispatchInfo</span></td>
+        <td><span class="parametername">exceptionInfo</span></td>
+        <td><p>The captured exception info.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The predecessor message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Agent.html">Agent</a></td>
+        <td><span class="parametername">agent</span></td>
+        <td><p>The agent that produced the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage__ctor_ExceptionDispatchInfo_IEnumerable_Agents_Net_Message__Agents_Net_Agent_.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.%23ctor(ExceptionDispatchInfo%2CIEnumerable%7BAgents.Net.Message%7D%2CAgents.Net.Agent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L78">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage__ctor_" data-uid="Agents.Net.ExceptionMessage.#ctor*"></a>
+  <h4 id="Agents_Net_ExceptionMessage__ctor_ExceptionDispatchInfo_IEnumerable_Agents_Net_Message__Agents_Net_Agent_" data-uid="Agents.Net.ExceptionMessage.#ctor(ExceptionDispatchInfo,IEnumerable{Agents.Net.Message},Agents.Net.Agent)">ExceptionMessage(ExceptionDispatchInfo, IEnumerable&lt;Message&gt;, Agent)</h4>
+  <div class="markdown level1 summary"><p>Initialized a new instance of the class <a class="xref" href="Agents.Net.ExceptionMessage.html">ExceptionMessage</a> with a captured exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExceptionMessage(ExceptionDispatchInfo exceptionInfo, IEnumerable&lt;Message&gt; messages, Agent agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ExceptionDispatchInfo</span></td>
+        <td><span class="parametername">exceptionInfo</span></td>
+        <td><p>The captured exception info.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Agents.Net.Message.html">Message</a>&gt;</td>
+        <td><span class="parametername">messages</span></td>
+        <td><p>The predecessor messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Agent.html">Agent</a></td>
+        <td><span class="parametername">agent</span></td>
+        <td><p>The agent that produced the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage__ctor_System_String_Agents_Net_Message_Agents_Net_Agent_.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.%23ctor(System.String%2CAgents.Net.Message%2CAgents.Net.Agent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L66">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage__ctor_" data-uid="Agents.Net.ExceptionMessage.#ctor*"></a>
+  <h4 id="Agents_Net_ExceptionMessage__ctor_System_String_Agents_Net_Message_Agents_Net_Agent_" data-uid="Agents.Net.ExceptionMessage.#ctor(System.String,Agents.Net.Message,Agents.Net.Agent)">ExceptionMessage(String, Message, Agent)</h4>
+  <div class="markdown level1 summary"><p>Initialized a new instance of the class <a class="xref" href="Agents.Net.ExceptionMessage.html">ExceptionMessage</a> with a custom message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExceptionMessage(string customMessage, Message message, Agent agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">customMessage</span></td>
+        <td><p>The custom exception text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The predecessor message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Agent.html">Agent</a></td>
+        <td><span class="parametername">agent</span></td>
+        <td><p>The agent that produced the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage__ctor_System_String_IEnumerable_Agents_Net_Message__Agents_Net_Agent_.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.%23ctor(System.String%2CIEnumerable%7BAgents.Net.Message%7D%2CAgents.Net.Agent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L90">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage__ctor_" data-uid="Agents.Net.ExceptionMessage.#ctor*"></a>
+  <h4 id="Agents_Net_ExceptionMessage__ctor_System_String_IEnumerable_Agents_Net_Message__Agents_Net_Agent_" data-uid="Agents.Net.ExceptionMessage.#ctor(System.String,IEnumerable{Agents.Net.Message},Agents.Net.Agent)">ExceptionMessage(String, IEnumerable&lt;Message&gt;, Agent)</h4>
+  <div class="markdown level1 summary"><p>Initialized a new instance of the class <a class="xref" href="Agents.Net.ExceptionMessage.html">ExceptionMessage</a> with a custom message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExceptionMessage(string customMessage, IEnumerable&lt;Message&gt; messages, Agent agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">customMessage</span></td>
+        <td><p>The custom exception text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Agents.Net.Message.html">Message</a>&gt;</td>
+        <td><span class="parametername">messages</span></td>
+        <td><p>The predecessor messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Agent.html">Agent</a></td>
+        <td><span class="parametername">agent</span></td>
+        <td><p>The agent that produced the exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage_Agent.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.Agent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L46">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage_Agent_" data-uid="Agents.Net.ExceptionMessage.Agent*"></a>
+  <h4 id="Agents_Net_ExceptionMessage_Agent" data-uid="Agents.Net.ExceptionMessage.Agent">Agent</h4>
+  <div class="markdown level1 summary"><p>The agent which produced the exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Agent Agent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Agent.html">Agent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage_CustomMessage.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.CustomMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L42">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage_CustomMessage_" data-uid="Agents.Net.ExceptionMessage.CustomMessage*"></a>
+  <h4 id="Agents_Net_ExceptionMessage_CustomMessage" data-uid="Agents.Net.ExceptionMessage.CustomMessage">CustomMessage</h4>
+  <div class="markdown level1 summary"><p>Get the custom exception message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CustomMessage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_ExceptionMessage_CustomMessage_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When an exception is captured, this value is <code>null</code>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage_ExceptionInfo.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.ExceptionInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L35">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage_ExceptionInfo_" data-uid="Agents.Net.ExceptionMessage.ExceptionInfo*"></a>
+  <h4 id="Agents_Net_ExceptionMessage_ExceptionInfo" data-uid="Agents.Net.ExceptionMessage.ExceptionInfo">ExceptionInfo</h4>
+  <div class="markdown level1 summary"><p>Get the captured <see cref="!:ExceptionDispatchInfo"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExceptionDispatchInfo ExceptionInfo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ExceptionDispatchInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_ExceptionMessage_ExceptionInfo_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+With that the exception can be recreated together with the stacktrace by calling <see cref="!:ExceptionDispatchInfo.Throw()"></see>.
+</p>
+<p>
+It can be <code>null</code>, when the <a class="xref" href="Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_CustomMessage">CustomMessage</a> is used instead.
+</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage_DataToString.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage.DataToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L103">View Source</a>
+  </span>
+  <a id="Agents_Net_ExceptionMessage_DataToString_" data-uid="Agents.Net.ExceptionMessage.DataToString*"></a>
+  <h4 id="Agents_Net_ExceptionMessage_DataToString" data-uid="Agents.Net.ExceptionMessage.DataToString">DataToString()</h4>
+  <div class="markdown level1 summary"><p>Overridden data method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string DataToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p><see cref="!:string.Empty"></see></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_DataToString">Message.DataToString()</a></div>
+  <h5 id="Agents_Net_ExceptionMessage_DataToString_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is not used as  exception messages are locked differently than normal messages.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_ExceptionMessage.md&amp;value=---%0Auid%3A%20Agents.Net.ExceptionMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/ExceptionMessage.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright Tobias Wilker and contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,393 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Agent
+   | Agents.Net Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Agent
+   | Agents.Net Documentation ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Agents.Net.Agent">
+  
+  
+  <h1 id="Agents_Net_Agent" data-uid="Agents.Net.Agent" class="text-break">Class Agent
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for all agents. It is necessary to inherit this base
+class in order to receive messages from the <a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Agent</span></div>
+      <div class="level2"><a class="xref" href="Agents.Net.InterceptorAgent.html">InterceptorAgent</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Agents.Net.html">Agents.Net</a></h6>
+  <h6><strong>Assembly</strong>: Agents.Net.dll</h6>
+  <h5 id="Agents_Net_Agent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Agent : object</code></pre>
+  </div>
+  <h5 id="Agents_Net_Agent_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The agents must define which messages they want to receive, intercept and which messages they produce.
+When messages are intercepted it is necessary to use the <a class="xref" href="Agents.Net.InterceptorAgent.html">InterceptorAgent</a> base class.</p>
+</div>
+  <h5 id="Agents_Net_Agent_examples"><strong>Examples</strong></h5>
+  <pre><code>[Consumes(typeof(ConsumedMessage))]
+[Produces(typeof(ProducedMessage))]
+public class AgentImplementation : Agent
+{
+    //Implementation
+}</code></pre>
+
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_Agent__ctor_Agents_Net_IMessageBoard_System_String_.md&amp;value=---%0Auid%3A%20Agents.Net.Agent.%23ctor(Agents.Net.IMessageBoard%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/Agent.cs/#L46">View Source</a>
+  </span>
+  <a id="Agents_Net_Agent__ctor_" data-uid="Agents.Net.Agent.#ctor*"></a>
+  <h4 id="Agents_Net_Agent__ctor_Agents_Net_IMessageBoard_System_String_" data-uid="Agents.Net.Agent.#ctor(Agents.Net.IMessageBoard,System.String)">Agent(IMessageBoard, String)</h4>
+  <div class="markdown level1 summary"><p>Initialized a new instance of the class <a class="xref" href="Agents.Net.Agent.html">Agent</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Agent(IMessageBoard messageBoard, string name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a></td>
+        <td><span class="parametername">messageBoard</span></td>
+        <td><p>The message board to send messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Optional name of the agent. The default is the name of the type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_Agent__ctor_Agents_Net_IMessageBoard_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">name</code> is only used for logging purposes.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_Agent_Id.md&amp;value=---%0Auid%3A%20Agents.Net.Agent.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/Agent.cs/#L58">View Source</a>
+  </span>
+  <a id="Agents_Net_Agent_Id_" data-uid="Agents.Net.Agent.Id*"></a>
+  <h4 id="Agents_Net_Agent_Id" data-uid="Agents.Net.Agent.Id">Id</h4>
+  <div class="markdown level1 summary"><p>The id of the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Guid Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_Agent_Id_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The id is only used for logging.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_Agent_Execute_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.Agent.Execute(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/Agent.cs/#L70">View Source</a>
+  </span>
+  <a id="Agents_Net_Agent_Execute_" data-uid="Agents.Net.Agent.Execute*"></a>
+  <h4 id="Agents_Net_Agent_Execute_Agents_Net_Message_" data-uid="Agents.Net.Agent.Execute(Agents.Net.Message)">Execute(Message)</h4>
+  <div class="markdown level1 summary"><p>This method is called by the message boards to execute a certain message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute(Message messageData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">messageData</span></td>
+        <td><p>The message data that is executed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_Agent_Execute_Agents_Net_Message__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Only messages which are defined with the <a class="xref" href="Agents.Net.ConsumesAttribute.html">ConsumesAttribute</a> are passed to this method.
+Only the <a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a> should call this. It can also be used in unit tests.
+This method executes the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_ExecuteCore_Agents_Net_Message_">ExecuteCore(Message)</a> method with the provided message. Additionally it logs all received messages and throw an exception method if the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_ExecuteCore_Agents_Net_Message_">ExecuteCore(Message)</a> method throws an exception.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_Agent_ExecuteCore_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.Agent.ExecuteCore(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/Agent.cs/#L150">View Source</a>
+  </span>
+  <a id="Agents_Net_Agent_ExecuteCore_" data-uid="Agents.Net.Agent.ExecuteCore*"></a>
+  <h4 id="Agents_Net_Agent_ExecuteCore_Agents_Net_Message_" data-uid="Agents.Net.Agent.ExecuteCore(Agents.Net.Message)">ExecuteCore(Message)</h4>
+  <div class="markdown level1 summary"><p>The method which should be overridden by the implementation of the agent. It accepts the messages in the same way the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_Execute_Agents_Net_Message_">Execute(Message)</a> method does.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void ExecuteCore(Message messageData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">messageData</span></td>
+        <td><p>The received message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_Agent_OnMessage_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.Agent.OnMessage(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/Agent.cs/#L101">View Source</a>
+  </span>
+  <a id="Agents_Net_Agent_OnMessage_" data-uid="Agents.Net.Agent.OnMessage*"></a>
+  <h4 id="Agents_Net_Agent_OnMessage_Agents_Net_Message_" data-uid="Agents.Net.Agent.OnMessage(Agents.Net.Message)">OnMessage(Message)</h4>
+  <div class="markdown level1 summary"><p>This method is used to send a single message to the message board.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnMessage(Message message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_Agent_OnMessage_Agents_Net_Message__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The message will be send to the <a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a> which was passed in the constructor.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean_.md&amp;value=---%0Auid%3A%20Agents.Net.Agent.OnMessages(IReadOnlyCollection%7BAgents.Net.Message%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/Agent.cs/#L129">View Source</a>
+  </span>
+  <a id="Agents_Net_Agent_OnMessages_" data-uid="Agents.Net.Agent.OnMessages*"></a>
+  <h4 id="Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean_" data-uid="Agents.Net.Agent.OnMessages(IReadOnlyCollection{Agents.Net.Message},System.Boolean)">OnMessages(IReadOnlyCollection&lt;Message&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This method is used to send multiple messages to the message board at the same time. All message open up a new message domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnMessages(IReadOnlyCollection&lt;Message&gt; messages, bool sendDomainCreatedMessage = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="Agents.Net.Message.html">Message</a>&gt;</td>
+        <td><span class="parametername">messages</span></td>
+        <td><p>All messages to be send.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">sendDomainCreatedMessage</span></td>
+        <td><p>If set to <code>true</code>, the agent will send a <a class="xref" href="Agents.Net.MessageDomainsCreatedMessage.html">MessageDomainsCreatedMessage</a> along with the messages passed to the method. Default is <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The message will be send to the <a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a> which was passed in the constructor.
+To accumulate all messages again it is necessary that all send messages are of the same type.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_Agent.md&amp;value=---%0Auid%3A%20Agents.Net.Agent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/Agent.cs/#L33" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright Tobias Wilker and contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

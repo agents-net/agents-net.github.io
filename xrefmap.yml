@@ -1,0 +1,2898 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Agents.Net
+  name: Agents.Net
+  href: api/Agents.Net.html
+  commentId: N:Agents.Net
+  fullName: Agents.Net
+  nameWithType: Agents.Net
+- uid: Agents.Net.Agent
+  name: Agent
+  href: api/Agents.Net.Agent.html
+  commentId: T:Agents.Net.Agent
+  fullName: Agents.Net.Agent
+  nameWithType: Agent
+- uid: Agents.Net.Agent.#ctor(Agents.Net.IMessageBoard,System.String)
+  name: Agent(IMessageBoard, String)
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent__ctor_Agents_Net_IMessageBoard_System_String_
+  commentId: M:Agents.Net.Agent.#ctor(Agents.Net.IMessageBoard,System.String)
+  fullName: Agents.Net.Agent.Agent(Agents.Net.IMessageBoard, System.String)
+  nameWithType: Agent.Agent(IMessageBoard, String)
+- uid: Agents.Net.Agent.#ctor*
+  name: Agent
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent__ctor_
+  commentId: Overload:Agents.Net.Agent.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.Agent.Agent
+  nameWithType: Agent.Agent
+- uid: Agents.Net.Agent.Execute(Agents.Net.Message)
+  name: Execute(Message)
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_Execute_Agents_Net_Message_
+  commentId: M:Agents.Net.Agent.Execute(Agents.Net.Message)
+  fullName: Agents.Net.Agent.Execute(Agents.Net.Message)
+  nameWithType: Agent.Execute(Message)
+- uid: Agents.Net.Agent.Execute*
+  name: Execute
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_Execute_
+  commentId: Overload:Agents.Net.Agent.Execute
+  isSpec: "True"
+  fullName: Agents.Net.Agent.Execute
+  nameWithType: Agent.Execute
+- uid: Agents.Net.Agent.ExecuteCore(Agents.Net.Message)
+  name: ExecuteCore(Message)
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_ExecuteCore_Agents_Net_Message_
+  commentId: M:Agents.Net.Agent.ExecuteCore(Agents.Net.Message)
+  fullName: Agents.Net.Agent.ExecuteCore(Agents.Net.Message)
+  nameWithType: Agent.ExecuteCore(Message)
+- uid: Agents.Net.Agent.ExecuteCore*
+  name: ExecuteCore
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_ExecuteCore_
+  commentId: Overload:Agents.Net.Agent.ExecuteCore
+  isSpec: "True"
+  fullName: Agents.Net.Agent.ExecuteCore
+  nameWithType: Agent.ExecuteCore
+- uid: Agents.Net.Agent.Id
+  name: Id
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_Id
+  commentId: P:Agents.Net.Agent.Id
+  fullName: Agents.Net.Agent.Id
+  nameWithType: Agent.Id
+- uid: Agents.Net.Agent.Id*
+  name: Id
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_Id_
+  commentId: Overload:Agents.Net.Agent.Id
+  isSpec: "True"
+  fullName: Agents.Net.Agent.Id
+  nameWithType: Agent.Id
+- uid: Agents.Net.Agent.OnMessage(Agents.Net.Message)
+  name: OnMessage(Message)
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_OnMessage_Agents_Net_Message_
+  commentId: M:Agents.Net.Agent.OnMessage(Agents.Net.Message)
+  fullName: Agents.Net.Agent.OnMessage(Agents.Net.Message)
+  nameWithType: Agent.OnMessage(Message)
+- uid: Agents.Net.Agent.OnMessage*
+  name: OnMessage
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_OnMessage_
+  commentId: Overload:Agents.Net.Agent.OnMessage
+  isSpec: "True"
+  fullName: Agents.Net.Agent.OnMessage
+  nameWithType: Agent.OnMessage
+- uid: Agents.Net.Agent.OnMessages(IReadOnlyCollection{Agents.Net.Message},System.Boolean)
+  name: OnMessages(IReadOnlyCollection<Message>, Boolean)
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean_
+  commentId: M:Agents.Net.Agent.OnMessages(IReadOnlyCollection{Agents.Net.Message},System.Boolean)
+  name.vb: OnMessages(IReadOnlyCollection(Of Message), Boolean)
+  fullName: Agents.Net.Agent.OnMessages(IReadOnlyCollection<Agents.Net.Message>, System.Boolean)
+  fullName.vb: Agents.Net.Agent.OnMessages(IReadOnlyCollection(Of Agents.Net.Message), System.Boolean)
+  nameWithType: Agent.OnMessages(IReadOnlyCollection<Message>, Boolean)
+  nameWithType.vb: Agent.OnMessages(IReadOnlyCollection(Of Message), Boolean)
+- uid: Agents.Net.Agent.OnMessages*
+  name: OnMessages
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_
+  commentId: Overload:Agents.Net.Agent.OnMessages
+  isSpec: "True"
+  fullName: Agents.Net.Agent.OnMessages
+  nameWithType: Agent.OnMessages
+- uid: Agents.Net.AgentLog
+  name: AgentLog
+  href: api/Agents.Net.AgentLog.html
+  commentId: T:Agents.Net.AgentLog
+  fullName: Agents.Net.AgentLog
+  nameWithType: AgentLog
+- uid: Agents.Net.AgentLog.#ctor(System.String,System.String,Guid,Agents.Net.MessageLog)
+  name: AgentLog(String, String, Guid, MessageLog)
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog__ctor_System_String_System_String_Guid_Agents_Net_MessageLog_
+  commentId: M:Agents.Net.AgentLog.#ctor(System.String,System.String,Guid,Agents.Net.MessageLog)
+  fullName: Agents.Net.AgentLog.AgentLog(System.String, System.String, Guid, Agents.Net.MessageLog)
+  nameWithType: AgentLog.AgentLog(String, String, Guid, MessageLog)
+- uid: Agents.Net.AgentLog.#ctor*
+  name: AgentLog
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog__ctor_
+  commentId: Overload:Agents.Net.AgentLog.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.AgentLog.AgentLog
+  nameWithType: AgentLog.AgentLog
+- uid: Agents.Net.AgentLog.Agent
+  name: Agent
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_Agent
+  commentId: P:Agents.Net.AgentLog.Agent
+  fullName: Agents.Net.AgentLog.Agent
+  nameWithType: AgentLog.Agent
+- uid: Agents.Net.AgentLog.Agent*
+  name: Agent
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_Agent_
+  commentId: Overload:Agents.Net.AgentLog.Agent
+  isSpec: "True"
+  fullName: Agents.Net.AgentLog.Agent
+  nameWithType: AgentLog.Agent
+- uid: Agents.Net.AgentLog.AgentId
+  name: AgentId
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_AgentId
+  commentId: P:Agents.Net.AgentLog.AgentId
+  fullName: Agents.Net.AgentLog.AgentId
+  nameWithType: AgentLog.AgentId
+- uid: Agents.Net.AgentLog.AgentId*
+  name: AgentId
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_AgentId_
+  commentId: Overload:Agents.Net.AgentLog.AgentId
+  isSpec: "True"
+  fullName: Agents.Net.AgentLog.AgentId
+  nameWithType: AgentLog.AgentId
+- uid: Agents.Net.AgentLog.Message
+  name: Message
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_Message
+  commentId: P:Agents.Net.AgentLog.Message
+  fullName: Agents.Net.AgentLog.Message
+  nameWithType: AgentLog.Message
+- uid: Agents.Net.AgentLog.Message*
+  name: Message
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_Message_
+  commentId: Overload:Agents.Net.AgentLog.Message
+  isSpec: "True"
+  fullName: Agents.Net.AgentLog.Message
+  nameWithType: AgentLog.Message
+- uid: Agents.Net.AgentLog.Type
+  name: Type
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_Type
+  commentId: P:Agents.Net.AgentLog.Type
+  fullName: Agents.Net.AgentLog.Type
+  nameWithType: AgentLog.Type
+- uid: Agents.Net.AgentLog.Type*
+  name: Type
+  href: api/Agents.Net.AgentLog.html#Agents_Net_AgentLog_Type_
+  commentId: Overload:Agents.Net.AgentLog.Type
+  isSpec: "True"
+  fullName: Agents.Net.AgentLog.Type
+  nameWithType: AgentLog.Type
+- uid: Agents.Net.ConsumesAttribute
+  name: ConsumesAttribute
+  href: api/Agents.Net.ConsumesAttribute.html
+  commentId: T:Agents.Net.ConsumesAttribute
+  fullName: Agents.Net.ConsumesAttribute
+  nameWithType: ConsumesAttribute
+- uid: Agents.Net.ConsumesAttribute.#ctor(Type)
+  name: ConsumesAttribute(Type)
+  href: api/Agents.Net.ConsumesAttribute.html#Agents_Net_ConsumesAttribute__ctor_Type_
+  commentId: M:Agents.Net.ConsumesAttribute.#ctor(Type)
+  fullName: Agents.Net.ConsumesAttribute.ConsumesAttribute(Type)
+  nameWithType: ConsumesAttribute.ConsumesAttribute(Type)
+- uid: Agents.Net.ConsumesAttribute.#ctor*
+  name: ConsumesAttribute
+  href: api/Agents.Net.ConsumesAttribute.html#Agents_Net_ConsumesAttribute__ctor_
+  commentId: Overload:Agents.Net.ConsumesAttribute.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.ConsumesAttribute.ConsumesAttribute
+  nameWithType: ConsumesAttribute.ConsumesAttribute
+- uid: Agents.Net.ConsumesAttribute.Implicitly
+  name: Implicitly
+  href: api/Agents.Net.ConsumesAttribute.html#Agents_Net_ConsumesAttribute_Implicitly
+  commentId: P:Agents.Net.ConsumesAttribute.Implicitly
+  fullName: Agents.Net.ConsumesAttribute.Implicitly
+  nameWithType: ConsumesAttribute.Implicitly
+- uid: Agents.Net.ConsumesAttribute.Implicitly*
+  name: Implicitly
+  href: api/Agents.Net.ConsumesAttribute.html#Agents_Net_ConsumesAttribute_Implicitly_
+  commentId: Overload:Agents.Net.ConsumesAttribute.Implicitly
+  isSpec: "True"
+  fullName: Agents.Net.ConsumesAttribute.Implicitly
+  nameWithType: ConsumesAttribute.Implicitly
+- uid: Agents.Net.ConsumesAttribute.MessageType
+  name: MessageType
+  href: api/Agents.Net.ConsumesAttribute.html#Agents_Net_ConsumesAttribute_MessageType
+  commentId: P:Agents.Net.ConsumesAttribute.MessageType
+  fullName: Agents.Net.ConsumesAttribute.MessageType
+  nameWithType: ConsumesAttribute.MessageType
+- uid: Agents.Net.ConsumesAttribute.MessageType*
+  name: MessageType
+  href: api/Agents.Net.ConsumesAttribute.html#Agents_Net_ConsumesAttribute_MessageType_
+  commentId: Overload:Agents.Net.ConsumesAttribute.MessageType
+  isSpec: "True"
+  fullName: Agents.Net.ConsumesAttribute.MessageType
+  nameWithType: ConsumesAttribute.MessageType
+- uid: Agents.Net.ExceptionMessage
+  name: ExceptionMessage
+  href: api/Agents.Net.ExceptionMessage.html
+  commentId: T:Agents.Net.ExceptionMessage
+  fullName: Agents.Net.ExceptionMessage
+  nameWithType: ExceptionMessage
+- uid: Agents.Net.ExceptionMessage.#ctor(ExceptionDispatchInfo,Agents.Net.Message,Agents.Net.Agent)
+  name: ExceptionMessage(ExceptionDispatchInfo, Message, Agent)
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage__ctor_ExceptionDispatchInfo_Agents_Net_Message_Agents_Net_Agent_
+  commentId: M:Agents.Net.ExceptionMessage.#ctor(ExceptionDispatchInfo,Agents.Net.Message,Agents.Net.Agent)
+  fullName: Agents.Net.ExceptionMessage.ExceptionMessage(ExceptionDispatchInfo, Agents.Net.Message, Agents.Net.Agent)
+  nameWithType: ExceptionMessage.ExceptionMessage(ExceptionDispatchInfo, Message, Agent)
+- uid: Agents.Net.ExceptionMessage.#ctor(ExceptionDispatchInfo,IEnumerable{Agents.Net.Message},Agents.Net.Agent)
+  name: ExceptionMessage(ExceptionDispatchInfo, IEnumerable<Message>, Agent)
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage__ctor_ExceptionDispatchInfo_IEnumerable_Agents_Net_Message__Agents_Net_Agent_
+  commentId: M:Agents.Net.ExceptionMessage.#ctor(ExceptionDispatchInfo,IEnumerable{Agents.Net.Message},Agents.Net.Agent)
+  name.vb: ExceptionMessage(ExceptionDispatchInfo, IEnumerable(Of Message), Agent)
+  fullName: Agents.Net.ExceptionMessage.ExceptionMessage(ExceptionDispatchInfo, IEnumerable<Agents.Net.Message>, Agents.Net.Agent)
+  fullName.vb: Agents.Net.ExceptionMessage.ExceptionMessage(ExceptionDispatchInfo, IEnumerable(Of Agents.Net.Message), Agents.Net.Agent)
+  nameWithType: ExceptionMessage.ExceptionMessage(ExceptionDispatchInfo, IEnumerable<Message>, Agent)
+  nameWithType.vb: ExceptionMessage.ExceptionMessage(ExceptionDispatchInfo, IEnumerable(Of Message), Agent)
+- uid: Agents.Net.ExceptionMessage.#ctor(System.String,Agents.Net.Message,Agents.Net.Agent)
+  name: ExceptionMessage(String, Message, Agent)
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage__ctor_System_String_Agents_Net_Message_Agents_Net_Agent_
+  commentId: M:Agents.Net.ExceptionMessage.#ctor(System.String,Agents.Net.Message,Agents.Net.Agent)
+  fullName: Agents.Net.ExceptionMessage.ExceptionMessage(System.String, Agents.Net.Message, Agents.Net.Agent)
+  nameWithType: ExceptionMessage.ExceptionMessage(String, Message, Agent)
+- uid: Agents.Net.ExceptionMessage.#ctor(System.String,IEnumerable{Agents.Net.Message},Agents.Net.Agent)
+  name: ExceptionMessage(String, IEnumerable<Message>, Agent)
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage__ctor_System_String_IEnumerable_Agents_Net_Message__Agents_Net_Agent_
+  commentId: M:Agents.Net.ExceptionMessage.#ctor(System.String,IEnumerable{Agents.Net.Message},Agents.Net.Agent)
+  name.vb: ExceptionMessage(String, IEnumerable(Of Message), Agent)
+  fullName: Agents.Net.ExceptionMessage.ExceptionMessage(System.String, IEnumerable<Agents.Net.Message>, Agents.Net.Agent)
+  fullName.vb: Agents.Net.ExceptionMessage.ExceptionMessage(System.String, IEnumerable(Of Agents.Net.Message), Agents.Net.Agent)
+  nameWithType: ExceptionMessage.ExceptionMessage(String, IEnumerable<Message>, Agent)
+  nameWithType.vb: ExceptionMessage.ExceptionMessage(String, IEnumerable(Of Message), Agent)
+- uid: Agents.Net.ExceptionMessage.#ctor*
+  name: ExceptionMessage
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage__ctor_
+  commentId: Overload:Agents.Net.ExceptionMessage.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.ExceptionMessage.ExceptionMessage
+  nameWithType: ExceptionMessage.ExceptionMessage
+- uid: Agents.Net.ExceptionMessage.Agent
+  name: Agent
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_Agent
+  commentId: P:Agents.Net.ExceptionMessage.Agent
+  fullName: Agents.Net.ExceptionMessage.Agent
+  nameWithType: ExceptionMessage.Agent
+- uid: Agents.Net.ExceptionMessage.Agent*
+  name: Agent
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_Agent_
+  commentId: Overload:Agents.Net.ExceptionMessage.Agent
+  isSpec: "True"
+  fullName: Agents.Net.ExceptionMessage.Agent
+  nameWithType: ExceptionMessage.Agent
+- uid: Agents.Net.ExceptionMessage.CustomMessage
+  name: CustomMessage
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_CustomMessage
+  commentId: P:Agents.Net.ExceptionMessage.CustomMessage
+  fullName: Agents.Net.ExceptionMessage.CustomMessage
+  nameWithType: ExceptionMessage.CustomMessage
+- uid: Agents.Net.ExceptionMessage.CustomMessage*
+  name: CustomMessage
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_CustomMessage_
+  commentId: Overload:Agents.Net.ExceptionMessage.CustomMessage
+  isSpec: "True"
+  fullName: Agents.Net.ExceptionMessage.CustomMessage
+  nameWithType: ExceptionMessage.CustomMessage
+- uid: Agents.Net.ExceptionMessage.DataToString
+  name: DataToString()
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_DataToString
+  commentId: M:Agents.Net.ExceptionMessage.DataToString
+  fullName: Agents.Net.ExceptionMessage.DataToString()
+  nameWithType: ExceptionMessage.DataToString()
+- uid: Agents.Net.ExceptionMessage.DataToString*
+  name: DataToString
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_DataToString_
+  commentId: Overload:Agents.Net.ExceptionMessage.DataToString
+  isSpec: "True"
+  fullName: Agents.Net.ExceptionMessage.DataToString
+  nameWithType: ExceptionMessage.DataToString
+- uid: Agents.Net.ExceptionMessage.ExceptionInfo
+  name: ExceptionInfo
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_ExceptionInfo
+  commentId: P:Agents.Net.ExceptionMessage.ExceptionInfo
+  fullName: Agents.Net.ExceptionMessage.ExceptionInfo
+  nameWithType: ExceptionMessage.ExceptionInfo
+- uid: Agents.Net.ExceptionMessage.ExceptionInfo*
+  name: ExceptionInfo
+  href: api/Agents.Net.ExceptionMessage.html#Agents_Net_ExceptionMessage_ExceptionInfo_
+  commentId: Overload:Agents.Net.ExceptionMessage.ExceptionInfo
+  isSpec: "True"
+  fullName: Agents.Net.ExceptionMessage.ExceptionInfo
+  nameWithType: ExceptionMessage.ExceptionInfo
+- uid: Agents.Net.IMessageBoard
+  name: IMessageBoard
+  href: api/Agents.Net.IMessageBoard.html
+  commentId: T:Agents.Net.IMessageBoard
+  fullName: Agents.Net.IMessageBoard
+  nameWithType: IMessageBoard
+- uid: Agents.Net.IMessageBoard.Publish(Agents.Net.Message)
+  name: Publish(Message)
+  href: api/Agents.Net.IMessageBoard.html#Agents_Net_IMessageBoard_Publish_Agents_Net_Message_
+  commentId: M:Agents.Net.IMessageBoard.Publish(Agents.Net.Message)
+  fullName: Agents.Net.IMessageBoard.Publish(Agents.Net.Message)
+  nameWithType: IMessageBoard.Publish(Message)
+- uid: Agents.Net.IMessageBoard.Publish*
+  name: Publish
+  href: api/Agents.Net.IMessageBoard.html#Agents_Net_IMessageBoard_Publish_
+  commentId: Overload:Agents.Net.IMessageBoard.Publish
+  isSpec: "True"
+  fullName: Agents.Net.IMessageBoard.Publish
+  nameWithType: IMessageBoard.Publish
+- uid: Agents.Net.IMessageBoard.Register(Agents.Net.Agent[])
+  name: Register(Agent[])
+  href: api/Agents.Net.IMessageBoard.html#Agents_Net_IMessageBoard_Register_Agents_Net_Agent___
+  commentId: M:Agents.Net.IMessageBoard.Register(Agents.Net.Agent[])
+  name.vb: Register(Agent())
+  fullName: Agents.Net.IMessageBoard.Register(Agents.Net.Agent[])
+  fullName.vb: Agents.Net.IMessageBoard.Register(Agents.Net.Agent())
+  nameWithType: IMessageBoard.Register(Agent[])
+  nameWithType.vb: IMessageBoard.Register(Agent())
+- uid: Agents.Net.IMessageBoard.Register*
+  name: Register
+  href: api/Agents.Net.IMessageBoard.html#Agents_Net_IMessageBoard_Register_
+  commentId: Overload:Agents.Net.IMessageBoard.Register
+  isSpec: "True"
+  fullName: Agents.Net.IMessageBoard.Register
+  nameWithType: IMessageBoard.Register
+- uid: Agents.Net.IMessageBoard.Start
+  name: Start()
+  href: api/Agents.Net.IMessageBoard.html#Agents_Net_IMessageBoard_Start
+  commentId: M:Agents.Net.IMessageBoard.Start
+  fullName: Agents.Net.IMessageBoard.Start()
+  nameWithType: IMessageBoard.Start()
+- uid: Agents.Net.IMessageBoard.Start*
+  name: Start
+  href: api/Agents.Net.IMessageBoard.html#Agents_Net_IMessageBoard_Start_
+  commentId: Overload:Agents.Net.IMessageBoard.Start
+  isSpec: "True"
+  fullName: Agents.Net.IMessageBoard.Start
+  nameWithType: IMessageBoard.Start
+- uid: Agents.Net.InitializeMessage
+  name: InitializeMessage
+  href: api/Agents.Net.InitializeMessage.html
+  commentId: T:Agents.Net.InitializeMessage
+  fullName: Agents.Net.InitializeMessage
+  nameWithType: InitializeMessage
+- uid: Agents.Net.InitializeMessage.#ctor
+  name: InitializeMessage()
+  href: api/Agents.Net.InitializeMessage.html#Agents_Net_InitializeMessage__ctor
+  commentId: M:Agents.Net.InitializeMessage.#ctor
+  fullName: Agents.Net.InitializeMessage.InitializeMessage()
+  nameWithType: InitializeMessage.InitializeMessage()
+- uid: Agents.Net.InitializeMessage.#ctor*
+  name: InitializeMessage
+  href: api/Agents.Net.InitializeMessage.html#Agents_Net_InitializeMessage__ctor_
+  commentId: Overload:Agents.Net.InitializeMessage.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.InitializeMessage.InitializeMessage
+  nameWithType: InitializeMessage.InitializeMessage
+- uid: Agents.Net.InitializeMessage.DataToString
+  name: DataToString()
+  href: api/Agents.Net.InitializeMessage.html#Agents_Net_InitializeMessage_DataToString
+  commentId: M:Agents.Net.InitializeMessage.DataToString
+  fullName: Agents.Net.InitializeMessage.DataToString()
+  nameWithType: InitializeMessage.DataToString()
+- uid: Agents.Net.InitializeMessage.DataToString*
+  name: DataToString
+  href: api/Agents.Net.InitializeMessage.html#Agents_Net_InitializeMessage_DataToString_
+  commentId: Overload:Agents.Net.InitializeMessage.DataToString
+  isSpec: "True"
+  fullName: Agents.Net.InitializeMessage.DataToString
+  nameWithType: InitializeMessage.DataToString
+- uid: Agents.Net.InterceptionAction
+  name: InterceptionAction
+  href: api/Agents.Net.InterceptionAction.html
+  commentId: T:Agents.Net.InterceptionAction
+  fullName: Agents.Net.InterceptionAction
+  nameWithType: InterceptionAction
+- uid: Agents.Net.InterceptionAction.Continue
+  name: Continue
+  href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_Continue
+  commentId: F:Agents.Net.InterceptionAction.Continue
+  fullName: Agents.Net.InterceptionAction.Continue
+  nameWithType: InterceptionAction.Continue
+- uid: Agents.Net.InterceptionAction.DoNotPublish
+  name: DoNotPublish
+  href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_DoNotPublish
+  commentId: F:Agents.Net.InterceptionAction.DoNotPublish
+  fullName: Agents.Net.InterceptionAction.DoNotPublish
+  nameWithType: InterceptionAction.DoNotPublish
+- uid: Agents.Net.InterceptorAgent
+  name: InterceptorAgent
+  href: api/Agents.Net.InterceptorAgent.html
+  commentId: T:Agents.Net.InterceptorAgent
+  fullName: Agents.Net.InterceptorAgent
+  nameWithType: InterceptorAgent
+- uid: Agents.Net.InterceptorAgent.#ctor(Agents.Net.IMessageBoard,System.String)
+  name: InterceptorAgent(IMessageBoard, String)
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent__ctor_Agents_Net_IMessageBoard_System_String_
+  commentId: M:Agents.Net.InterceptorAgent.#ctor(Agents.Net.IMessageBoard,System.String)
+  fullName: Agents.Net.InterceptorAgent.InterceptorAgent(Agents.Net.IMessageBoard, System.String)
+  nameWithType: InterceptorAgent.InterceptorAgent(IMessageBoard, String)
+- uid: Agents.Net.InterceptorAgent.#ctor*
+  name: InterceptorAgent
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent__ctor_
+  commentId: Overload:Agents.Net.InterceptorAgent.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.InterceptorAgent.InterceptorAgent
+  nameWithType: InterceptorAgent.InterceptorAgent
+- uid: Agents.Net.InterceptorAgent.ExecuteCore(Agents.Net.Message)
+  name: ExecuteCore(Message)
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent_ExecuteCore_Agents_Net_Message_
+  commentId: M:Agents.Net.InterceptorAgent.ExecuteCore(Agents.Net.Message)
+  fullName: Agents.Net.InterceptorAgent.ExecuteCore(Agents.Net.Message)
+  nameWithType: InterceptorAgent.ExecuteCore(Message)
+- uid: Agents.Net.InterceptorAgent.ExecuteCore*
+  name: ExecuteCore
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent_ExecuteCore_
+  commentId: Overload:Agents.Net.InterceptorAgent.ExecuteCore
+  isSpec: "True"
+  fullName: Agents.Net.InterceptorAgent.ExecuteCore
+  nameWithType: InterceptorAgent.ExecuteCore
+- uid: Agents.Net.InterceptorAgent.Intercept(Agents.Net.Message)
+  name: Intercept(Message)
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent_Intercept_Agents_Net_Message_
+  commentId: M:Agents.Net.InterceptorAgent.Intercept(Agents.Net.Message)
+  fullName: Agents.Net.InterceptorAgent.Intercept(Agents.Net.Message)
+  nameWithType: InterceptorAgent.Intercept(Message)
+- uid: Agents.Net.InterceptorAgent.Intercept*
+  name: Intercept
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent_Intercept_
+  commentId: Overload:Agents.Net.InterceptorAgent.Intercept
+  isSpec: "True"
+  fullName: Agents.Net.InterceptorAgent.Intercept
+  nameWithType: InterceptorAgent.Intercept
+- uid: Agents.Net.InterceptorAgent.InterceptCore(Agents.Net.Message)
+  name: InterceptCore(Message)
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent_InterceptCore_Agents_Net_Message_
+  commentId: M:Agents.Net.InterceptorAgent.InterceptCore(Agents.Net.Message)
+  fullName: Agents.Net.InterceptorAgent.InterceptCore(Agents.Net.Message)
+  nameWithType: InterceptorAgent.InterceptCore(Message)
+- uid: Agents.Net.InterceptorAgent.InterceptCore*
+  name: InterceptCore
+  href: api/Agents.Net.InterceptorAgent.html#Agents_Net_InterceptorAgent_InterceptCore_
+  commentId: Overload:Agents.Net.InterceptorAgent.InterceptCore
+  isSpec: "True"
+  fullName: Agents.Net.InterceptorAgent.InterceptCore
+  nameWithType: InterceptorAgent.InterceptCore
+- uid: Agents.Net.InterceptsAttribute
+  name: InterceptsAttribute
+  href: api/Agents.Net.InterceptsAttribute.html
+  commentId: T:Agents.Net.InterceptsAttribute
+  fullName: Agents.Net.InterceptsAttribute
+  nameWithType: InterceptsAttribute
+- uid: Agents.Net.InterceptsAttribute.#ctor(Type)
+  name: InterceptsAttribute(Type)
+  href: api/Agents.Net.InterceptsAttribute.html#Agents_Net_InterceptsAttribute__ctor_Type_
+  commentId: M:Agents.Net.InterceptsAttribute.#ctor(Type)
+  fullName: Agents.Net.InterceptsAttribute.InterceptsAttribute(Type)
+  nameWithType: InterceptsAttribute.InterceptsAttribute(Type)
+- uid: Agents.Net.InterceptsAttribute.#ctor*
+  name: InterceptsAttribute
+  href: api/Agents.Net.InterceptsAttribute.html#Agents_Net_InterceptsAttribute__ctor_
+  commentId: Overload:Agents.Net.InterceptsAttribute.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.InterceptsAttribute.InterceptsAttribute
+  nameWithType: InterceptsAttribute.InterceptsAttribute
+- uid: Agents.Net.InterceptsAttribute.MessageType
+  name: MessageType
+  href: api/Agents.Net.InterceptsAttribute.html#Agents_Net_InterceptsAttribute_MessageType
+  commentId: P:Agents.Net.InterceptsAttribute.MessageType
+  fullName: Agents.Net.InterceptsAttribute.MessageType
+  nameWithType: InterceptsAttribute.MessageType
+- uid: Agents.Net.InterceptsAttribute.MessageType*
+  name: MessageType
+  href: api/Agents.Net.InterceptsAttribute.html#Agents_Net_InterceptsAttribute_MessageType_
+  commentId: Overload:Agents.Net.InterceptsAttribute.MessageType
+  isSpec: "True"
+  fullName: Agents.Net.InterceptsAttribute.MessageType
+  nameWithType: InterceptsAttribute.MessageType
+- uid: Agents.Net.Message
+  name: Message
+  href: api/Agents.Net.Message.html
+  commentId: T:Agents.Net.Message
+  fullName: Agents.Net.Message
+  nameWithType: Message
+- uid: Agents.Net.Message.#ctor(Agents.Net.Message,System.String)
+  name: Message(Message, String)
+  href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_Agents_Net_Message_System_String_
+  commentId: M:Agents.Net.Message.#ctor(Agents.Net.Message,System.String)
+  fullName: Agents.Net.Message.Message(Agents.Net.Message, System.String)
+  nameWithType: Message.Message(Message, String)
+- uid: Agents.Net.Message.#ctor(IEnumerable{Agents.Net.Message},System.String)
+  name: Message(IEnumerable<Message>, String)
+  href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_IEnumerable_Agents_Net_Message__System_String_
+  commentId: M:Agents.Net.Message.#ctor(IEnumerable{Agents.Net.Message},System.String)
+  name.vb: Message(IEnumerable(Of Message), String)
+  fullName: Agents.Net.Message.Message(IEnumerable<Agents.Net.Message>, System.String)
+  fullName.vb: Agents.Net.Message.Message(IEnumerable(Of Agents.Net.Message), System.String)
+  nameWithType: Message.Message(IEnumerable<Message>, String)
+  nameWithType.vb: Message.Message(IEnumerable(Of Message), String)
+- uid: Agents.Net.Message.#ctor*
+  name: Message
+  href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_
+  commentId: Overload:Agents.Net.Message.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.Message.Message
+  nameWithType: Message.Message
+- uid: Agents.Net.Message.Child
+  name: Child
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Child
+  commentId: P:Agents.Net.Message.Child
+  fullName: Agents.Net.Message.Child
+  nameWithType: Message.Child
+- uid: Agents.Net.Message.Child*
+  name: Child
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Child_
+  commentId: Overload:Agents.Net.Message.Child
+  isSpec: "True"
+  fullName: Agents.Net.Message.Child
+  nameWithType: Message.Child
+- uid: Agents.Net.Message.DataToString
+  name: DataToString()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_DataToString
+  commentId: M:Agents.Net.Message.DataToString
+  fullName: Agents.Net.Message.DataToString()
+  nameWithType: Message.DataToString()
+- uid: Agents.Net.Message.DataToString*
+  name: DataToString
+  href: api/Agents.Net.Message.html#Agents_Net_Message_DataToString_
+  commentId: Overload:Agents.Net.Message.DataToString
+  isSpec: "True"
+  fullName: Agents.Net.Message.DataToString
+  nameWithType: Message.DataToString
+- uid: Agents.Net.Message.DelayDispose
+  name: DelayDispose()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_DelayDispose
+  commentId: M:Agents.Net.Message.DelayDispose
+  fullName: Agents.Net.Message.DelayDispose()
+  nameWithType: Message.DelayDispose()
+- uid: Agents.Net.Message.DelayDispose*
+  name: DelayDispose
+  href: api/Agents.Net.Message.html#Agents_Net_Message_DelayDispose_
+  commentId: Overload:Agents.Net.Message.DelayDispose
+  isSpec: "True"
+  fullName: Agents.Net.Message.DelayDispose
+  nameWithType: Message.DelayDispose
+- uid: Agents.Net.Message.Dispose
+  name: Dispose()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Dispose
+  commentId: M:Agents.Net.Message.Dispose
+  fullName: Agents.Net.Message.Dispose()
+  nameWithType: Message.Dispose()
+- uid: Agents.Net.Message.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Dispose_System_Boolean_
+  commentId: M:Agents.Net.Message.Dispose(System.Boolean)
+  fullName: Agents.Net.Message.Dispose(System.Boolean)
+  nameWithType: Message.Dispose(Boolean)
+- uid: Agents.Net.Message.Dispose*
+  name: Dispose
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Dispose_
+  commentId: Overload:Agents.Net.Message.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.Message.Dispose
+  nameWithType: Message.Dispose
+- uid: Agents.Net.Message.Equals(Agents.Net.Message)
+  name: Equals(Message)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Equals_Agents_Net_Message_
+  commentId: M:Agents.Net.Message.Equals(Agents.Net.Message)
+  fullName: Agents.Net.Message.Equals(Agents.Net.Message)
+  nameWithType: Message.Equals(Message)
+- uid: Agents.Net.Message.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Equals_System_Object_
+  commentId: M:Agents.Net.Message.Equals(System.Object)
+  fullName: Agents.Net.Message.Equals(System.Object)
+  nameWithType: Message.Equals(Object)
+- uid: Agents.Net.Message.Equals*
+  name: Equals
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Equals_
+  commentId: Overload:Agents.Net.Message.Equals
+  isSpec: "True"
+  fullName: Agents.Net.Message.Equals
+  nameWithType: Message.Equals
+- uid: Agents.Net.Message.Get*
+  name: Get
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Get_
+  commentId: Overload:Agents.Net.Message.Get
+  isSpec: "True"
+  fullName: Agents.Net.Message.Get
+  nameWithType: Message.Get
+- uid: Agents.Net.Message.Get``1
+  name: Get<T>()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Get__1
+  commentId: M:Agents.Net.Message.Get``1
+  name.vb: Get(Of T)()
+  fullName: Agents.Net.Message.Get<T>()
+  fullName.vb: Agents.Net.Message.Get(Of T)()
+  nameWithType: Message.Get<T>()
+  nameWithType.vb: Message.Get(Of T)()
+- uid: Agents.Net.Message.GetHashCode
+  name: GetHashCode()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_GetHashCode
+  commentId: M:Agents.Net.Message.GetHashCode
+  fullName: Agents.Net.Message.GetHashCode()
+  nameWithType: Message.GetHashCode()
+- uid: Agents.Net.Message.GetHashCode*
+  name: GetHashCode
+  href: api/Agents.Net.Message.html#Agents_Net_Message_GetHashCode_
+  commentId: Overload:Agents.Net.Message.GetHashCode
+  isSpec: "True"
+  fullName: Agents.Net.Message.GetHashCode
+  nameWithType: Message.GetHashCode
+- uid: Agents.Net.Message.Id
+  name: Id
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Id
+  commentId: P:Agents.Net.Message.Id
+  fullName: Agents.Net.Message.Id
+  nameWithType: Message.Id
+- uid: Agents.Net.Message.Id*
+  name: Id
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Id_
+  commentId: Overload:Agents.Net.Message.Id
+  isSpec: "True"
+  fullName: Agents.Net.Message.Id
+  nameWithType: Message.Id
+- uid: Agents.Net.Message.Is*
+  name: Is
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Is_
+  commentId: Overload:Agents.Net.Message.Is
+  isSpec: "True"
+  fullName: Agents.Net.Message.Is
+  nameWithType: Message.Is
+- uid: Agents.Net.Message.Is``1
+  name: Is<T>()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Is__1
+  commentId: M:Agents.Net.Message.Is``1
+  name.vb: Is(Of T)()
+  fullName: Agents.Net.Message.Is<T>()
+  fullName.vb: Agents.Net.Message.Is(Of T)()
+  nameWithType: Message.Is<T>()
+  nameWithType.vb: Message.Is(Of T)()
+- uid: Agents.Net.Message.MessageDomain
+  name: MessageDomain
+  href: api/Agents.Net.Message.html#Agents_Net_Message_MessageDomain
+  commentId: P:Agents.Net.Message.MessageDomain
+  fullName: Agents.Net.Message.MessageDomain
+  nameWithType: Message.MessageDomain
+- uid: Agents.Net.Message.MessageDomain*
+  name: MessageDomain
+  href: api/Agents.Net.Message.html#Agents_Net_Message_MessageDomain_
+  commentId: Overload:Agents.Net.Message.MessageDomain
+  isSpec: "True"
+  fullName: Agents.Net.Message.MessageDomain
+  nameWithType: Message.MessageDomain
+- uid: Agents.Net.Message.op_Equality(Agents.Net.Message,Agents.Net.Message)
+  name: Equality(Message, Message)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_op_Equality_Agents_Net_Message_Agents_Net_Message_
+  commentId: M:Agents.Net.Message.op_Equality(Agents.Net.Message,Agents.Net.Message)
+  fullName: Agents.Net.Message.Equality(Agents.Net.Message, Agents.Net.Message)
+  nameWithType: Message.Equality(Message, Message)
+- uid: Agents.Net.Message.op_Equality*
+  name: Equality
+  href: api/Agents.Net.Message.html#Agents_Net_Message_op_Equality_
+  commentId: Overload:Agents.Net.Message.op_Equality
+  isSpec: "True"
+  fullName: Agents.Net.Message.Equality
+  nameWithType: Message.Equality
+- uid: Agents.Net.Message.op_Inequality(Agents.Net.Message,Agents.Net.Message)
+  name: Inequality(Message, Message)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_op_Inequality_Agents_Net_Message_Agents_Net_Message_
+  commentId: M:Agents.Net.Message.op_Inequality(Agents.Net.Message,Agents.Net.Message)
+  fullName: Agents.Net.Message.Inequality(Agents.Net.Message, Agents.Net.Message)
+  nameWithType: Message.Inequality(Message, Message)
+- uid: Agents.Net.Message.op_Inequality*
+  name: Inequality
+  href: api/Agents.Net.Message.html#Agents_Net_Message_op_Inequality_
+  commentId: Overload:Agents.Net.Message.op_Inequality
+  isSpec: "True"
+  fullName: Agents.Net.Message.Inequality
+  nameWithType: Message.Inequality
+- uid: Agents.Net.Message.Predecessors
+  name: Predecessors
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Predecessors
+  commentId: P:Agents.Net.Message.Predecessors
+  fullName: Agents.Net.Message.Predecessors
+  nameWithType: Message.Predecessors
+- uid: Agents.Net.Message.Predecessors*
+  name: Predecessors
+  href: api/Agents.Net.Message.html#Agents_Net_Message_Predecessors_
+  commentId: Overload:Agents.Net.Message.Predecessors
+  isSpec: "True"
+  fullName: Agents.Net.Message.Predecessors
+  nameWithType: Message.Predecessors
+- uid: Agents.Net.Message.ReplaceWith(Agents.Net.Message)
+  name: ReplaceWith(Message)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_ReplaceWith_Agents_Net_Message_
+  commentId: M:Agents.Net.Message.ReplaceWith(Agents.Net.Message)
+  fullName: Agents.Net.Message.ReplaceWith(Agents.Net.Message)
+  nameWithType: Message.ReplaceWith(Message)
+- uid: Agents.Net.Message.ReplaceWith*
+  name: ReplaceWith
+  href: api/Agents.Net.Message.html#Agents_Net_Message_ReplaceWith_
+  commentId: Overload:Agents.Net.Message.ReplaceWith
+  isSpec: "True"
+  fullName: Agents.Net.Message.ReplaceWith
+  nameWithType: Message.ReplaceWith
+- uid: Agents.Net.Message.SetChild(Agents.Net.Message)
+  name: SetChild(Message)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_SetChild_Agents_Net_Message_
+  commentId: M:Agents.Net.Message.SetChild(Agents.Net.Message)
+  fullName: Agents.Net.Message.SetChild(Agents.Net.Message)
+  nameWithType: Message.SetChild(Message)
+- uid: Agents.Net.Message.SetChild*
+  name: SetChild
+  href: api/Agents.Net.Message.html#Agents_Net_Message_SetChild_
+  commentId: Overload:Agents.Net.Message.SetChild
+  isSpec: "True"
+  fullName: Agents.Net.Message.SetChild
+  nameWithType: Message.SetChild
+- uid: Agents.Net.Message.ToMessageLog
+  name: ToMessageLog()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_ToMessageLog
+  commentId: M:Agents.Net.Message.ToMessageLog
+  fullName: Agents.Net.Message.ToMessageLog()
+  nameWithType: Message.ToMessageLog()
+- uid: Agents.Net.Message.ToMessageLog*
+  name: ToMessageLog
+  href: api/Agents.Net.Message.html#Agents_Net_Message_ToMessageLog_
+  commentId: Overload:Agents.Net.Message.ToMessageLog
+  isSpec: "True"
+  fullName: Agents.Net.Message.ToMessageLog
+  nameWithType: Message.ToMessageLog
+- uid: Agents.Net.Message.ToString
+  name: ToString()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_ToString
+  commentId: M:Agents.Net.Message.ToString
+  fullName: Agents.Net.Message.ToString()
+  nameWithType: Message.ToString()
+- uid: Agents.Net.Message.ToString*
+  name: ToString
+  href: api/Agents.Net.Message.html#Agents_Net_Message_ToString_
+  commentId: Overload:Agents.Net.Message.ToString
+  isSpec: "True"
+  fullName: Agents.Net.Message.ToString
+  nameWithType: Message.ToString
+- uid: Agents.Net.Message.TryGet*
+  name: TryGet
+  href: api/Agents.Net.Message.html#Agents_Net_Message_TryGet_
+  commentId: Overload:Agents.Net.Message.TryGet
+  isSpec: "True"
+  fullName: Agents.Net.Message.TryGet
+  nameWithType: Message.TryGet
+- uid: Agents.Net.Message.TryGet``1(``0@)
+  name: TryGet<T>(out T)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_TryGet__1___0__
+  commentId: M:Agents.Net.Message.TryGet``1(``0@)
+  name.vb: TryGet(Of T)(ByRef T)
+  fullName: Agents.Net.Message.TryGet<T>(out T)
+  fullName.vb: Agents.Net.Message.TryGet(Of T)(ByRef T)
+  nameWithType: Message.TryGet<T>(out T)
+  nameWithType.vb: Message.TryGet(Of T)(ByRef T)
+- uid: Agents.Net.Message.TryGetPredecessor*
+  name: TryGetPredecessor
+  href: api/Agents.Net.Message.html#Agents_Net_Message_TryGetPredecessor_
+  commentId: Overload:Agents.Net.Message.TryGetPredecessor
+  isSpec: "True"
+  fullName: Agents.Net.Message.TryGetPredecessor
+  nameWithType: Message.TryGetPredecessor
+- uid: Agents.Net.Message.TryGetPredecessor``1(``0@)
+  name: TryGetPredecessor<T>(out T)
+  href: api/Agents.Net.Message.html#Agents_Net_Message_TryGetPredecessor__1___0__
+  commentId: M:Agents.Net.Message.TryGetPredecessor``1(``0@)
+  name.vb: TryGetPredecessor(Of T)(ByRef T)
+  fullName: Agents.Net.Message.TryGetPredecessor<T>(out T)
+  fullName.vb: Agents.Net.Message.TryGetPredecessor(Of T)(ByRef T)
+  nameWithType: Message.TryGetPredecessor<T>(out T)
+  nameWithType.vb: Message.TryGetPredecessor(Of T)(ByRef T)
+- uid: Agents.Net.MessageAggregator`1
+  name: MessageAggregator<T>
+  href: api/Agents.Net.MessageAggregator-1.html
+  commentId: T:Agents.Net.MessageAggregator`1
+  name.vb: MessageAggregator(Of T)
+  fullName: Agents.Net.MessageAggregator<T>
+  fullName.vb: Agents.Net.MessageAggregator(Of T)
+  nameWithType: MessageAggregator<T>
+  nameWithType.vb: MessageAggregator(Of T)
+- uid: Agents.Net.MessageAggregator`1.#ctor(Action{IReadOnlyCollection{`0}})
+  name: MessageAggregator(Action<IReadOnlyCollection<T>>)
+  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1__ctor_Action_IReadOnlyCollection__0___
+  commentId: M:Agents.Net.MessageAggregator`1.#ctor(Action{IReadOnlyCollection{`0}})
+  name.vb: MessageAggregator(Action(Of IReadOnlyCollection(Of T)))
+  fullName: Agents.Net.MessageAggregator<T>.MessageAggregator(Action<IReadOnlyCollection<T>>)
+  fullName.vb: Agents.Net.MessageAggregator(Of T).MessageAggregator(Action(Of IReadOnlyCollection(Of T)))
+  nameWithType: MessageAggregator<T>.MessageAggregator(Action<IReadOnlyCollection<T>>)
+  nameWithType.vb: MessageAggregator(Of T).MessageAggregator(Action(Of IReadOnlyCollection(Of T)))
+- uid: Agents.Net.MessageAggregator`1.#ctor*
+  name: MessageAggregator
+  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1__ctor_
+  commentId: Overload:Agents.Net.MessageAggregator`1.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregator<T>.MessageAggregator
+  fullName.vb: Agents.Net.MessageAggregator(Of T).MessageAggregator
+  nameWithType: MessageAggregator<T>.MessageAggregator
+  nameWithType.vb: MessageAggregator(Of T).MessageAggregator
+- uid: Agents.Net.MessageAggregator`1.Aggregate(Agents.Net.Message)
+  name: Aggregate(Message)
+  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1_Aggregate_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageAggregator`1.Aggregate(Agents.Net.Message)
+  fullName: Agents.Net.MessageAggregator<T>.Aggregate(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageAggregator(Of T).Aggregate(Agents.Net.Message)
+  nameWithType: MessageAggregator<T>.Aggregate(Message)
+  nameWithType.vb: MessageAggregator(Of T).Aggregate(Message)
+- uid: Agents.Net.MessageAggregator`1.Aggregate*
+  name: Aggregate
+  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1_Aggregate_
+  commentId: Overload:Agents.Net.MessageAggregator`1.Aggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregator<T>.Aggregate
+  fullName.vb: Agents.Net.MessageAggregator(Of T).Aggregate
+  nameWithType: MessageAggregator<T>.Aggregate
+  nameWithType.vb: MessageAggregator(Of T).Aggregate
+- uid: Agents.Net.MessageAggregator`1.TryAggregate(Agents.Net.Message)
+  name: TryAggregate(Message)
+  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1_TryAggregate_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageAggregator`1.TryAggregate(Agents.Net.Message)
+  fullName: Agents.Net.MessageAggregator<T>.TryAggregate(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageAggregator(Of T).TryAggregate(Agents.Net.Message)
+  nameWithType: MessageAggregator<T>.TryAggregate(Message)
+  nameWithType.vb: MessageAggregator(Of T).TryAggregate(Message)
+- uid: Agents.Net.MessageAggregator`1.TryAggregate*
+  name: TryAggregate
+  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1_TryAggregate_
+  commentId: Overload:Agents.Net.MessageAggregator`1.TryAggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregator<T>.TryAggregate
+  fullName.vb: Agents.Net.MessageAggregator(Of T).TryAggregate
+  nameWithType: MessageAggregator<T>.TryAggregate
+  nameWithType.vb: MessageAggregator(Of T).TryAggregate
+- uid: Agents.Net.MessageBoard
+  name: MessageBoard
+  href: api/Agents.Net.MessageBoard.html
+  commentId: T:Agents.Net.MessageBoard
+  fullName: Agents.Net.MessageBoard
+  nameWithType: MessageBoard
+- uid: Agents.Net.MessageBoard.Dispose
+  name: Dispose()
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Dispose
+  commentId: M:Agents.Net.MessageBoard.Dispose
+  fullName: Agents.Net.MessageBoard.Dispose()
+  nameWithType: MessageBoard.Dispose()
+- uid: Agents.Net.MessageBoard.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Dispose_
+  commentId: Overload:Agents.Net.MessageBoard.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageBoard.Dispose
+  nameWithType: MessageBoard.Dispose
+- uid: Agents.Net.MessageBoard.Publish(Agents.Net.Message)
+  name: Publish(Message)
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Publish_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageBoard.Publish(Agents.Net.Message)
+  fullName: Agents.Net.MessageBoard.Publish(Agents.Net.Message)
+  nameWithType: MessageBoard.Publish(Message)
+- uid: Agents.Net.MessageBoard.Publish*
+  name: Publish
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Publish_
+  commentId: Overload:Agents.Net.MessageBoard.Publish
+  isSpec: "True"
+  fullName: Agents.Net.MessageBoard.Publish
+  nameWithType: MessageBoard.Publish
+- uid: Agents.Net.MessageBoard.Register(Agents.Net.Agent[])
+  name: Register(Agent[])
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Register_Agents_Net_Agent___
+  commentId: M:Agents.Net.MessageBoard.Register(Agents.Net.Agent[])
+  name.vb: Register(Agent())
+  fullName: Agents.Net.MessageBoard.Register(Agents.Net.Agent[])
+  fullName.vb: Agents.Net.MessageBoard.Register(Agents.Net.Agent())
+  nameWithType: MessageBoard.Register(Agent[])
+  nameWithType.vb: MessageBoard.Register(Agent())
+- uid: Agents.Net.MessageBoard.Register*
+  name: Register
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Register_
+  commentId: Overload:Agents.Net.MessageBoard.Register
+  isSpec: "True"
+  fullName: Agents.Net.MessageBoard.Register
+  nameWithType: MessageBoard.Register
+- uid: Agents.Net.MessageBoard.Start
+  name: Start()
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Start
+  commentId: M:Agents.Net.MessageBoard.Start
+  fullName: Agents.Net.MessageBoard.Start()
+  nameWithType: MessageBoard.Start()
+- uid: Agents.Net.MessageBoard.Start*
+  name: Start
+  href: api/Agents.Net.MessageBoard.html#Agents_Net_MessageBoard_Start_
+  commentId: Overload:Agents.Net.MessageBoard.Start
+  isSpec: "True"
+  fullName: Agents.Net.MessageBoard.Start
+  nameWithType: MessageBoard.Start
+- uid: Agents.Net.MessageCollection
+  name: MessageCollection
+  href: api/Agents.Net.MessageCollection.html
+  commentId: T:Agents.Net.MessageCollection
+  fullName: Agents.Net.MessageCollection
+  nameWithType: MessageCollection
+- uid: Agents.Net.MessageCollection.Dispose
+  name: Dispose()
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_Dispose
+  commentId: M:Agents.Net.MessageCollection.Dispose
+  fullName: Agents.Net.MessageCollection.Dispose()
+  nameWithType: MessageCollection.Dispose()
+- uid: Agents.Net.MessageCollection.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_Dispose_System_Boolean_
+  commentId: M:Agents.Net.MessageCollection.Dispose(System.Boolean)
+  fullName: Agents.Net.MessageCollection.Dispose(System.Boolean)
+  nameWithType: MessageCollection.Dispose(Boolean)
+- uid: Agents.Net.MessageCollection.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_Dispose_
+  commentId: Overload:Agents.Net.MessageCollection.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection.Dispose
+  nameWithType: MessageCollection.Dispose
+- uid: Agents.Net.MessageCollection.GetAllMessages
+  name: GetAllMessages()
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_GetAllMessages
+  commentId: M:Agents.Net.MessageCollection.GetAllMessages
+  fullName: Agents.Net.MessageCollection.GetAllMessages()
+  nameWithType: MessageCollection.GetAllMessages()
+- uid: Agents.Net.MessageCollection.GetAllMessages*
+  name: GetAllMessages
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_GetAllMessages_
+  commentId: Overload:Agents.Net.MessageCollection.GetAllMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection.GetAllMessages
+  nameWithType: MessageCollection.GetAllMessages
+- uid: Agents.Net.MessageCollection.GetEnumerator
+  name: GetEnumerator()
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_GetEnumerator
+  commentId: M:Agents.Net.MessageCollection.GetEnumerator
+  fullName: Agents.Net.MessageCollection.GetEnumerator()
+  nameWithType: MessageCollection.GetEnumerator()
+- uid: Agents.Net.MessageCollection.GetEnumerator*
+  name: GetEnumerator
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_GetEnumerator_
+  commentId: Overload:Agents.Net.MessageCollection.GetEnumerator
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection.GetEnumerator
+  nameWithType: MessageCollection.GetEnumerator
+- uid: Agents.Net.MessageCollection.MarkAsConsumed(Agents.Net.Message)
+  name: MarkAsConsumed(Message)
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_MarkAsConsumed_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollection.MarkAsConsumed(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollection.MarkAsConsumed(Agents.Net.Message)
+  nameWithType: MessageCollection.MarkAsConsumed(Message)
+- uid: Agents.Net.MessageCollection.MarkAsConsumed*
+  name: MarkAsConsumed
+  href: api/Agents.Net.MessageCollection.html#Agents_Net_MessageCollection_MarkAsConsumed_
+  commentId: Overload:Agents.Net.MessageCollection.MarkAsConsumed
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection.MarkAsConsumed
+  nameWithType: MessageCollection.MarkAsConsumed
+- uid: Agents.Net.MessageCollection`2
+  name: MessageCollection<T1, T2>
+  href: api/Agents.Net.MessageCollection-2.html
+  commentId: T:Agents.Net.MessageCollection`2
+  name.vb: MessageCollection(Of T1, T2)
+  fullName: Agents.Net.MessageCollection<T1, T2>
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2)
+  nameWithType: MessageCollection<T1, T2>
+  nameWithType.vb: MessageCollection(Of T1, T2)
+- uid: Agents.Net.MessageCollection`2.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageCollector{`0,`1})
+  name: MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageCollector<T1, T2>)
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2__ctor_Agents_Net_MessageStore__0__Agents_Net_MessageStore__1__Agents_Net_MessageCollector__0__1__
+  commentId: M:Agents.Net.MessageCollection`2.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageCollector{`0,`1})
+  name.vb: MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageCollector(Of T1, T2))
+  fullName: Agents.Net.MessageCollection<T1, T2>.MessageCollection(Agents.Net.MessageStore<T1>, Agents.Net.MessageStore<T2>, Agents.Net.MessageCollector<T1, T2>)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).MessageCollection(Agents.Net.MessageStore(Of T1), Agents.Net.MessageStore(Of T2), Agents.Net.MessageCollector(Of T1, T2))
+  nameWithType: MessageCollection<T1, T2>.MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageCollector<T1, T2>)
+  nameWithType.vb: MessageCollection(Of T1, T2).MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageCollector(Of T1, T2))
+- uid: Agents.Net.MessageCollection`2.#ctor*
+  name: MessageCollection
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2__ctor_
+  commentId: Overload:Agents.Net.MessageCollection`2.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2>.MessageCollection
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).MessageCollection
+  nameWithType: MessageCollection<T1, T2>.MessageCollection
+  nameWithType.vb: MessageCollection(Of T1, T2).MessageCollection
+- uid: Agents.Net.MessageCollection`2.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_Dispose_System_Boolean_
+  commentId: M:Agents.Net.MessageCollection`2.Dispose(System.Boolean)
+  fullName: Agents.Net.MessageCollection<T1, T2>.Dispose(System.Boolean)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).Dispose(System.Boolean)
+  nameWithType: MessageCollection<T1, T2>.Dispose(Boolean)
+  nameWithType.vb: MessageCollection(Of T1, T2).Dispose(Boolean)
+- uid: Agents.Net.MessageCollection`2.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_Dispose_
+  commentId: Overload:Agents.Net.MessageCollection`2.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2>.Dispose
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).Dispose
+  nameWithType: MessageCollection<T1, T2>.Dispose
+  nameWithType.vb: MessageCollection(Of T1, T2).Dispose
+- uid: Agents.Net.MessageCollection`2.GetAllMessages
+  name: GetAllMessages()
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_GetAllMessages
+  commentId: M:Agents.Net.MessageCollection`2.GetAllMessages
+  fullName: Agents.Net.MessageCollection<T1, T2>.GetAllMessages()
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).GetAllMessages()
+  nameWithType: MessageCollection<T1, T2>.GetAllMessages()
+  nameWithType.vb: MessageCollection(Of T1, T2).GetAllMessages()
+- uid: Agents.Net.MessageCollection`2.GetAllMessages*
+  name: GetAllMessages
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_GetAllMessages_
+  commentId: Overload:Agents.Net.MessageCollection`2.GetAllMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2>.GetAllMessages
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).GetAllMessages
+  nameWithType: MessageCollection<T1, T2>.GetAllMessages
+  nameWithType.vb: MessageCollection(Of T1, T2).GetAllMessages
+- uid: Agents.Net.MessageCollection`2.MarkAsConsumed(Agents.Net.Message)
+  name: MarkAsConsumed(Message)
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_MarkAsConsumed_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollection`2.MarkAsConsumed(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollection<T1, T2>.MarkAsConsumed(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).MarkAsConsumed(Agents.Net.Message)
+  nameWithType: MessageCollection<T1, T2>.MarkAsConsumed(Message)
+  nameWithType.vb: MessageCollection(Of T1, T2).MarkAsConsumed(Message)
+- uid: Agents.Net.MessageCollection`2.MarkAsConsumed*
+  name: MarkAsConsumed
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_MarkAsConsumed_
+  commentId: Overload:Agents.Net.MessageCollection`2.MarkAsConsumed
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2>.MarkAsConsumed
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).MarkAsConsumed
+  nameWithType: MessageCollection<T1, T2>.MarkAsConsumed
+  nameWithType.vb: MessageCollection(Of T1, T2).MarkAsConsumed
+- uid: Agents.Net.MessageCollection`2.Message1
+  name: Message1
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_Message1
+  commentId: P:Agents.Net.MessageCollection`2.Message1
+  fullName: Agents.Net.MessageCollection<T1, T2>.Message1
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).Message1
+  nameWithType: MessageCollection<T1, T2>.Message1
+  nameWithType.vb: MessageCollection(Of T1, T2).Message1
+- uid: Agents.Net.MessageCollection`2.Message1*
+  name: Message1
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_Message1_
+  commentId: Overload:Agents.Net.MessageCollection`2.Message1
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2>.Message1
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).Message1
+  nameWithType: MessageCollection<T1, T2>.Message1
+  nameWithType.vb: MessageCollection(Of T1, T2).Message1
+- uid: Agents.Net.MessageCollection`2.Message2
+  name: Message2
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_Message2
+  commentId: P:Agents.Net.MessageCollection`2.Message2
+  fullName: Agents.Net.MessageCollection<T1, T2>.Message2
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).Message2
+  nameWithType: MessageCollection<T1, T2>.Message2
+  nameWithType.vb: MessageCollection(Of T1, T2).Message2
+- uid: Agents.Net.MessageCollection`2.Message2*
+  name: Message2
+  href: api/Agents.Net.MessageCollection-2.html#Agents_Net_MessageCollection_2_Message2_
+  commentId: Overload:Agents.Net.MessageCollection`2.Message2
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2>.Message2
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2).Message2
+  nameWithType: MessageCollection<T1, T2>.Message2
+  nameWithType.vb: MessageCollection(Of T1, T2).Message2
+- uid: Agents.Net.MessageCollection`3
+  name: MessageCollection<T1, T2, T3>
+  href: api/Agents.Net.MessageCollection-3.html
+  commentId: T:Agents.Net.MessageCollection`3
+  name.vb: MessageCollection(Of T1, T2, T3)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3)
+  nameWithType: MessageCollection<T1, T2, T3>
+  nameWithType.vb: MessageCollection(Of T1, T2, T3)
+- uid: Agents.Net.MessageCollection`3.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageCollector{`0,`1})
+  name: MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageCollector<T1, T2>)
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3__ctor_Agents_Net_MessageStore__0__Agents_Net_MessageStore__1__Agents_Net_MessageStore__2__Agents_Net_MessageCollector__0__1__
+  commentId: M:Agents.Net.MessageCollection`3.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageCollector{`0,`1})
+  name.vb: MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageCollector(Of T1, T2))
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.MessageCollection(Agents.Net.MessageStore<T1>, Agents.Net.MessageStore<T2>, Agents.Net.MessageStore<T3>, Agents.Net.MessageCollector<T1, T2>)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).MessageCollection(Agents.Net.MessageStore(Of T1), Agents.Net.MessageStore(Of T2), Agents.Net.MessageStore(Of T3), Agents.Net.MessageCollector(Of T1, T2))
+  nameWithType: MessageCollection<T1, T2, T3>.MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageCollector<T1, T2>)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageCollector(Of T1, T2))
+- uid: Agents.Net.MessageCollection`3.#ctor*
+  name: MessageCollection
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3__ctor_
+  commentId: Overload:Agents.Net.MessageCollection`3.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.MessageCollection
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).MessageCollection
+  nameWithType: MessageCollection<T1, T2, T3>.MessageCollection
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).MessageCollection
+- uid: Agents.Net.MessageCollection`3.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3_Dispose_System_Boolean_
+  commentId: M:Agents.Net.MessageCollection`3.Dispose(System.Boolean)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.Dispose(System.Boolean)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).Dispose(System.Boolean)
+  nameWithType: MessageCollection<T1, T2, T3>.Dispose(Boolean)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).Dispose(Boolean)
+- uid: Agents.Net.MessageCollection`3.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3_Dispose_
+  commentId: Overload:Agents.Net.MessageCollection`3.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.Dispose
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).Dispose
+  nameWithType: MessageCollection<T1, T2, T3>.Dispose
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).Dispose
+- uid: Agents.Net.MessageCollection`3.GetAllMessages
+  name: GetAllMessages()
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3_GetAllMessages
+  commentId: M:Agents.Net.MessageCollection`3.GetAllMessages
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.GetAllMessages()
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).GetAllMessages()
+  nameWithType: MessageCollection<T1, T2, T3>.GetAllMessages()
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).GetAllMessages()
+- uid: Agents.Net.MessageCollection`3.GetAllMessages*
+  name: GetAllMessages
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3_GetAllMessages_
+  commentId: Overload:Agents.Net.MessageCollection`3.GetAllMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.GetAllMessages
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).GetAllMessages
+  nameWithType: MessageCollection<T1, T2, T3>.GetAllMessages
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).GetAllMessages
+- uid: Agents.Net.MessageCollection`3.Message3
+  name: Message3
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3_Message3
+  commentId: P:Agents.Net.MessageCollection`3.Message3
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.Message3
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).Message3
+  nameWithType: MessageCollection<T1, T2, T3>.Message3
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).Message3
+- uid: Agents.Net.MessageCollection`3.Message3*
+  name: Message3
+  href: api/Agents.Net.MessageCollection-3.html#Agents_Net_MessageCollection_3_Message3_
+  commentId: Overload:Agents.Net.MessageCollection`3.Message3
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3>.Message3
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3).Message3
+  nameWithType: MessageCollection<T1, T2, T3>.Message3
+  nameWithType.vb: MessageCollection(Of T1, T2, T3).Message3
+- uid: Agents.Net.MessageCollection`4
+  name: MessageCollection<T1, T2, T3, T4>
+  href: api/Agents.Net.MessageCollection-4.html
+  commentId: T:Agents.Net.MessageCollection`4
+  name.vb: MessageCollection(Of T1, T2, T3, T4)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4)
+  nameWithType: MessageCollection<T1, T2, T3, T4>
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4)
+- uid: Agents.Net.MessageCollection`4.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageCollector{`0,`1})
+  name: MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageCollector<T1, T2>)
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4__ctor_Agents_Net_MessageStore__0__Agents_Net_MessageStore__1__Agents_Net_MessageStore__2__Agents_Net_MessageStore__3__Agents_Net_MessageCollector__0__1__
+  commentId: M:Agents.Net.MessageCollection`4.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageCollector{`0,`1})
+  name.vb: MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageCollector(Of T1, T2))
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.MessageCollection(Agents.Net.MessageStore<T1>, Agents.Net.MessageStore<T2>, Agents.Net.MessageStore<T3>, Agents.Net.MessageStore<T4>, Agents.Net.MessageCollector<T1, T2>)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).MessageCollection(Agents.Net.MessageStore(Of T1), Agents.Net.MessageStore(Of T2), Agents.Net.MessageStore(Of T3), Agents.Net.MessageStore(Of T4), Agents.Net.MessageCollector(Of T1, T2))
+  nameWithType: MessageCollection<T1, T2, T3, T4>.MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageCollector<T1, T2>)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageCollector(Of T1, T2))
+- uid: Agents.Net.MessageCollection`4.#ctor*
+  name: MessageCollection
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4__ctor_
+  commentId: Overload:Agents.Net.MessageCollection`4.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.MessageCollection
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).MessageCollection
+  nameWithType: MessageCollection<T1, T2, T3, T4>.MessageCollection
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).MessageCollection
+- uid: Agents.Net.MessageCollection`4.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4_Dispose_System_Boolean_
+  commentId: M:Agents.Net.MessageCollection`4.Dispose(System.Boolean)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.Dispose(System.Boolean)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).Dispose(System.Boolean)
+  nameWithType: MessageCollection<T1, T2, T3, T4>.Dispose(Boolean)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).Dispose(Boolean)
+- uid: Agents.Net.MessageCollection`4.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4_Dispose_
+  commentId: Overload:Agents.Net.MessageCollection`4.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.Dispose
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).Dispose
+  nameWithType: MessageCollection<T1, T2, T3, T4>.Dispose
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).Dispose
+- uid: Agents.Net.MessageCollection`4.GetAllMessages
+  name: GetAllMessages()
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4_GetAllMessages
+  commentId: M:Agents.Net.MessageCollection`4.GetAllMessages
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.GetAllMessages()
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).GetAllMessages()
+  nameWithType: MessageCollection<T1, T2, T3, T4>.GetAllMessages()
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).GetAllMessages()
+- uid: Agents.Net.MessageCollection`4.GetAllMessages*
+  name: GetAllMessages
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4_GetAllMessages_
+  commentId: Overload:Agents.Net.MessageCollection`4.GetAllMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.GetAllMessages
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).GetAllMessages
+  nameWithType: MessageCollection<T1, T2, T3, T4>.GetAllMessages
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).GetAllMessages
+- uid: Agents.Net.MessageCollection`4.Message4
+  name: Message4
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4_Message4
+  commentId: P:Agents.Net.MessageCollection`4.Message4
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.Message4
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).Message4
+  nameWithType: MessageCollection<T1, T2, T3, T4>.Message4
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).Message4
+- uid: Agents.Net.MessageCollection`4.Message4*
+  name: Message4
+  href: api/Agents.Net.MessageCollection-4.html#Agents_Net_MessageCollection_4_Message4_
+  commentId: Overload:Agents.Net.MessageCollection`4.Message4
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4>.Message4
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4).Message4
+  nameWithType: MessageCollection<T1, T2, T3, T4>.Message4
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4).Message4
+- uid: Agents.Net.MessageCollection`5
+  name: MessageCollection<T1, T2, T3, T4, T5>
+  href: api/Agents.Net.MessageCollection-5.html
+  commentId: T:Agents.Net.MessageCollection`5
+  name.vb: MessageCollection(Of T1, T2, T3, T4, T5)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5)
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5)
+- uid: Agents.Net.MessageCollection`5.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageStore{`4},Agents.Net.MessageCollector{`0,`1})
+  name: MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageStore<T5>, MessageCollector<T1, T2>)
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5__ctor_Agents_Net_MessageStore__0__Agents_Net_MessageStore__1__Agents_Net_MessageStore__2__Agents_Net_MessageStore__3__Agents_Net_MessageStore__4__Agents_Net_MessageCollector__0__1__
+  commentId: M:Agents.Net.MessageCollection`5.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageStore{`4},Agents.Net.MessageCollector{`0,`1})
+  name.vb: MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageStore(Of T5), MessageCollector(Of T1, T2))
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.MessageCollection(Agents.Net.MessageStore<T1>, Agents.Net.MessageStore<T2>, Agents.Net.MessageStore<T3>, Agents.Net.MessageStore<T4>, Agents.Net.MessageStore<T5>, Agents.Net.MessageCollector<T1, T2>)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).MessageCollection(Agents.Net.MessageStore(Of T1), Agents.Net.MessageStore(Of T2), Agents.Net.MessageStore(Of T3), Agents.Net.MessageStore(Of T4), Agents.Net.MessageStore(Of T5), Agents.Net.MessageCollector(Of T1, T2))
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageStore<T5>, MessageCollector<T1, T2>)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageStore(Of T5), MessageCollector(Of T1, T2))
+- uid: Agents.Net.MessageCollection`5.#ctor*
+  name: MessageCollection
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5__ctor_
+  commentId: Overload:Agents.Net.MessageCollection`5.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.MessageCollection
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).MessageCollection
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.MessageCollection
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).MessageCollection
+- uid: Agents.Net.MessageCollection`5.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5_Dispose_System_Boolean_
+  commentId: M:Agents.Net.MessageCollection`5.Dispose(System.Boolean)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.Dispose(System.Boolean)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).Dispose(System.Boolean)
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.Dispose(Boolean)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).Dispose(Boolean)
+- uid: Agents.Net.MessageCollection`5.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5_Dispose_
+  commentId: Overload:Agents.Net.MessageCollection`5.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.Dispose
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).Dispose
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.Dispose
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).Dispose
+- uid: Agents.Net.MessageCollection`5.GetAllMessages
+  name: GetAllMessages()
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5_GetAllMessages
+  commentId: M:Agents.Net.MessageCollection`5.GetAllMessages
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.GetAllMessages()
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).GetAllMessages()
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.GetAllMessages()
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).GetAllMessages()
+- uid: Agents.Net.MessageCollection`5.GetAllMessages*
+  name: GetAllMessages
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5_GetAllMessages_
+  commentId: Overload:Agents.Net.MessageCollection`5.GetAllMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.GetAllMessages
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).GetAllMessages
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.GetAllMessages
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).GetAllMessages
+- uid: Agents.Net.MessageCollection`5.Message5
+  name: Message5
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5_Message5
+  commentId: P:Agents.Net.MessageCollection`5.Message5
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.Message5
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).Message5
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.Message5
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).Message5
+- uid: Agents.Net.MessageCollection`5.Message5*
+  name: Message5
+  href: api/Agents.Net.MessageCollection-5.html#Agents_Net_MessageCollection_5_Message5_
+  commentId: Overload:Agents.Net.MessageCollection`5.Message5
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5>.Message5
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5).Message5
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5>.Message5
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5).Message5
+- uid: Agents.Net.MessageCollection`6
+  name: MessageCollection<T1, T2, T3, T4, T5, T6>
+  href: api/Agents.Net.MessageCollection-6.html
+  commentId: T:Agents.Net.MessageCollection`6
+  name.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6)
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6)
+- uid: Agents.Net.MessageCollection`6.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageStore{`4},Agents.Net.MessageStore{`5},Agents.Net.MessageCollector{`0,`1})
+  name: MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageStore<T5>, MessageStore<T6>, MessageCollector<T1, T2>)
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6__ctor_Agents_Net_MessageStore__0__Agents_Net_MessageStore__1__Agents_Net_MessageStore__2__Agents_Net_MessageStore__3__Agents_Net_MessageStore__4__Agents_Net_MessageStore__5__Agents_Net_MessageCollector__0__1__
+  commentId: M:Agents.Net.MessageCollection`6.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageStore{`4},Agents.Net.MessageStore{`5},Agents.Net.MessageCollector{`0,`1})
+  name.vb: MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageStore(Of T5), MessageStore(Of T6), MessageCollector(Of T1, T2))
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.MessageCollection(Agents.Net.MessageStore<T1>, Agents.Net.MessageStore<T2>, Agents.Net.MessageStore<T3>, Agents.Net.MessageStore<T4>, Agents.Net.MessageStore<T5>, Agents.Net.MessageStore<T6>, Agents.Net.MessageCollector<T1, T2>)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).MessageCollection(Agents.Net.MessageStore(Of T1), Agents.Net.MessageStore(Of T2), Agents.Net.MessageStore(Of T3), Agents.Net.MessageStore(Of T4), Agents.Net.MessageStore(Of T5), Agents.Net.MessageStore(Of T6), Agents.Net.MessageCollector(Of T1, T2))
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageStore<T5>, MessageStore<T6>, MessageCollector<T1, T2>)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageStore(Of T5), MessageStore(Of T6), MessageCollector(Of T1, T2))
+- uid: Agents.Net.MessageCollection`6.#ctor*
+  name: MessageCollection
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6__ctor_
+  commentId: Overload:Agents.Net.MessageCollection`6.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.MessageCollection
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).MessageCollection
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.MessageCollection
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).MessageCollection
+- uid: Agents.Net.MessageCollection`6.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6_Dispose_System_Boolean_
+  commentId: M:Agents.Net.MessageCollection`6.Dispose(System.Boolean)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.Dispose(System.Boolean)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).Dispose(System.Boolean)
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.Dispose(Boolean)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).Dispose(Boolean)
+- uid: Agents.Net.MessageCollection`6.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6_Dispose_
+  commentId: Overload:Agents.Net.MessageCollection`6.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.Dispose
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).Dispose
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.Dispose
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).Dispose
+- uid: Agents.Net.MessageCollection`6.GetAllMessages
+  name: GetAllMessages()
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6_GetAllMessages
+  commentId: M:Agents.Net.MessageCollection`6.GetAllMessages
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.GetAllMessages()
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).GetAllMessages()
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.GetAllMessages()
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).GetAllMessages()
+- uid: Agents.Net.MessageCollection`6.GetAllMessages*
+  name: GetAllMessages
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6_GetAllMessages_
+  commentId: Overload:Agents.Net.MessageCollection`6.GetAllMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.GetAllMessages
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).GetAllMessages
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.GetAllMessages
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).GetAllMessages
+- uid: Agents.Net.MessageCollection`6.Message6
+  name: Message6
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6_Message6
+  commentId: P:Agents.Net.MessageCollection`6.Message6
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.Message6
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).Message6
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.Message6
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).Message6
+- uid: Agents.Net.MessageCollection`6.Message6*
+  name: Message6
+  href: api/Agents.Net.MessageCollection-6.html#Agents_Net_MessageCollection_6_Message6_
+  commentId: Overload:Agents.Net.MessageCollection`6.Message6
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>.Message6
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6).Message6
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6>.Message6
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6).Message6
+- uid: Agents.Net.MessageCollection`7
+  name: MessageCollection<T1, T2, T3, T4, T5, T6, T7>
+  href: api/Agents.Net.MessageCollection-7.html
+  commentId: T:Agents.Net.MessageCollection`7
+  name.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)
+- uid: Agents.Net.MessageCollection`7.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageStore{`4},Agents.Net.MessageStore{`5},Agents.Net.MessageStore{`6},Agents.Net.MessageCollector{`0,`1})
+  name: MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageStore<T5>, MessageStore<T6>, MessageStore<T7>, MessageCollector<T1, T2>)
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7__ctor_Agents_Net_MessageStore__0__Agents_Net_MessageStore__1__Agents_Net_MessageStore__2__Agents_Net_MessageStore__3__Agents_Net_MessageStore__4__Agents_Net_MessageStore__5__Agents_Net_MessageStore__6__Agents_Net_MessageCollector__0__1__
+  commentId: M:Agents.Net.MessageCollection`7.#ctor(Agents.Net.MessageStore{`0},Agents.Net.MessageStore{`1},Agents.Net.MessageStore{`2},Agents.Net.MessageStore{`3},Agents.Net.MessageStore{`4},Agents.Net.MessageStore{`5},Agents.Net.MessageStore{`6},Agents.Net.MessageCollector{`0,`1})
+  name.vb: MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageStore(Of T5), MessageStore(Of T6), MessageStore(Of T7), MessageCollector(Of T1, T2))
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.MessageCollection(Agents.Net.MessageStore<T1>, Agents.Net.MessageStore<T2>, Agents.Net.MessageStore<T3>, Agents.Net.MessageStore<T4>, Agents.Net.MessageStore<T5>, Agents.Net.MessageStore<T6>, Agents.Net.MessageStore<T7>, Agents.Net.MessageCollector<T1, T2>)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).MessageCollection(Agents.Net.MessageStore(Of T1), Agents.Net.MessageStore(Of T2), Agents.Net.MessageStore(Of T3), Agents.Net.MessageStore(Of T4), Agents.Net.MessageStore(Of T5), Agents.Net.MessageStore(Of T6), Agents.Net.MessageStore(Of T7), Agents.Net.MessageCollector(Of T1, T2))
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.MessageCollection(MessageStore<T1>, MessageStore<T2>, MessageStore<T3>, MessageStore<T4>, MessageStore<T5>, MessageStore<T6>, MessageStore<T7>, MessageCollector<T1, T2>)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).MessageCollection(MessageStore(Of T1), MessageStore(Of T2), MessageStore(Of T3), MessageStore(Of T4), MessageStore(Of T5), MessageStore(Of T6), MessageStore(Of T7), MessageCollector(Of T1, T2))
+- uid: Agents.Net.MessageCollection`7.#ctor*
+  name: MessageCollection
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7__ctor_
+  commentId: Overload:Agents.Net.MessageCollection`7.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.MessageCollection
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).MessageCollection
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.MessageCollection
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).MessageCollection
+- uid: Agents.Net.MessageCollection`7.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7_Dispose_System_Boolean_
+  commentId: M:Agents.Net.MessageCollection`7.Dispose(System.Boolean)
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Dispose(System.Boolean)
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Dispose(System.Boolean)
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Dispose(Boolean)
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Dispose(Boolean)
+- uid: Agents.Net.MessageCollection`7.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7_Dispose_
+  commentId: Overload:Agents.Net.MessageCollection`7.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Dispose
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Dispose
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Dispose
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Dispose
+- uid: Agents.Net.MessageCollection`7.GetAllMessages
+  name: GetAllMessages()
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7_GetAllMessages
+  commentId: M:Agents.Net.MessageCollection`7.GetAllMessages
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.GetAllMessages()
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).GetAllMessages()
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.GetAllMessages()
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).GetAllMessages()
+- uid: Agents.Net.MessageCollection`7.GetAllMessages*
+  name: GetAllMessages
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7_GetAllMessages_
+  commentId: Overload:Agents.Net.MessageCollection`7.GetAllMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.GetAllMessages
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).GetAllMessages
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.GetAllMessages
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).GetAllMessages
+- uid: Agents.Net.MessageCollection`7.Message7
+  name: Message7
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7_Message7
+  commentId: P:Agents.Net.MessageCollection`7.Message7
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Message7
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Message7
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Message7
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Message7
+- uid: Agents.Net.MessageCollection`7.Message7*
+  name: Message7
+  href: api/Agents.Net.MessageCollection-7.html#Agents_Net_MessageCollection_7_Message7_
+  commentId: Overload:Agents.Net.MessageCollection`7.Message7
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Message7
+  fullName.vb: Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Message7
+  nameWithType: MessageCollection<T1, T2, T3, T4, T5, T6, T7>.Message7
+  nameWithType.vb: MessageCollection(Of T1, T2, T3, T4, T5, T6, T7).Message7
+- uid: Agents.Net.MessageCollector`2
+  name: MessageCollector<T1, T2>
+  href: api/Agents.Net.MessageCollector-2.html
+  commentId: T:Agents.Net.MessageCollector`2
+  name.vb: MessageCollector(Of T1, T2)
+  fullName: Agents.Net.MessageCollector<T1, T2>
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2)
+  nameWithType: MessageCollector<T1, T2>
+  nameWithType.vb: MessageCollector(Of T1, T2)
+- uid: Agents.Net.MessageCollector`2.#ctor(Action{Agents.Net.MessageCollection{`0,`1}})
+  name: MessageCollector(Action<MessageCollection<T1, T2>>)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2__ctor_Action_Agents_Net_MessageCollection__0__1___
+  commentId: M:Agents.Net.MessageCollector`2.#ctor(Action{Agents.Net.MessageCollection{`0,`1}})
+  name.vb: MessageCollector(Action(Of MessageCollection(Of T1, T2)))
+  fullName: Agents.Net.MessageCollector<T1, T2>.MessageCollector(Action<Agents.Net.MessageCollection<T1, T2>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).MessageCollector(Action(Of Agents.Net.MessageCollection(Of T1, T2)))
+  nameWithType: MessageCollector<T1, T2>.MessageCollector(Action<MessageCollection<T1, T2>>)
+  nameWithType.vb: MessageCollector(Of T1, T2).MessageCollector(Action(Of MessageCollection(Of T1, T2)))
+- uid: Agents.Net.MessageCollector`2.#ctor*
+  name: MessageCollector
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2__ctor_
+  commentId: Overload:Agents.Net.MessageCollector`2.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.MessageCollector
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).MessageCollector
+  nameWithType: MessageCollector<T1, T2>.MessageCollector
+  nameWithType.vb: MessageCollector(Of T1, T2).MessageCollector
+- uid: Agents.Net.MessageCollector`2.Aggregate(Agents.Net.Message,System.Boolean)
+  name: Aggregate(Message, Boolean)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Aggregate_Agents_Net_Message_System_Boolean_
+  commentId: M:Agents.Net.MessageCollector`2.Aggregate(Agents.Net.Message,System.Boolean)
+  fullName: Agents.Net.MessageCollector<T1, T2>.Aggregate(Agents.Net.Message, System.Boolean)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Aggregate(Agents.Net.Message, System.Boolean)
+  nameWithType: MessageCollector<T1, T2>.Aggregate(Message, Boolean)
+  nameWithType.vb: MessageCollector(Of T1, T2).Aggregate(Message, Boolean)
+- uid: Agents.Net.MessageCollector`2.Aggregate*
+  name: Aggregate
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Aggregate_
+  commentId: Overload:Agents.Net.MessageCollector`2.Aggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.Aggregate
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Aggregate
+  nameWithType: MessageCollector<T1, T2>.Aggregate
+  nameWithType.vb: MessageCollector(Of T1, T2).Aggregate
+- uid: Agents.Net.MessageCollector`2.Execute(Agents.Net.MessageCollection)
+  name: Execute(MessageCollection)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Execute_Agents_Net_MessageCollection_
+  commentId: M:Agents.Net.MessageCollector`2.Execute(Agents.Net.MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2>.Execute(Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Execute(Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2>.Execute(MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2).Execute(MessageCollection)
+- uid: Agents.Net.MessageCollector`2.Execute*
+  name: Execute
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Execute_
+  commentId: Overload:Agents.Net.MessageCollector`2.Execute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.Execute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Execute
+  nameWithType: MessageCollector<T1, T2>.Execute
+  nameWithType.vb: MessageCollector(Of T1, T2).Execute
+- uid: Agents.Net.MessageCollector`2.FindSetsForDomain(Agents.Net.MessageDomain)
+  name: FindSetsForDomain(MessageDomain)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_FindSetsForDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageCollector`2.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageCollector<T1, T2>.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).FindSetsForDomain(Agents.Net.MessageDomain)
+  nameWithType: MessageCollector<T1, T2>.FindSetsForDomain(MessageDomain)
+  nameWithType.vb: MessageCollector(Of T1, T2).FindSetsForDomain(MessageDomain)
+- uid: Agents.Net.MessageCollector`2.FindSetsForDomain*
+  name: FindSetsForDomain
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_FindSetsForDomain_
+  commentId: Overload:Agents.Net.MessageCollector`2.FindSetsForDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.FindSetsForDomain
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).FindSetsForDomain
+  nameWithType: MessageCollector<T1, T2>.FindSetsForDomain
+  nameWithType.vb: MessageCollector(Of T1, T2).FindSetsForDomain
+- uid: Agents.Net.MessageCollector`2.GetCompleteSets(Agents.Net.MessageDomain)
+  name: GetCompleteSets(MessageDomain)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_GetCompleteSets_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageCollector`2.GetCompleteSets(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageCollector<T1, T2>.GetCompleteSets(Agents.Net.MessageDomain)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).GetCompleteSets(Agents.Net.MessageDomain)
+  nameWithType: MessageCollector<T1, T2>.GetCompleteSets(MessageDomain)
+  nameWithType.vb: MessageCollector(Of T1, T2).GetCompleteSets(MessageDomain)
+- uid: Agents.Net.MessageCollector`2.GetCompleteSets*
+  name: GetCompleteSets
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_GetCompleteSets_
+  commentId: Overload:Agents.Net.MessageCollector`2.GetCompleteSets
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.GetCompleteSets
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).GetCompleteSets
+  nameWithType: MessageCollector<T1, T2>.GetCompleteSets
+  nameWithType.vb: MessageCollector(Of T1, T2).GetCompleteSets
+- uid: Agents.Net.MessageCollector`2.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name: IsCompleted(MessageDomain, out MessageCollection)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
+  commentId: M:Agents.Net.MessageCollector`2.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name.vb: IsCompleted(MessageDomain, ByRef MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2>.IsCompleted(Agents.Net.MessageDomain, out Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).IsCompleted(Agents.Net.MessageDomain, ByRef Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2>.IsCompleted(MessageDomain, out MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2).IsCompleted(MessageDomain, ByRef MessageCollection)
+- uid: Agents.Net.MessageCollector`2.IsCompleted*
+  name: IsCompleted
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_IsCompleted_
+  commentId: Overload:Agents.Net.MessageCollector`2.IsCompleted
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.IsCompleted
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).IsCompleted
+  nameWithType: MessageCollector<T1, T2>.IsCompleted
+  nameWithType.vb: MessageCollector(Of T1, T2).IsCompleted
+- uid: Agents.Net.MessageCollector`2.Messages1
+  name: Messages1
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Messages1
+  commentId: P:Agents.Net.MessageCollector`2.Messages1
+  fullName: Agents.Net.MessageCollector<T1, T2>.Messages1
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Messages1
+  nameWithType: MessageCollector<T1, T2>.Messages1
+  nameWithType.vb: MessageCollector(Of T1, T2).Messages1
+- uid: Agents.Net.MessageCollector`2.Messages1*
+  name: Messages1
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Messages1_
+  commentId: Overload:Agents.Net.MessageCollector`2.Messages1
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.Messages1
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Messages1
+  nameWithType: MessageCollector<T1, T2>.Messages1
+  nameWithType.vb: MessageCollector(Of T1, T2).Messages1
+- uid: Agents.Net.MessageCollector`2.Messages2
+  name: Messages2
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Messages2
+  commentId: P:Agents.Net.MessageCollector`2.Messages2
+  fullName: Agents.Net.MessageCollector<T1, T2>.Messages2
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Messages2
+  nameWithType: MessageCollector<T1, T2>.Messages2
+  nameWithType.vb: MessageCollector(Of T1, T2).Messages2
+- uid: Agents.Net.MessageCollector`2.Messages2*
+  name: Messages2
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Messages2_
+  commentId: Overload:Agents.Net.MessageCollector`2.Messages2
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.Messages2
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Messages2
+  nameWithType: MessageCollector<T1, T2>.Messages2
+  nameWithType.vb: MessageCollector(Of T1, T2).Messages2
+- uid: Agents.Net.MessageCollector`2.Push(Agents.Net.Message)
+  name: Push(Message)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Push_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`2.Push(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2>.Push(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Push(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2>.Push(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2).Push(Message)
+- uid: Agents.Net.MessageCollector`2.Push*
+  name: Push
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_Push_
+  commentId: Overload:Agents.Net.MessageCollector`2.Push
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.Push
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Push
+  nameWithType: MessageCollector<T1, T2>.Push
+  nameWithType.vb: MessageCollector(Of T1, T2).Push
+- uid: Agents.Net.MessageCollector`2.RemoveMessage(Agents.Net.Message)
+  name: RemoveMessage(Message)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_RemoveMessage_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`2.RemoveMessage(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2>.RemoveMessage(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).RemoveMessage(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2>.RemoveMessage(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2).RemoveMessage(Message)
+- uid: Agents.Net.MessageCollector`2.RemoveMessage*
+  name: RemoveMessage
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_RemoveMessage_
+  commentId: Overload:Agents.Net.MessageCollector`2.RemoveMessage
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.RemoveMessage
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).RemoveMessage
+  nameWithType: MessageCollector<T1, T2>.RemoveMessage
+  nameWithType.vb: MessageCollector(Of T1, T2).RemoveMessage
+- uid: Agents.Net.MessageCollector`2.TryGetMessageFittingDomain*
+  name: TryGetMessageFittingDomain
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_TryGetMessageFittingDomain_
+  commentId: Overload:Agents.Net.MessageCollector`2.TryGetMessageFittingDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.TryGetMessageFittingDomain
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).TryGetMessageFittingDomain
+  nameWithType: MessageCollector<T1, T2>.TryGetMessageFittingDomain
+  nameWithType.vb: MessageCollector(Of T1, T2).TryGetMessageFittingDomain
+- uid: Agents.Net.MessageCollector`2.TryGetMessageFittingDomain``1(Agents.Net.MessageDomain,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}},Agents.Net.MessageStore{``0}@)
+  name: TryGetMessageFittingDomain<T>(MessageDomain, Dictionary<MessageDomain, MessageStore<T>>, out MessageStore<T>)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_TryGetMessageFittingDomain__1_Agents_Net_MessageDomain_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___Agents_Net_MessageStore___0___
+  commentId: M:Agents.Net.MessageCollector`2.TryGetMessageFittingDomain``1(Agents.Net.MessageDomain,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}},Agents.Net.MessageStore{``0}@)
+  name.vb: TryGetMessageFittingDomain(Of T)(MessageDomain, Dictionary(Of MessageDomain, MessageStore(Of T)), ByRef MessageStore(Of T))
+  fullName: Agents.Net.MessageCollector<T1, T2>.TryGetMessageFittingDomain<T>(Agents.Net.MessageDomain, Dictionary<Agents.Net.MessageDomain, Agents.Net.MessageStore<T>>, out Agents.Net.MessageStore<T>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).TryGetMessageFittingDomain(Of T)(Agents.Net.MessageDomain, Dictionary(Of Agents.Net.MessageDomain, Agents.Net.MessageStore(Of T)), ByRef Agents.Net.MessageStore(Of T))
+  nameWithType: MessageCollector<T1, T2>.TryGetMessageFittingDomain<T>(MessageDomain, Dictionary<MessageDomain, MessageStore<T>>, out MessageStore<T>)
+  nameWithType.vb: MessageCollector(Of T1, T2).TryGetMessageFittingDomain(Of T)(MessageDomain, Dictionary(Of MessageDomain, MessageStore(Of T)), ByRef MessageStore(Of T))
+- uid: Agents.Net.MessageCollector`2.TryPush(Agents.Net.Message)
+  name: TryPush(Message)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_TryPush_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`2.TryPush(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2>.TryPush(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).TryPush(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2>.TryPush(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2).TryPush(Message)
+- uid: Agents.Net.MessageCollector`2.TryPush*
+  name: TryPush
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_TryPush_
+  commentId: Overload:Agents.Net.MessageCollector`2.TryPush
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.TryPush
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).TryPush
+  nameWithType: MessageCollector<T1, T2>.TryPush
+  nameWithType.vb: MessageCollector(Of T1, T2).TryPush
+- uid: Agents.Net.MessageCollector`2.UpdateMessagePool*
+  name: UpdateMessagePool
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_UpdateMessagePool_
+  commentId: Overload:Agents.Net.MessageCollector`2.UpdateMessagePool
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.UpdateMessagePool
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).UpdateMessagePool
+  nameWithType: MessageCollector<T1, T2>.UpdateMessagePool
+  nameWithType.vb: MessageCollector(Of T1, T2).UpdateMessagePool
+- uid: Agents.Net.MessageCollector`2.UpdateMessagePool``1(``0,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}})
+  name: UpdateMessagePool<T>(T, Dictionary<MessageDomain, MessageStore<T>>)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_UpdateMessagePool__1___0_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___
+  commentId: M:Agents.Net.MessageCollector`2.UpdateMessagePool``1(``0,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}})
+  name.vb: UpdateMessagePool(Of T)(T, Dictionary(Of MessageDomain, MessageStore(Of T)))
+  fullName: Agents.Net.MessageCollector<T1, T2>.UpdateMessagePool<T>(T, Dictionary<Agents.Net.MessageDomain, Agents.Net.MessageStore<T>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).UpdateMessagePool(Of T)(T, Dictionary(Of Agents.Net.MessageDomain, Agents.Net.MessageStore(Of T)))
+  nameWithType: MessageCollector<T1, T2>.UpdateMessagePool<T>(T, Dictionary<MessageDomain, MessageStore<T>>)
+  nameWithType.vb: MessageCollector(Of T1, T2).UpdateMessagePool(Of T)(T, Dictionary(Of MessageDomain, MessageStore(Of T)))
+- uid: Agents.Net.MessageCollector`3
+  name: MessageCollector<T1, T2, T3>
+  href: api/Agents.Net.MessageCollector-3.html
+  commentId: T:Agents.Net.MessageCollector`3
+  name.vb: MessageCollector(Of T1, T2, T3)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3)
+  nameWithType: MessageCollector<T1, T2, T3>
+  nameWithType.vb: MessageCollector(Of T1, T2, T3)
+- uid: Agents.Net.MessageCollector`3.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2}})
+  name: MessageCollector(Action<MessageCollection<T1, T2, T3>>)
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3__ctor_Action_Agents_Net_MessageCollection__0__1__2___
+  commentId: M:Agents.Net.MessageCollector`3.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2}})
+  name.vb: MessageCollector(Action(Of MessageCollection(Of T1, T2, T3)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.MessageCollector(Action<Agents.Net.MessageCollection<T1, T2, T3>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).MessageCollector(Action(Of Agents.Net.MessageCollection(Of T1, T2, T3)))
+  nameWithType: MessageCollector<T1, T2, T3>.MessageCollector(Action<MessageCollection<T1, T2, T3>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).MessageCollector(Action(Of MessageCollection(Of T1, T2, T3)))
+- uid: Agents.Net.MessageCollector`3.#ctor*
+  name: MessageCollector
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3__ctor_
+  commentId: Overload:Agents.Net.MessageCollector`3.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.MessageCollector
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).MessageCollector
+  nameWithType: MessageCollector<T1, T2, T3>.MessageCollector
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).MessageCollector
+- uid: Agents.Net.MessageCollector`3.Aggregate(Agents.Net.Message,System.Boolean)
+  name: Aggregate(Message, Boolean)
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_Aggregate_Agents_Net_Message_System_Boolean_
+  commentId: M:Agents.Net.MessageCollector`3.Aggregate(Agents.Net.Message,System.Boolean)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.Aggregate(Agents.Net.Message, System.Boolean)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Aggregate(Agents.Net.Message, System.Boolean)
+  nameWithType: MessageCollector<T1, T2, T3>.Aggregate(Message, Boolean)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).Aggregate(Message, Boolean)
+- uid: Agents.Net.MessageCollector`3.Aggregate*
+  name: Aggregate
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_Aggregate_
+  commentId: Overload:Agents.Net.MessageCollector`3.Aggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.Aggregate
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Aggregate
+  nameWithType: MessageCollector<T1, T2, T3>.Aggregate
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).Aggregate
+- uid: Agents.Net.MessageCollector`3.Execute(Agents.Net.MessageCollection)
+  name: Execute(MessageCollection)
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_Execute_Agents_Net_MessageCollection_
+  commentId: M:Agents.Net.MessageCollector`3.Execute(Agents.Net.MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.Execute(Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Execute(Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3>.Execute(MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).Execute(MessageCollection)
+- uid: Agents.Net.MessageCollector`3.Execute*
+  name: Execute
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_Execute_
+  commentId: Overload:Agents.Net.MessageCollector`3.Execute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.Execute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Execute
+  nameWithType: MessageCollector<T1, T2, T3>.Execute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).Execute
+- uid: Agents.Net.MessageCollector`3.FindSetsForDomain(Agents.Net.MessageDomain)
+  name: FindSetsForDomain(MessageDomain)
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_FindSetsForDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageCollector`3.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).FindSetsForDomain(Agents.Net.MessageDomain)
+  nameWithType: MessageCollector<T1, T2, T3>.FindSetsForDomain(MessageDomain)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).FindSetsForDomain(MessageDomain)
+- uid: Agents.Net.MessageCollector`3.FindSetsForDomain*
+  name: FindSetsForDomain
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_FindSetsForDomain_
+  commentId: Overload:Agents.Net.MessageCollector`3.FindSetsForDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.FindSetsForDomain
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).FindSetsForDomain
+  nameWithType: MessageCollector<T1, T2, T3>.FindSetsForDomain
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).FindSetsForDomain
+- uid: Agents.Net.MessageCollector`3.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name: IsCompleted(MessageDomain, out MessageCollection)
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
+  commentId: M:Agents.Net.MessageCollector`3.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name.vb: IsCompleted(MessageDomain, ByRef MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.IsCompleted(Agents.Net.MessageDomain, out Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).IsCompleted(Agents.Net.MessageDomain, ByRef Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3>.IsCompleted(MessageDomain, out MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).IsCompleted(MessageDomain, ByRef MessageCollection)
+- uid: Agents.Net.MessageCollector`3.IsCompleted*
+  name: IsCompleted
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_IsCompleted_
+  commentId: Overload:Agents.Net.MessageCollector`3.IsCompleted
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.IsCompleted
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).IsCompleted
+  nameWithType: MessageCollector<T1, T2, T3>.IsCompleted
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).IsCompleted
+- uid: Agents.Net.MessageCollector`3.Messages3
+  name: Messages3
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_Messages3
+  commentId: P:Agents.Net.MessageCollector`3.Messages3
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.Messages3
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Messages3
+  nameWithType: MessageCollector<T1, T2, T3>.Messages3
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).Messages3
+- uid: Agents.Net.MessageCollector`3.Messages3*
+  name: Messages3
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_Messages3_
+  commentId: Overload:Agents.Net.MessageCollector`3.Messages3
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.Messages3
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Messages3
+  nameWithType: MessageCollector<T1, T2, T3>.Messages3
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).Messages3
+- uid: Agents.Net.MessageCollector`3.RemoveMessage(Agents.Net.Message)
+  name: RemoveMessage(Message)
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_RemoveMessage_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`3.RemoveMessage(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.RemoveMessage(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).RemoveMessage(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2, T3>.RemoveMessage(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).RemoveMessage(Message)
+- uid: Agents.Net.MessageCollector`3.RemoveMessage*
+  name: RemoveMessage
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_RemoveMessage_
+  commentId: Overload:Agents.Net.MessageCollector`3.RemoveMessage
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.RemoveMessage
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).RemoveMessage
+  nameWithType: MessageCollector<T1, T2, T3>.RemoveMessage
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).RemoveMessage
+- uid: Agents.Net.MessageCollector`4
+  name: MessageCollector<T1, T2, T3, T4>
+  href: api/Agents.Net.MessageCollector-4.html
+  commentId: T:Agents.Net.MessageCollector`4
+  name.vb: MessageCollector(Of T1, T2, T3, T4)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4)
+  nameWithType: MessageCollector<T1, T2, T3, T4>
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4)
+- uid: Agents.Net.MessageCollector`4.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3}})
+  name: MessageCollector(Action<MessageCollection<T1, T2, T3, T4>>)
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4__ctor_Action_Agents_Net_MessageCollection__0__1__2__3___
+  commentId: M:Agents.Net.MessageCollector`4.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3}})
+  name.vb: MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.MessageCollector(Action<Agents.Net.MessageCollection<T1, T2, T3, T4>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).MessageCollector(Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4)))
+  nameWithType: MessageCollector<T1, T2, T3, T4>.MessageCollector(Action<MessageCollection<T1, T2, T3, T4>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4)))
+- uid: Agents.Net.MessageCollector`4.#ctor*
+  name: MessageCollector
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4__ctor_
+  commentId: Overload:Agents.Net.MessageCollector`4.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.MessageCollector
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).MessageCollector
+  nameWithType: MessageCollector<T1, T2, T3, T4>.MessageCollector
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).MessageCollector
+- uid: Agents.Net.MessageCollector`4.Aggregate(Agents.Net.Message,System.Boolean)
+  name: Aggregate(Message, Boolean)
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_Aggregate_Agents_Net_Message_System_Boolean_
+  commentId: M:Agents.Net.MessageCollector`4.Aggregate(Agents.Net.Message,System.Boolean)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.Aggregate(Agents.Net.Message, System.Boolean)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Aggregate(Agents.Net.Message, System.Boolean)
+  nameWithType: MessageCollector<T1, T2, T3, T4>.Aggregate(Message, Boolean)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Aggregate(Message, Boolean)
+- uid: Agents.Net.MessageCollector`4.Aggregate*
+  name: Aggregate
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_Aggregate_
+  commentId: Overload:Agents.Net.MessageCollector`4.Aggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.Aggregate
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Aggregate
+  nameWithType: MessageCollector<T1, T2, T3, T4>.Aggregate
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Aggregate
+- uid: Agents.Net.MessageCollector`4.Execute(Agents.Net.MessageCollection)
+  name: Execute(MessageCollection)
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_Execute_Agents_Net_MessageCollection_
+  commentId: M:Agents.Net.MessageCollector`4.Execute(Agents.Net.MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.Execute(Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Execute(Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4>.Execute(MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Execute(MessageCollection)
+- uid: Agents.Net.MessageCollector`4.Execute*
+  name: Execute
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_Execute_
+  commentId: Overload:Agents.Net.MessageCollector`4.Execute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.Execute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Execute
+  nameWithType: MessageCollector<T1, T2, T3, T4>.Execute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Execute
+- uid: Agents.Net.MessageCollector`4.FindSetsForDomain(Agents.Net.MessageDomain)
+  name: FindSetsForDomain(MessageDomain)
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_FindSetsForDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageCollector`4.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain(Agents.Net.MessageDomain)
+  nameWithType: MessageCollector<T1, T2, T3, T4>.FindSetsForDomain(MessageDomain)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain(MessageDomain)
+- uid: Agents.Net.MessageCollector`4.FindSetsForDomain*
+  name: FindSetsForDomain
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_FindSetsForDomain_
+  commentId: Overload:Agents.Net.MessageCollector`4.FindSetsForDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.FindSetsForDomain
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain
+  nameWithType: MessageCollector<T1, T2, T3, T4>.FindSetsForDomain
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain
+- uid: Agents.Net.MessageCollector`4.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name: IsCompleted(MessageDomain, out MessageCollection)
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
+  commentId: M:Agents.Net.MessageCollector`4.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name.vb: IsCompleted(MessageDomain, ByRef MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.IsCompleted(Agents.Net.MessageDomain, out Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).IsCompleted(Agents.Net.MessageDomain, ByRef Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4>.IsCompleted(MessageDomain, out MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).IsCompleted(MessageDomain, ByRef MessageCollection)
+- uid: Agents.Net.MessageCollector`4.IsCompleted*
+  name: IsCompleted
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_IsCompleted_
+  commentId: Overload:Agents.Net.MessageCollector`4.IsCompleted
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.IsCompleted
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).IsCompleted
+  nameWithType: MessageCollector<T1, T2, T3, T4>.IsCompleted
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).IsCompleted
+- uid: Agents.Net.MessageCollector`4.Messages4
+  name: Messages4
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_Messages4
+  commentId: P:Agents.Net.MessageCollector`4.Messages4
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.Messages4
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Messages4
+  nameWithType: MessageCollector<T1, T2, T3, T4>.Messages4
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Messages4
+- uid: Agents.Net.MessageCollector`4.Messages4*
+  name: Messages4
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_Messages4_
+  commentId: Overload:Agents.Net.MessageCollector`4.Messages4
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.Messages4
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Messages4
+  nameWithType: MessageCollector<T1, T2, T3, T4>.Messages4
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Messages4
+- uid: Agents.Net.MessageCollector`4.RemoveMessage(Agents.Net.Message)
+  name: RemoveMessage(Message)
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_RemoveMessage_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`4.RemoveMessage(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.RemoveMessage(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).RemoveMessage(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2, T3, T4>.RemoveMessage(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).RemoveMessage(Message)
+- uid: Agents.Net.MessageCollector`4.RemoveMessage*
+  name: RemoveMessage
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_RemoveMessage_
+  commentId: Overload:Agents.Net.MessageCollector`4.RemoveMessage
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.RemoveMessage
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).RemoveMessage
+  nameWithType: MessageCollector<T1, T2, T3, T4>.RemoveMessage
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).RemoveMessage
+- uid: Agents.Net.MessageCollector`5
+  name: MessageCollector<T1, T2, T3, T4, T5>
+  href: api/Agents.Net.MessageCollector-5.html
+  commentId: T:Agents.Net.MessageCollector`5
+  name.vb: MessageCollector(Of T1, T2, T3, T4, T5)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5)
+- uid: Agents.Net.MessageCollector`5.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4}})
+  name: MessageCollector(Action<MessageCollection<T1, T2, T3, T4, T5>>)
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5__ctor_Action_Agents_Net_MessageCollection__0__1__2__3__4___
+  commentId: M:Agents.Net.MessageCollector`5.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4}})
+  name.vb: MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4, T5)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.MessageCollector(Action<Agents.Net.MessageCollection<T1, T2, T3, T4, T5>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).MessageCollector(Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5)))
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.MessageCollector(Action<MessageCollection<T1, T2, T3, T4, T5>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4, T5)))
+- uid: Agents.Net.MessageCollector`5.#ctor*
+  name: MessageCollector
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5__ctor_
+  commentId: Overload:Agents.Net.MessageCollector`5.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.MessageCollector
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).MessageCollector
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.MessageCollector
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).MessageCollector
+- uid: Agents.Net.MessageCollector`5.Aggregate(Agents.Net.Message,System.Boolean)
+  name: Aggregate(Message, Boolean)
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_Aggregate_Agents_Net_Message_System_Boolean_
+  commentId: M:Agents.Net.MessageCollector`5.Aggregate(Agents.Net.Message,System.Boolean)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.Aggregate(Agents.Net.Message, System.Boolean)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Aggregate(Agents.Net.Message, System.Boolean)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Aggregate(Message, Boolean)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Aggregate(Message, Boolean)
+- uid: Agents.Net.MessageCollector`5.Aggregate*
+  name: Aggregate
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_Aggregate_
+  commentId: Overload:Agents.Net.MessageCollector`5.Aggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.Aggregate
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Aggregate
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Aggregate
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Aggregate
+- uid: Agents.Net.MessageCollector`5.Execute(Agents.Net.MessageCollection)
+  name: Execute(MessageCollection)
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_Execute_Agents_Net_MessageCollection_
+  commentId: M:Agents.Net.MessageCollector`5.Execute(Agents.Net.MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.Execute(Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Execute(Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Execute(MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Execute(MessageCollection)
+- uid: Agents.Net.MessageCollector`5.Execute*
+  name: Execute
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_Execute_
+  commentId: Overload:Agents.Net.MessageCollector`5.Execute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.Execute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Execute
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Execute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Execute
+- uid: Agents.Net.MessageCollector`5.FindSetsForDomain(Agents.Net.MessageDomain)
+  name: FindSetsForDomain(MessageDomain)
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_FindSetsForDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageCollector`5.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain(Agents.Net.MessageDomain)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain(MessageDomain)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain(MessageDomain)
+- uid: Agents.Net.MessageCollector`5.FindSetsForDomain*
+  name: FindSetsForDomain
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_FindSetsForDomain_
+  commentId: Overload:Agents.Net.MessageCollector`5.FindSetsForDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain
+- uid: Agents.Net.MessageCollector`5.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name: IsCompleted(MessageDomain, out MessageCollection)
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
+  commentId: M:Agents.Net.MessageCollector`5.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name.vb: IsCompleted(MessageDomain, ByRef MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.IsCompleted(Agents.Net.MessageDomain, out Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).IsCompleted(Agents.Net.MessageDomain, ByRef Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.IsCompleted(MessageDomain, out MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).IsCompleted(MessageDomain, ByRef MessageCollection)
+- uid: Agents.Net.MessageCollector`5.IsCompleted*
+  name: IsCompleted
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_IsCompleted_
+  commentId: Overload:Agents.Net.MessageCollector`5.IsCompleted
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.IsCompleted
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).IsCompleted
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.IsCompleted
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).IsCompleted
+- uid: Agents.Net.MessageCollector`5.Messages5
+  name: Messages5
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_Messages5
+  commentId: P:Agents.Net.MessageCollector`5.Messages5
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.Messages5
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Messages5
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Messages5
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Messages5
+- uid: Agents.Net.MessageCollector`5.Messages5*
+  name: Messages5
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_Messages5_
+  commentId: Overload:Agents.Net.MessageCollector`5.Messages5
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.Messages5
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Messages5
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Messages5
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Messages5
+- uid: Agents.Net.MessageCollector`5.RemoveMessage(Agents.Net.Message)
+  name: RemoveMessage(Message)
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_RemoveMessage_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`5.RemoveMessage(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.RemoveMessage(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).RemoveMessage(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.RemoveMessage(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).RemoveMessage(Message)
+- uid: Agents.Net.MessageCollector`5.RemoveMessage*
+  name: RemoveMessage
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_RemoveMessage_
+  commentId: Overload:Agents.Net.MessageCollector`5.RemoveMessage
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.RemoveMessage
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).RemoveMessage
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.RemoveMessage
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).RemoveMessage
+- uid: Agents.Net.MessageCollector`6
+  name: MessageCollector<T1, T2, T3, T4, T5, T6>
+  href: api/Agents.Net.MessageCollector-6.html
+  commentId: T:Agents.Net.MessageCollector`6
+  name.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6)
+- uid: Agents.Net.MessageCollector`6.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5}})
+  name: MessageCollector(Action<MessageCollection<T1, T2, T3, T4, T5, T6>>)
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6__ctor_Action_Agents_Net_MessageCollection__0__1__2__3__4__5___
+  commentId: M:Agents.Net.MessageCollector`6.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5}})
+  name.vb: MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.MessageCollector(Action<Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).MessageCollector(Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6)))
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.MessageCollector(Action<MessageCollection<T1, T2, T3, T4, T5, T6>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6)))
+- uid: Agents.Net.MessageCollector`6.#ctor*
+  name: MessageCollector
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6__ctor_
+  commentId: Overload:Agents.Net.MessageCollector`6.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.MessageCollector
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).MessageCollector
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.MessageCollector
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).MessageCollector
+- uid: Agents.Net.MessageCollector`6.Aggregate(Agents.Net.Message,System.Boolean)
+  name: Aggregate(Message, Boolean)
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_Aggregate_Agents_Net_Message_System_Boolean_
+  commentId: M:Agents.Net.MessageCollector`6.Aggregate(Agents.Net.Message,System.Boolean)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.Aggregate(Agents.Net.Message, System.Boolean)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Aggregate(Agents.Net.Message, System.Boolean)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Aggregate(Message, Boolean)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Aggregate(Message, Boolean)
+- uid: Agents.Net.MessageCollector`6.Aggregate*
+  name: Aggregate
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_Aggregate_
+  commentId: Overload:Agents.Net.MessageCollector`6.Aggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.Aggregate
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Aggregate
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Aggregate
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Aggregate
+- uid: Agents.Net.MessageCollector`6.Execute(Agents.Net.MessageCollection)
+  name: Execute(MessageCollection)
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_Execute_Agents_Net_MessageCollection_
+  commentId: M:Agents.Net.MessageCollector`6.Execute(Agents.Net.MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.Execute(Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Execute(Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Execute(MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Execute(MessageCollection)
+- uid: Agents.Net.MessageCollector`6.Execute*
+  name: Execute
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_Execute_
+  commentId: Overload:Agents.Net.MessageCollector`6.Execute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.Execute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Execute
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Execute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Execute
+- uid: Agents.Net.MessageCollector`6.FindSetsForDomain(Agents.Net.MessageDomain)
+  name: FindSetsForDomain(MessageDomain)
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_FindSetsForDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageCollector`6.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain(Agents.Net.MessageDomain)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain(MessageDomain)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain(MessageDomain)
+- uid: Agents.Net.MessageCollector`6.FindSetsForDomain*
+  name: FindSetsForDomain
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_FindSetsForDomain_
+  commentId: Overload:Agents.Net.MessageCollector`6.FindSetsForDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain
+- uid: Agents.Net.MessageCollector`6.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name: IsCompleted(MessageDomain, out MessageCollection)
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
+  commentId: M:Agents.Net.MessageCollector`6.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name.vb: IsCompleted(MessageDomain, ByRef MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.IsCompleted(Agents.Net.MessageDomain, out Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).IsCompleted(Agents.Net.MessageDomain, ByRef Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.IsCompleted(MessageDomain, out MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).IsCompleted(MessageDomain, ByRef MessageCollection)
+- uid: Agents.Net.MessageCollector`6.IsCompleted*
+  name: IsCompleted
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_IsCompleted_
+  commentId: Overload:Agents.Net.MessageCollector`6.IsCompleted
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.IsCompleted
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).IsCompleted
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.IsCompleted
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).IsCompleted
+- uid: Agents.Net.MessageCollector`6.Messages6
+  name: Messages6
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_Messages6
+  commentId: P:Agents.Net.MessageCollector`6.Messages6
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.Messages6
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Messages6
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Messages6
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Messages6
+- uid: Agents.Net.MessageCollector`6.Messages6*
+  name: Messages6
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_Messages6_
+  commentId: Overload:Agents.Net.MessageCollector`6.Messages6
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.Messages6
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Messages6
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Messages6
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Messages6
+- uid: Agents.Net.MessageCollector`6.RemoveMessage(Agents.Net.Message)
+  name: RemoveMessage(Message)
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_RemoveMessage_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`6.RemoveMessage(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.RemoveMessage(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).RemoveMessage(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.RemoveMessage(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).RemoveMessage(Message)
+- uid: Agents.Net.MessageCollector`6.RemoveMessage*
+  name: RemoveMessage
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_RemoveMessage_
+  commentId: Overload:Agents.Net.MessageCollector`6.RemoveMessage
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.RemoveMessage
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).RemoveMessage
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.RemoveMessage
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).RemoveMessage
+- uid: Agents.Net.MessageCollector`7
+  name: MessageCollector<T1, T2, T3, T4, T5, T6, T7>
+  href: api/Agents.Net.MessageCollector-7.html
+  commentId: T:Agents.Net.MessageCollector`7
+  name.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7)
+- uid: Agents.Net.MessageCollector`7.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5,`6}})
+  name: MessageCollector(Action<MessageCollection<T1, T2, T3, T4, T5, T6, T7>>)
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7__ctor_Action_Agents_Net_MessageCollection__0__1__2__3__4__5__6___
+  commentId: M:Agents.Net.MessageCollector`7.#ctor(Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5,`6}})
+  name.vb: MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.MessageCollector(Action<Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).MessageCollector(Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)))
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.MessageCollector(Action<MessageCollection<T1, T2, T3, T4, T5, T6, T7>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).MessageCollector(Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)))
+- uid: Agents.Net.MessageCollector`7.#ctor*
+  name: MessageCollector
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7__ctor_
+  commentId: Overload:Agents.Net.MessageCollector`7.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.MessageCollector
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).MessageCollector
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.MessageCollector
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).MessageCollector
+- uid: Agents.Net.MessageCollector`7.Aggregate(Agents.Net.Message,System.Boolean)
+  name: Aggregate(Message, Boolean)
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_Aggregate_Agents_Net_Message_System_Boolean_
+  commentId: M:Agents.Net.MessageCollector`7.Aggregate(Agents.Net.Message,System.Boolean)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Aggregate(Agents.Net.Message, System.Boolean)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Aggregate(Agents.Net.Message, System.Boolean)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Aggregate(Message, Boolean)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Aggregate(Message, Boolean)
+- uid: Agents.Net.MessageCollector`7.Aggregate*
+  name: Aggregate
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_Aggregate_
+  commentId: Overload:Agents.Net.MessageCollector`7.Aggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Aggregate
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Aggregate
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Aggregate
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Aggregate
+- uid: Agents.Net.MessageCollector`7.Execute(Agents.Net.MessageCollection)
+  name: Execute(MessageCollection)
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_Execute_Agents_Net_MessageCollection_
+  commentId: M:Agents.Net.MessageCollector`7.Execute(Agents.Net.MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Execute(Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Execute(Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Execute(MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Execute(MessageCollection)
+- uid: Agents.Net.MessageCollector`7.Execute*
+  name: Execute
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_Execute_
+  commentId: Overload:Agents.Net.MessageCollector`7.Execute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Execute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Execute
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Execute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Execute
+- uid: Agents.Net.MessageCollector`7.FindSetsForDomain(Agents.Net.MessageDomain)
+  name: FindSetsForDomain(MessageDomain)
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_FindSetsForDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageCollector`7.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain(Agents.Net.MessageDomain)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain(Agents.Net.MessageDomain)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain(MessageDomain)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain(MessageDomain)
+- uid: Agents.Net.MessageCollector`7.FindSetsForDomain*
+  name: FindSetsForDomain
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_FindSetsForDomain_
+  commentId: Overload:Agents.Net.MessageCollector`7.FindSetsForDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain
+- uid: Agents.Net.MessageCollector`7.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name: IsCompleted(MessageDomain, out MessageCollection)
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
+  commentId: M:Agents.Net.MessageCollector`7.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
+  name.vb: IsCompleted(MessageDomain, ByRef MessageCollection)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.IsCompleted(Agents.Net.MessageDomain, out Agents.Net.MessageCollection)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).IsCompleted(Agents.Net.MessageDomain, ByRef Agents.Net.MessageCollection)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.IsCompleted(MessageDomain, out MessageCollection)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).IsCompleted(MessageDomain, ByRef MessageCollection)
+- uid: Agents.Net.MessageCollector`7.IsCompleted*
+  name: IsCompleted
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_IsCompleted_
+  commentId: Overload:Agents.Net.MessageCollector`7.IsCompleted
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.IsCompleted
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).IsCompleted
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.IsCompleted
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).IsCompleted
+- uid: Agents.Net.MessageCollector`7.Messages7
+  name: Messages7
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_Messages7
+  commentId: P:Agents.Net.MessageCollector`7.Messages7
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Messages7
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Messages7
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Messages7
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Messages7
+- uid: Agents.Net.MessageCollector`7.Messages7*
+  name: Messages7
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_Messages7_
+  commentId: Overload:Agents.Net.MessageCollector`7.Messages7
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Messages7
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Messages7
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Messages7
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Messages7
+- uid: Agents.Net.MessageCollector`7.RemoveMessage(Agents.Net.Message)
+  name: RemoveMessage(Message)
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_RemoveMessage_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageCollector`7.RemoveMessage(Agents.Net.Message)
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.RemoveMessage(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).RemoveMessage(Agents.Net.Message)
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.RemoveMessage(Message)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).RemoveMessage(Message)
+- uid: Agents.Net.MessageCollector`7.RemoveMessage*
+  name: RemoveMessage
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_RemoveMessage_
+  commentId: Overload:Agents.Net.MessageCollector`7.RemoveMessage
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.RemoveMessage
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).RemoveMessage
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.RemoveMessage
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).RemoveMessage
+- uid: Agents.Net.MessageDecorator
+  name: MessageDecorator
+  href: api/Agents.Net.MessageDecorator.html
+  commentId: T:Agents.Net.MessageDecorator
+  fullName: Agents.Net.MessageDecorator
+  nameWithType: MessageDecorator
+- uid: Agents.Net.MessageDecorator.#ctor(Agents.Net.Message,IEnumerable{Agents.Net.Message})
+  name: MessageDecorator(Message, IEnumerable<Message>)
+  href: api/Agents.Net.MessageDecorator.html#Agents_Net_MessageDecorator__ctor_Agents_Net_Message_IEnumerable_Agents_Net_Message__
+  commentId: M:Agents.Net.MessageDecorator.#ctor(Agents.Net.Message,IEnumerable{Agents.Net.Message})
+  name.vb: MessageDecorator(Message, IEnumerable(Of Message))
+  fullName: Agents.Net.MessageDecorator.MessageDecorator(Agents.Net.Message, IEnumerable<Agents.Net.Message>)
+  fullName.vb: Agents.Net.MessageDecorator.MessageDecorator(Agents.Net.Message, IEnumerable(Of Agents.Net.Message))
+  nameWithType: MessageDecorator.MessageDecorator(Message, IEnumerable<Message>)
+  nameWithType.vb: MessageDecorator.MessageDecorator(Message, IEnumerable(Of Message))
+- uid: Agents.Net.MessageDecorator.#ctor*
+  name: MessageDecorator
+  href: api/Agents.Net.MessageDecorator.html#Agents_Net_MessageDecorator__ctor_
+  commentId: Overload:Agents.Net.MessageDecorator.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageDecorator.MessageDecorator
+  nameWithType: MessageDecorator.MessageDecorator
+- uid: Agents.Net.MessageDecorator.IsDecorated(Agents.Net.Message)
+  name: IsDecorated(Message)
+  href: api/Agents.Net.MessageDecorator.html#Agents_Net_MessageDecorator_IsDecorated_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageDecorator.IsDecorated(Agents.Net.Message)
+  fullName: Agents.Net.MessageDecorator.IsDecorated(Agents.Net.Message)
+  nameWithType: MessageDecorator.IsDecorated(Message)
+- uid: Agents.Net.MessageDecorator.IsDecorated*
+  name: IsDecorated
+  href: api/Agents.Net.MessageDecorator.html#Agents_Net_MessageDecorator_IsDecorated_
+  commentId: Overload:Agents.Net.MessageDecorator.IsDecorated
+  isSpec: "True"
+  fullName: Agents.Net.MessageDecorator.IsDecorated
+  nameWithType: MessageDecorator.IsDecorated
+- uid: Agents.Net.MessageDomain
+  name: MessageDomain
+  href: api/Agents.Net.MessageDomain.html
+  commentId: T:Agents.Net.MessageDomain
+  fullName: Agents.Net.MessageDomain
+  nameWithType: MessageDomain
+- uid: Agents.Net.MessageDomain.Children
+  name: Children
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Children
+  commentId: P:Agents.Net.MessageDomain.Children
+  fullName: Agents.Net.MessageDomain.Children
+  nameWithType: MessageDomain.Children
+- uid: Agents.Net.MessageDomain.Children*
+  name: Children
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Children_
+  commentId: Overload:Agents.Net.MessageDomain.Children
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.Children
+  nameWithType: MessageDomain.Children
+- uid: Agents.Net.MessageDomain.CreateNewDomainsFor(Agents.Net.Message)
+  name: CreateNewDomainsFor(Message)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_CreateNewDomainsFor_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageDomain.CreateNewDomainsFor(Agents.Net.Message)
+  fullName: Agents.Net.MessageDomain.CreateNewDomainsFor(Agents.Net.Message)
+  nameWithType: MessageDomain.CreateNewDomainsFor(Message)
+- uid: Agents.Net.MessageDomain.CreateNewDomainsFor(IReadOnlyCollection{Agents.Net.Message})
+  name: CreateNewDomainsFor(IReadOnlyCollection<Message>)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_CreateNewDomainsFor_IReadOnlyCollection_Agents_Net_Message__
+  commentId: M:Agents.Net.MessageDomain.CreateNewDomainsFor(IReadOnlyCollection{Agents.Net.Message})
+  name.vb: CreateNewDomainsFor(IReadOnlyCollection(Of Message))
+  fullName: Agents.Net.MessageDomain.CreateNewDomainsFor(IReadOnlyCollection<Agents.Net.Message>)
+  fullName.vb: Agents.Net.MessageDomain.CreateNewDomainsFor(IReadOnlyCollection(Of Agents.Net.Message))
+  nameWithType: MessageDomain.CreateNewDomainsFor(IReadOnlyCollection<Message>)
+  nameWithType.vb: MessageDomain.CreateNewDomainsFor(IReadOnlyCollection(Of Message))
+- uid: Agents.Net.MessageDomain.CreateNewDomainsFor*
+  name: CreateNewDomainsFor
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_CreateNewDomainsFor_
+  commentId: Overload:Agents.Net.MessageDomain.CreateNewDomainsFor
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.CreateNewDomainsFor
+  nameWithType: MessageDomain.CreateNewDomainsFor
+- uid: Agents.Net.MessageDomain.DefaultMessageDomain
+  name: DefaultMessageDomain
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_DefaultMessageDomain
+  commentId: P:Agents.Net.MessageDomain.DefaultMessageDomain
+  fullName: Agents.Net.MessageDomain.DefaultMessageDomain
+  nameWithType: MessageDomain.DefaultMessageDomain
+- uid: Agents.Net.MessageDomain.DefaultMessageDomain*
+  name: DefaultMessageDomain
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_DefaultMessageDomain_
+  commentId: Overload:Agents.Net.MessageDomain.DefaultMessageDomain
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.DefaultMessageDomain
+  nameWithType: MessageDomain.DefaultMessageDomain
+- uid: Agents.Net.MessageDomain.Equals(Agents.Net.MessageDomain)
+  name: Equals(MessageDomain)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Equals_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageDomain.Equals(Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageDomain.Equals(Agents.Net.MessageDomain)
+  nameWithType: MessageDomain.Equals(MessageDomain)
+- uid: Agents.Net.MessageDomain.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Equals_System_Object_
+  commentId: M:Agents.Net.MessageDomain.Equals(System.Object)
+  fullName: Agents.Net.MessageDomain.Equals(System.Object)
+  nameWithType: MessageDomain.Equals(Object)
+- uid: Agents.Net.MessageDomain.Equals*
+  name: Equals
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Equals_
+  commentId: Overload:Agents.Net.MessageDomain.Equals
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.Equals
+  nameWithType: MessageDomain.Equals
+- uid: Agents.Net.MessageDomain.GetHashCode
+  name: GetHashCode()
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_GetHashCode
+  commentId: M:Agents.Net.MessageDomain.GetHashCode
+  fullName: Agents.Net.MessageDomain.GetHashCode()
+  nameWithType: MessageDomain.GetHashCode()
+- uid: Agents.Net.MessageDomain.GetHashCode*
+  name: GetHashCode
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_GetHashCode_
+  commentId: Overload:Agents.Net.MessageDomain.GetHashCode
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.GetHashCode
+  nameWithType: MessageDomain.GetHashCode
+- uid: Agents.Net.MessageDomain.IsTerminated
+  name: IsTerminated
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_IsTerminated
+  commentId: P:Agents.Net.MessageDomain.IsTerminated
+  fullName: Agents.Net.MessageDomain.IsTerminated
+  nameWithType: MessageDomain.IsTerminated
+- uid: Agents.Net.MessageDomain.IsTerminated*
+  name: IsTerminated
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_IsTerminated_
+  commentId: Overload:Agents.Net.MessageDomain.IsTerminated
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.IsTerminated
+  nameWithType: MessageDomain.IsTerminated
+- uid: Agents.Net.MessageDomain.op_Equality(Agents.Net.MessageDomain,Agents.Net.MessageDomain)
+  name: Equality(MessageDomain, MessageDomain)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_op_Equality_Agents_Net_MessageDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageDomain.op_Equality(Agents.Net.MessageDomain,Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageDomain.Equality(Agents.Net.MessageDomain, Agents.Net.MessageDomain)
+  nameWithType: MessageDomain.Equality(MessageDomain, MessageDomain)
+- uid: Agents.Net.MessageDomain.op_Equality*
+  name: Equality
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_op_Equality_
+  commentId: Overload:Agents.Net.MessageDomain.op_Equality
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.Equality
+  nameWithType: MessageDomain.Equality
+- uid: Agents.Net.MessageDomain.op_Inequality(Agents.Net.MessageDomain,Agents.Net.MessageDomain)
+  name: Inequality(MessageDomain, MessageDomain)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_op_Inequality_Agents_Net_MessageDomain_Agents_Net_MessageDomain_
+  commentId: M:Agents.Net.MessageDomain.op_Inequality(Agents.Net.MessageDomain,Agents.Net.MessageDomain)
+  fullName: Agents.Net.MessageDomain.Inequality(Agents.Net.MessageDomain, Agents.Net.MessageDomain)
+  nameWithType: MessageDomain.Inequality(MessageDomain, MessageDomain)
+- uid: Agents.Net.MessageDomain.op_Inequality*
+  name: Inequality
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_op_Inequality_
+  commentId: Overload:Agents.Net.MessageDomain.op_Inequality
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.Inequality
+  nameWithType: MessageDomain.Inequality
+- uid: Agents.Net.MessageDomain.Parent
+  name: Parent
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Parent
+  commentId: P:Agents.Net.MessageDomain.Parent
+  fullName: Agents.Net.MessageDomain.Parent
+  nameWithType: MessageDomain.Parent
+- uid: Agents.Net.MessageDomain.Parent*
+  name: Parent
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Parent_
+  commentId: Overload:Agents.Net.MessageDomain.Parent
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.Parent
+  nameWithType: MessageDomain.Parent
+- uid: Agents.Net.MessageDomain.Root
+  name: Root
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Root
+  commentId: P:Agents.Net.MessageDomain.Root
+  fullName: Agents.Net.MessageDomain.Root
+  nameWithType: MessageDomain.Root
+- uid: Agents.Net.MessageDomain.Root*
+  name: Root
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_Root_
+  commentId: Overload:Agents.Net.MessageDomain.Root
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.Root
+  nameWithType: MessageDomain.Root
+- uid: Agents.Net.MessageDomain.SiblingDomainRootMessages
+  name: SiblingDomainRootMessages
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_SiblingDomainRootMessages
+  commentId: P:Agents.Net.MessageDomain.SiblingDomainRootMessages
+  fullName: Agents.Net.MessageDomain.SiblingDomainRootMessages
+  nameWithType: MessageDomain.SiblingDomainRootMessages
+- uid: Agents.Net.MessageDomain.SiblingDomainRootMessages*
+  name: SiblingDomainRootMessages
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_SiblingDomainRootMessages_
+  commentId: Overload:Agents.Net.MessageDomain.SiblingDomainRootMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.SiblingDomainRootMessages
+  nameWithType: MessageDomain.SiblingDomainRootMessages
+- uid: Agents.Net.MessageDomain.TerminateDomainsOf(Agents.Net.Message)
+  name: TerminateDomainsOf(Message)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_TerminateDomainsOf_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageDomain.TerminateDomainsOf(Agents.Net.Message)
+  fullName: Agents.Net.MessageDomain.TerminateDomainsOf(Agents.Net.Message)
+  nameWithType: MessageDomain.TerminateDomainsOf(Message)
+- uid: Agents.Net.MessageDomain.TerminateDomainsOf(IReadOnlyCollection{Agents.Net.Message})
+  name: TerminateDomainsOf(IReadOnlyCollection<Message>)
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_TerminateDomainsOf_IReadOnlyCollection_Agents_Net_Message__
+  commentId: M:Agents.Net.MessageDomain.TerminateDomainsOf(IReadOnlyCollection{Agents.Net.Message})
+  name.vb: TerminateDomainsOf(IReadOnlyCollection(Of Message))
+  fullName: Agents.Net.MessageDomain.TerminateDomainsOf(IReadOnlyCollection<Agents.Net.Message>)
+  fullName.vb: Agents.Net.MessageDomain.TerminateDomainsOf(IReadOnlyCollection(Of Agents.Net.Message))
+  nameWithType: MessageDomain.TerminateDomainsOf(IReadOnlyCollection<Message>)
+  nameWithType.vb: MessageDomain.TerminateDomainsOf(IReadOnlyCollection(Of Message))
+- uid: Agents.Net.MessageDomain.TerminateDomainsOf*
+  name: TerminateDomainsOf
+  href: api/Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_TerminateDomainsOf_
+  commentId: Overload:Agents.Net.MessageDomain.TerminateDomainsOf
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomain.TerminateDomainsOf
+  nameWithType: MessageDomain.TerminateDomainsOf
+- uid: Agents.Net.MessageDomainsCreatedMessage
+  name: MessageDomainsCreatedMessage
+  href: api/Agents.Net.MessageDomainsCreatedMessage.html
+  commentId: T:Agents.Net.MessageDomainsCreatedMessage
+  fullName: Agents.Net.MessageDomainsCreatedMessage
+  nameWithType: MessageDomainsCreatedMessage
+- uid: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
+  name: CreatedDomains
+  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_CreatedDomains
+  commentId: P:Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
+  fullName: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
+  nameWithType: MessageDomainsCreatedMessage.CreatedDomains
+- uid: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains*
+  name: CreatedDomains
+  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_CreatedDomains_
+  commentId: Overload:Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
+  nameWithType: MessageDomainsCreatedMessage.CreatedDomains
+- uid: Agents.Net.MessageDomainsCreatedMessage.DataToString
+  name: DataToString()
+  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_DataToString
+  commentId: M:Agents.Net.MessageDomainsCreatedMessage.DataToString
+  fullName: Agents.Net.MessageDomainsCreatedMessage.DataToString()
+  nameWithType: MessageDomainsCreatedMessage.DataToString()
+- uid: Agents.Net.MessageDomainsCreatedMessage.DataToString*
+  name: DataToString
+  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_DataToString_
+  commentId: Overload:Agents.Net.MessageDomainsCreatedMessage.DataToString
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomainsCreatedMessage.DataToString
+  nameWithType: MessageDomainsCreatedMessage.DataToString
+- uid: Agents.Net.MessageDomainTerminatedMessage
+  name: MessageDomainTerminatedMessage
+  href: api/Agents.Net.MessageDomainTerminatedMessage.html
+  commentId: T:Agents.Net.MessageDomainTerminatedMessage
+  fullName: Agents.Net.MessageDomainTerminatedMessage
+  nameWithType: MessageDomainTerminatedMessage
+- uid: Agents.Net.MessageDomainTerminatedMessage.DataToString
+  name: DataToString()
+  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_DataToString
+  commentId: M:Agents.Net.MessageDomainTerminatedMessage.DataToString
+  fullName: Agents.Net.MessageDomainTerminatedMessage.DataToString()
+  nameWithType: MessageDomainTerminatedMessage.DataToString()
+- uid: Agents.Net.MessageDomainTerminatedMessage.DataToString*
+  name: DataToString
+  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_DataToString_
+  commentId: Overload:Agents.Net.MessageDomainTerminatedMessage.DataToString
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomainTerminatedMessage.DataToString
+  nameWithType: MessageDomainTerminatedMessage.DataToString
+- uid: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
+  name: TerminatedDomains
+  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_TerminatedDomains
+  commentId: P:Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
+  fullName: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
+  nameWithType: MessageDomainTerminatedMessage.TerminatedDomains
+- uid: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains*
+  name: TerminatedDomains
+  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_TerminatedDomains_
+  commentId: Overload:Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
+  isSpec: "True"
+  fullName: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
+  nameWithType: MessageDomainTerminatedMessage.TerminatedDomains
+- uid: Agents.Net.MessageLog
+  name: MessageLog
+  href: api/Agents.Net.MessageLog.html
+  commentId: T:Agents.Net.MessageLog
+  fullName: Agents.Net.MessageLog
+  nameWithType: MessageLog
+- uid: Agents.Net.MessageLog.#ctor(System.String,Guid,IEnumerable{Guid},Guid,System.String,Agents.Net.MessageLog)
+  name: MessageLog(String, Guid, IEnumerable<Guid>, Guid, String, MessageLog)
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog__ctor_System_String_Guid_IEnumerable_Guid__Guid_System_String_Agents_Net_MessageLog_
+  commentId: M:Agents.Net.MessageLog.#ctor(System.String,Guid,IEnumerable{Guid},Guid,System.String,Agents.Net.MessageLog)
+  name.vb: MessageLog(String, Guid, IEnumerable(Of Guid), Guid, String, MessageLog)
+  fullName: Agents.Net.MessageLog.MessageLog(System.String, Guid, IEnumerable<Guid>, Guid, System.String, Agents.Net.MessageLog)
+  fullName.vb: Agents.Net.MessageLog.MessageLog(System.String, Guid, IEnumerable(Of Guid), Guid, System.String, Agents.Net.MessageLog)
+  nameWithType: MessageLog.MessageLog(String, Guid, IEnumerable<Guid>, Guid, String, MessageLog)
+  nameWithType.vb: MessageLog.MessageLog(String, Guid, IEnumerable(Of Guid), Guid, String, MessageLog)
+- uid: Agents.Net.MessageLog.#ctor*
+  name: MessageLog
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog__ctor_
+  commentId: Overload:Agents.Net.MessageLog.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageLog.MessageLog
+  nameWithType: MessageLog.MessageLog
+- uid: Agents.Net.MessageLog.Child
+  name: Child
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Child
+  commentId: P:Agents.Net.MessageLog.Child
+  fullName: Agents.Net.MessageLog.Child
+  nameWithType: MessageLog.Child
+- uid: Agents.Net.MessageLog.Child*
+  name: Child
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Child_
+  commentId: Overload:Agents.Net.MessageLog.Child
+  isSpec: "True"
+  fullName: Agents.Net.MessageLog.Child
+  nameWithType: MessageLog.Child
+- uid: Agents.Net.MessageLog.Data
+  name: Data
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Data
+  commentId: P:Agents.Net.MessageLog.Data
+  fullName: Agents.Net.MessageLog.Data
+  nameWithType: MessageLog.Data
+- uid: Agents.Net.MessageLog.Data*
+  name: Data
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Data_
+  commentId: Overload:Agents.Net.MessageLog.Data
+  isSpec: "True"
+  fullName: Agents.Net.MessageLog.Data
+  nameWithType: MessageLog.Data
+- uid: Agents.Net.MessageLog.Domain
+  name: Domain
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Domain
+  commentId: P:Agents.Net.MessageLog.Domain
+  fullName: Agents.Net.MessageLog.Domain
+  nameWithType: MessageLog.Domain
+- uid: Agents.Net.MessageLog.Domain*
+  name: Domain
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Domain_
+  commentId: Overload:Agents.Net.MessageLog.Domain
+  isSpec: "True"
+  fullName: Agents.Net.MessageLog.Domain
+  nameWithType: MessageLog.Domain
+- uid: Agents.Net.MessageLog.Id
+  name: Id
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Id
+  commentId: P:Agents.Net.MessageLog.Id
+  fullName: Agents.Net.MessageLog.Id
+  nameWithType: MessageLog.Id
+- uid: Agents.Net.MessageLog.Id*
+  name: Id
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Id_
+  commentId: Overload:Agents.Net.MessageLog.Id
+  isSpec: "True"
+  fullName: Agents.Net.MessageLog.Id
+  nameWithType: MessageLog.Id
+- uid: Agents.Net.MessageLog.Name
+  name: Name
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Name
+  commentId: P:Agents.Net.MessageLog.Name
+  fullName: Agents.Net.MessageLog.Name
+  nameWithType: MessageLog.Name
+- uid: Agents.Net.MessageLog.Name*
+  name: Name
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Name_
+  commentId: Overload:Agents.Net.MessageLog.Name
+  isSpec: "True"
+  fullName: Agents.Net.MessageLog.Name
+  nameWithType: MessageLog.Name
+- uid: Agents.Net.MessageLog.Predecessors
+  name: Predecessors
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Predecessors
+  commentId: P:Agents.Net.MessageLog.Predecessors
+  fullName: Agents.Net.MessageLog.Predecessors
+  nameWithType: MessageLog.Predecessors
+- uid: Agents.Net.MessageLog.Predecessors*
+  name: Predecessors
+  href: api/Agents.Net.MessageLog.html#Agents_Net_MessageLog_Predecessors_
+  commentId: Overload:Agents.Net.MessageLog.Predecessors
+  isSpec: "True"
+  fullName: Agents.Net.MessageLog.Predecessors
+  nameWithType: MessageLog.Predecessors
+- uid: Agents.Net.MessageStore`1
+  name: MessageStore<T>
+  href: api/Agents.Net.MessageStore-1.html
+  commentId: T:Agents.Net.MessageStore`1
+  name.vb: MessageStore(Of T)
+  fullName: Agents.Net.MessageStore<T>
+  fullName.vb: Agents.Net.MessageStore(Of T)
+  nameWithType: MessageStore<T>
+  nameWithType.vb: MessageStore(Of T)
+- uid: Agents.Net.MessageStore`1.#ctor(`0)
+  name: MessageStore(T)
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1__ctor__0_
+  commentId: M:Agents.Net.MessageStore`1.#ctor(`0)
+  fullName: Agents.Net.MessageStore<T>.MessageStore(T)
+  fullName.vb: Agents.Net.MessageStore(Of T).MessageStore(T)
+  nameWithType: MessageStore<T>.MessageStore(T)
+  nameWithType.vb: MessageStore(Of T).MessageStore(T)
+- uid: Agents.Net.MessageStore`1.#ctor*
+  name: MessageStore
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1__ctor_
+  commentId: Overload:Agents.Net.MessageStore`1.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageStore<T>.MessageStore
+  fullName.vb: Agents.Net.MessageStore(Of T).MessageStore
+  nameWithType: MessageStore<T>.MessageStore
+  nameWithType.vb: MessageStore(Of T).MessageStore
+- uid: Agents.Net.MessageStore`1.Dispose
+  name: Dispose()
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_Dispose
+  commentId: M:Agents.Net.MessageStore`1.Dispose
+  fullName: Agents.Net.MessageStore<T>.Dispose()
+  fullName.vb: Agents.Net.MessageStore(Of T).Dispose()
+  nameWithType: MessageStore<T>.Dispose()
+  nameWithType.vb: MessageStore(Of T).Dispose()
+- uid: Agents.Net.MessageStore`1.Dispose*
+  name: Dispose
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_Dispose_
+  commentId: Overload:Agents.Net.MessageStore`1.Dispose
+  isSpec: "True"
+  fullName: Agents.Net.MessageStore<T>.Dispose
+  fullName.vb: Agents.Net.MessageStore(Of T).Dispose
+  nameWithType: MessageStore<T>.Dispose
+  nameWithType.vb: MessageStore(Of T).Dispose
+- uid: Agents.Net.MessageStore`1.FromMessageStore(Agents.Net.MessageStore{`0})
+  name: FromMessageStore(MessageStore<T>)
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_FromMessageStore_Agents_Net_MessageStore__0__
+  commentId: M:Agents.Net.MessageStore`1.FromMessageStore(Agents.Net.MessageStore{`0})
+  name.vb: FromMessageStore(MessageStore(Of T))
+  fullName: Agents.Net.MessageStore<T>.FromMessageStore(Agents.Net.MessageStore<T>)
+  fullName.vb: Agents.Net.MessageStore(Of T).FromMessageStore(Agents.Net.MessageStore(Of T))
+  nameWithType: MessageStore<T>.FromMessageStore(MessageStore<T>)
+  nameWithType.vb: MessageStore(Of T).FromMessageStore(MessageStore(Of T))
+- uid: Agents.Net.MessageStore`1.FromMessageStore*
+  name: FromMessageStore
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_FromMessageStore_
+  commentId: Overload:Agents.Net.MessageStore`1.FromMessageStore
+  isSpec: "True"
+  fullName: Agents.Net.MessageStore<T>.FromMessageStore
+  fullName.vb: Agents.Net.MessageStore(Of T).FromMessageStore
+  nameWithType: MessageStore<T>.FromMessageStore
+  nameWithType.vb: MessageStore(Of T).FromMessageStore
+- uid: Agents.Net.MessageStore`1.op_Implicit(`0)~Agents.Net.MessageStore{`0}
+  name: Implicit(T to MessageStore<T>)
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_op_Implicit__0__Agents_Net_MessageStore__0_
+  commentId: M:Agents.Net.MessageStore`1.op_Implicit(`0)~Agents.Net.MessageStore{`0}
+  name.vb: Widening(T to MessageStore(Of T))
+  fullName: Agents.Net.MessageStore<T>.Implicit(T to Agents.Net.MessageStore<T>)
+  fullName.vb: Agents.Net.MessageStore(Of T).Widening(T to Agents.Net.MessageStore(Of T))
+  nameWithType: MessageStore<T>.Implicit(T to MessageStore<T>)
+  nameWithType.vb: MessageStore(Of T).Widening(T to MessageStore(Of T))
+- uid: Agents.Net.MessageStore`1.op_Implicit(Agents.Net.MessageStore{`0})~`0
+  name: Implicit(MessageStore<T> to T)
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_op_Implicit_Agents_Net_MessageStore__0____0
+  commentId: M:Agents.Net.MessageStore`1.op_Implicit(Agents.Net.MessageStore{`0})~`0
+  name.vb: Widening(MessageStore(Of T) to T)
+  fullName: Agents.Net.MessageStore<T>.Implicit(Agents.Net.MessageStore<T> to T)
+  fullName.vb: Agents.Net.MessageStore(Of T).Widening(Agents.Net.MessageStore(Of T) to T)
+  nameWithType: MessageStore<T>.Implicit(MessageStore<T> to T)
+  nameWithType.vb: MessageStore(Of T).Widening(MessageStore(Of T) to T)
+- uid: Agents.Net.MessageStore`1.op_Implicit*
+  name: Implicit
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_op_Implicit_
+  commentId: Overload:Agents.Net.MessageStore`1.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Agents.Net.MessageStore<T>.Implicit
+  fullName.vb: Agents.Net.MessageStore(Of T).Widening
+  nameWithType: MessageStore<T>.Implicit
+  nameWithType.vb: MessageStore(Of T).Widening
+- uid: Agents.Net.MessageStore`1.ToMessageStore(`0)
+  name: ToMessageStore(T)
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_ToMessageStore__0_
+  commentId: M:Agents.Net.MessageStore`1.ToMessageStore(`0)
+  fullName: Agents.Net.MessageStore<T>.ToMessageStore(T)
+  fullName.vb: Agents.Net.MessageStore(Of T).ToMessageStore(T)
+  nameWithType: MessageStore<T>.ToMessageStore(T)
+  nameWithType.vb: MessageStore(Of T).ToMessageStore(T)
+- uid: Agents.Net.MessageStore`1.ToMessageStore*
+  name: ToMessageStore
+  href: api/Agents.Net.MessageStore-1.html#Agents_Net_MessageStore_1_ToMessageStore_
+  commentId: Overload:Agents.Net.MessageStore`1.ToMessageStore
+  isSpec: "True"
+  fullName: Agents.Net.MessageStore<T>.ToMessageStore
+  fullName.vb: Agents.Net.MessageStore(Of T).ToMessageStore
+  nameWithType: MessageStore<T>.ToMessageStore
+  nameWithType.vb: MessageStore(Of T).ToMessageStore
+- uid: Agents.Net.ProducesAttribute
+  name: ProducesAttribute
+  href: api/Agents.Net.ProducesAttribute.html
+  commentId: T:Agents.Net.ProducesAttribute
+  fullName: Agents.Net.ProducesAttribute
+  nameWithType: ProducesAttribute
+- uid: Agents.Net.ProducesAttribute.#ctor(Type)
+  name: ProducesAttribute(Type)
+  href: api/Agents.Net.ProducesAttribute.html#Agents_Net_ProducesAttribute__ctor_Type_
+  commentId: M:Agents.Net.ProducesAttribute.#ctor(Type)
+  fullName: Agents.Net.ProducesAttribute.ProducesAttribute(Type)
+  nameWithType: ProducesAttribute.ProducesAttribute(Type)
+- uid: Agents.Net.ProducesAttribute.#ctor*
+  name: ProducesAttribute
+  href: api/Agents.Net.ProducesAttribute.html#Agents_Net_ProducesAttribute__ctor_
+  commentId: Overload:Agents.Net.ProducesAttribute.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.ProducesAttribute.ProducesAttribute
+  nameWithType: ProducesAttribute.ProducesAttribute
+- uid: Agents.Net.ProducesAttribute.MessageType
+  name: MessageType
+  href: api/Agents.Net.ProducesAttribute.html#Agents_Net_ProducesAttribute_MessageType
+  commentId: P:Agents.Net.ProducesAttribute.MessageType
+  fullName: Agents.Net.ProducesAttribute.MessageType
+  nameWithType: ProducesAttribute.MessageType
+- uid: Agents.Net.ProducesAttribute.MessageType*
+  name: MessageType
+  href: api/Agents.Net.ProducesAttribute.html#Agents_Net_ProducesAttribute_MessageType_
+  commentId: Overload:Agents.Net.ProducesAttribute.MessageType
+  isSpec: "True"
+  fullName: Agents.Net.ProducesAttribute.MessageType
+  nameWithType: ProducesAttribute.MessageType
+- uid: Benchmarks
+  name: Minimal overhead
+  href: articles/agents.net/Benchmarks.html
+- uid: Getting-Started
+  name: Contents
+  href: articles/agents.net/Getting-Started.html
+- uid: Home
+  name: Welcome to agents.net
+  href: articles/agents.net/Home.html

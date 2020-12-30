@@ -1,0 +1,706 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/agents-net.github.io/agents-net.github.io",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/agents.net/Benchmarks.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/agents.net/Benchmarks.html",
+          "hash": "JMe4quuPPBniRDD4j67KeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/agents.net/Getting-Started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/agents.net/Getting-Started.html",
+          "hash": "87CacxMD5x9ygvKAgNQjVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/agents.net/Home.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/agents.net/Home.html",
+          "hash": "bFAgE5XJ4zYcfVS6r0Lycw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "QWMtXclXEFfhQc6d4XkaPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Agents.Net.Concept.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/Agents.Net.Concept.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Collector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Collector.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ExecuteHelloWorld.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/ExecuteHelloWorld.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HelloWorldAgents.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HelloWorldAgents.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HelloWorldCommunity.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HelloWorldCommunity.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HelloWorldLogViewer.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/HelloWorldLogViewer.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/HelloWorldMessages.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/HelloWorldMessages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ImplementHelloAgent.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/ImplementHelloAgent.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Implementation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Implementation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstallAgentsNet.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstallAgentsNet.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Message.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Message.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ParallelExecution.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ParallelExecution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "CTkjWUE2Kz/SlNkIMezduw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.Agent.html",
+          "hash": "kQG+HtBCHG9A4dQUKy/v5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.AgentLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.AgentLog.html",
+          "hash": "gO/TNi3vKP5udgIjIlh+2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.ConsumesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.ConsumesAttribute.html",
+          "hash": "vcfjBgxToyQCM7VKTWdCOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.ExceptionMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.ExceptionMessage.html",
+          "hash": "XeZk2jlvnVtwehrMBEcPXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.IMessageBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.IMessageBoard.html",
+          "hash": "fn1v/FD2m9p+KGopJIRSMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.InitializeMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.InitializeMessage.html",
+          "hash": "PvpkTF24m6e+bn85TF7yhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.InterceptionAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.InterceptionAction.html",
+          "hash": "AFyeucgMd9Iun85qVW/eFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.InterceptorAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.InterceptorAgent.html",
+          "hash": "UXzxKp6uEXQQoYY2MHkjiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.InterceptsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.InterceptsAttribute.html",
+          "hash": "JG7ckhDOyoRXxS4lJmlTNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.Message.html",
+          "hash": "yBwhwb/xnbgP/0cc2ezxfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageAggregator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageAggregator-1.html",
+          "hash": "FssjPqX4UegygFOAfW7Fhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageBoard.html",
+          "hash": "+KqxTTcuZlhUyUsB+l1C5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollection-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollection-2.html",
+          "hash": "FVmNp7jjsc9EkigCaI/Urg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollection-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollection-3.html",
+          "hash": "TWVVg0yVKAS9cBnjX9aYmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollection-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollection-4.html",
+          "hash": "EG2ZdptVk/TtzkNuEdwyMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollection-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollection-5.html",
+          "hash": "5AznWFTfmHRIB6jahvvjPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollection-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollection-6.html",
+          "hash": "Ti5FYaOX2G2lwfV6CdQFIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollection-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollection-7.html",
+          "hash": "W0EswQ0SmWBASskhDcn9XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollection.html",
+          "hash": "9Bi14eQ7/MDlWEY3EXV9sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollector-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollector-2.html",
+          "hash": "bFHcBVn6nvcWHJsZpErugg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollector-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollector-3.html",
+          "hash": "WgvHH4LmgbKXmb+pcg4DBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollector-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollector-4.html",
+          "hash": "sIbf0sAQqWUjiXwI6HQ3nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollector-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollector-5.html",
+          "hash": "7xX2CK82kKoecnaltwEoqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollector-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollector-6.html",
+          "hash": "9SwmCz24h0E0FvPQLSr73Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageCollector-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageCollector-7.html",
+          "hash": "baIwsKMDKIIKzixgh8/bvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageDecorator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageDecorator.html",
+          "hash": "YNsIAWIAgWkKyNG0MeUCEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageDomain.html",
+          "hash": "CEtE1MAut/xwzP3lqqddYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageDomainTerminatedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageDomainTerminatedMessage.html",
+          "hash": "08Gth2ySxIoexLMahlzHsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageDomainsCreatedMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageDomainsCreatedMessage.html",
+          "hash": "gkupMsCKDsfE3DikkooUYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageLog.html",
+          "hash": "jR9Q5d7qHCRYts0WnCXuWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageStore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageStore-1.html",
+          "hash": "qGj1rL3hUaED9XmDk78W8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.ProducesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.ProducesAttribute.html",
+          "hash": "HKUkJ2Zy1toTOVmuWtat2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.html",
+          "hash": "d52NU6qZR5WGS+SKOdaXVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "iOhS+5UnTXSlC+VvaAvpHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "RRZNPxLp6KKDVg1dz09NgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 33,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

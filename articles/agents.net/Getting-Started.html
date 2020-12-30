@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Contents | Agents.Net Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Contents | Agents.Net Documentation ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Getting-Started">
+
+<!-- TODO replace references to framework classes with links. -->
+<p>In this guide you will learn all basics that are necessary to install and use Agents.Net. Additionally while going through the guide you will learn about the basic concepts used in Agents.Net like agents, messages and so on.</p>
+<h1 id="contents">Contents</h1>
+<ul>
+<li><a href="#concept">Concept</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#scenario">Scenario</a></li>
+<li><a href="#implementation">Implementation</a>
+<ul>
+<li><a href="#preparation">Preparation</a></li>
+<li><a href="#implementing-the-community">Implementing the community</a>
+<ul>
+<li><a href="#creating-messages">Creating messages</a></li>
+<li><a href="#creating-agents">Creating Agents</a></li>
+</ul>
+</li>
+<li><a href="#gluing-it-all-together">Gluing it all together</a></li>
+<li><a href="#execute-the-program">Execute the program</a></li>
+</ul>
+</li>
+<li><a href="#further-resources">Further Resources</a></li>
+</ul>
+<h1 id="concept">Concept</h1>
+<p><img src="/images/Agents.Net.Concept.gif" alt="Agents.Net Concept"></p>
+<p>The basic idea of the framework is this. Each agent does one thing (connects to a database, reads console input, verifies some values, ...). For that it needs specific information (location of the database, the raw console input, ...). Additionally it provides all the information it knows (the active database connection, single console arguments and their values, ...). All information are handled in for of messages. The agent is not concerned where the information comes from or who needs the information provided. Based on that idea alone the system will organize all agents automatically simply based on who needs a specific information which was provided.</p>
+<h1 id="installation">Installation</h1>
+<p><img src="/images/InstallAgentsNet.gif" alt="Install Agents.Net"></p>
+<p>To use the current release simply add it via NuGet:</p>
+<pre><code class="lang-sh">dotnet add package Agents.Net
+</code></pre>
+<p>To use to latest version from master use the latest NuGet package from github:</p>
+<ol>
+<li><a href="https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-dotnet-cli-for-use-with-github-packages#authenticating-to-github-packages">Authenticating to github packages for this repository</a></li>
+<li>Add package via NuGet</li>
+</ol>
+<pre><code class="lang-sh">nuget install Agents.Net -prerelease
+</code></pre>
+<h1 id="scenario">Scenario</h1>
+<p><img src="/images/HelloWorldCommunity.png" alt="Hello World Community"></p>
+<p>The image above shows the scenario that we are about to implement in this guide. The illustration of the agent community was generated with the <a href="https://github.com/agents-net/agents.net.designer">Agents.Net.Designer</a> which is currently still in its early alpha state. In this guide we will not use the designer but implement the community ourselves.</p>
+<p>The goal of the community is to print &quot;Hello World&quot; to the console. But it will not do it directly. Rather at the start there are two agents (<code>HelloAgent</code> and <code>WorldAgent</code>), which provide the two words for the console. The <code>ConsoleMessageJoiner</code> combines both words to the sentence &quot;Hello World&quot; and finally the <code>ConsoleMessageDisplayAgent</code> will print the message to the console and terminate the program.</p>
+<h1 id="implementation">Implementation</h1>
+<p><img src="/images/Implementation.png" alt="Implemenetation"></p>
+<p>In this chapter we will implement the above defined scenario.</p>
+<h2 id="preparation">Preparation</h2>
+<ol>
+<li>Create a new .NET Core Console application named &quot;HelloWorldApp&quot;</li>
+<li>In the directory of the HelloWorldApp.csproj execute the command</li>
+</ol>
+<pre><code class="lang-sh">dotnet add package Agents.Net
+</code></pre>
+<ol start="3">
+<li>Open the project in your favorite IDE</li>
+</ol>
+<h2 id="implementing-the-community">Implementing the community</h2>
+<p><img src="/images/ImplementHelloAgent.gif" alt="Implementing HelloAgent"></p>
+<h3 id="creating-messages">Creating messages</h3>
+<p><img src="/images/HelloWorldMessages.png" alt="Hello World Messages">
+Create the message classes <code>HelloConsoleMessage</code>, <code>WorldConsoleMessage</code> and <code>ConsoleMessageCreated</code> with the following content</p>
+<pre><code class="lang-C#">public class &lt;MessageName&gt;: Message
+{
+    public &lt;MessageName&gt;(string message, Message predecessorMessage)
+		: base(predecessorMessage)
+    {
+        Message = message;
+    }
+
+    public &lt;MessageName&gt;(string message, IEnumerable&lt;Message&gt; predecessorMessages)
+		: base(predecessorMessages)
+    {
+        Message = message;
+    }
+
+    public string Message { get; }
+
+    protected override string DataToString()
+    {
+        return $&quot;{nameof(Message)}: {Message}&quot;;
+    }
+}
+</code></pre>
+<details>
+<summary>What are messages?</summary>
+<p><img src="https://github.com/agents-net/agents.net/wiki/images/Message.png"></p>
+<p>
+Messages are the communication/data objects that are passed between agents. Agents never interact directly with each other. All messages - except the <code>InitializeMessage</code> - have one or more predecessor messages. These are the messages that led to the current instance. More on that later in an example. Each message can contain additional information beside their semantical one - meaning the information that is transfered by their type. In this example the messages have the <code>Message</code> property as an additional information. In the <code>DataToString</code> method the additional information are stringyfied. This is useful to have better logs - more on that later too.
+</p>
+</details>
+<h3 id="creating-agents">Creating Agents</h3>
+<p><img src="/images/HelloWorldAgents.png" alt="Hello World Agents"></p>
+<p><strong>1. Create the class <code>HelloAgent</code> with the following content</strong></p>
+<pre><code class="lang-C#">[Consumes(typeof(InitializeMessage))]
+[Produces(typeof(HelloConsoleMessage))]
+public class HelloAgent : Agent
+{
+    public HelloAgent(IMessageBoard messageBoard) : base(messageBoard)
+    {
+    }
+
+    protected override void ExecuteCore(Message messageData)
+    {
+        OnMessage(new HelloConsoleMessage(&quot;Hello&quot;, messageData));
+    }
+}
+</code></pre>
+<details>
+<summary>What are agents?</summary>
+<p><img src="https://github.com/agents-net/agents.net/blob/master/images/logo.png" width="100" height="100" alt="Agents.Net Logo"></p>
+<p>
+Agents are the acting objects in the system. All logic is contained within agents and only agents should execute any logic. They need specific information in form of messages. In this example the agent needs the <code>InitializeMessage</code> as a trigger to execute its code. Additionally agents produce messages about the logic that was executed, containing the data that was generated. In this case the agent produces a <code>HelloConsoleMessage</code> with the data "Hello".
+</p>
+</details>
+<p><strong>2. Create the class <code>WorldAgent</code> with the following content</strong></p>
+<pre><code class="lang-C#">[Consumes(typeof(InitializeMessage))]
+[Produces(typeof(WorldConsoleMessage))]
+public class WorldAgent : Agent
+{
+    public WorldAgent(IMessageBoard messageBoard) : base(messageBoard)
+    {
+    }
+
+    protected override void ExecuteCore(Message messageData)
+    {
+        OnMessage(new WorldConsoleMessage(&quot;World&quot;, messageData));
+    }
+}
+</code></pre>
+<details>
+<summary>What is implicit parallel execution?</summary>
+<p><img src="https://github.com/agents-net/agents.net/wiki/images/ParallelExecution.png"></p>
+<p>
+The agent framework allows for implicit parallel execution. In case of this scenario, the <code>HelloAgent</code> as well as the <code>WorldAgent</code> will react on the <code>InitializeMessage</code> that is send, when the message board starts. That means both agents can do their work parallel, although no code explicitly specifies that they can. The message board is designed in a way that these accidental potentials for parallel execution are used - meaning both agents will run parallel.
+</p>
+</details>
+<p><strong>3. Create the class <code>ConsoleMessageJoiner</code> with the following content</strong></p>
+<pre><code class="lang-C#">[Consumes(typeof(WorldConsoleMessage))]
+[Consumes(typeof(HelloConsoleMessage))]
+[Produces(typeof(ConsoleMessageCreated))]
+public class ConsoleMessageJoiner : Agent
+{
+    private readonly MessageCollector&lt;HelloConsoleMessage, WorldConsoleMessage&gt; collector;
+
+    public ConsoleMessageJoiner(IMessageBoard messageBoard) : base(messageBoard)
+    {
+        collector = new MessageCollector&lt;HelloConsoleMessage, WorldConsoleMessage&gt;(OnMessagesCollected);
+    }
+
+    private void OnMessagesCollected(MessageCollection&lt;HelloConsoleMessage, WorldConsoleMessage&gt; set)
+    {
+        OnMessage(new ConsoleMessageCreated($&quot;{set.Message1.Message} {set.Message2.Message}&quot;, set));
+    }
+
+    protected override void ExecuteCore(Message messageData)
+    {
+        collector.Push(messageData);
+    }
+}
+</code></pre>
+<details>
+<summary>How to safely consume more than one message?</summary>
+<p><img src="https://github.com/agents-net/agents.net/wiki/images/Collector.png"></p>
+<p>
+The class above does consume two messages <code>HelloConsoleMessage</code> and <code>WorldConsoleMessage</code>. It is impossible to tell when an agent receives a specific message. It is possible to publish 1.000 messages at once. But the order in which they are executed is completely dependent on the whims of the <code>ThreadPool</code>. Additionally, it is possible that any agent object executes multiple messages parallel. Because of that it is important to be extra careful, when storing something as a state of an agent. Agents.Net comes with two helper classes for this case: <code>MessageCollector</code> and <code>MessageAggregator</code>. In this scenario we will only use the <code>MessageCollector</code> to safely collect the two consumed messages. Only when both messages were received, the passed action will be executed.
+</p>
+<p>
+In this example we see the definition for the predecessor messages. In the first two agents above there was only one predecessor message - <code>InitializeMessage</code>. Now with the collector, the message has two predecessor message <code>HelloConsoleMessage</code> and <code>WorldConsoleMessage</code>. The predecessors are important, because the message domain is derived from the predecessors. Message domains are not scope of this guide.
+</p>
+</details>
+<p><strong>4. Create the class <code>ConsoleMessageDisplayAgent</code> with the following content</strong></p>
+<pre><code class="lang-C#">[Consumes(typeof(ConsoleMessageCreated))]
+public class ConsoleMessageDisplayAgent : Agent
+{
+    private readonly Action terminateAction;
+
+    public ConsoleMessageDisplayAgent(IMessageBoard messageBoard, Action terminateAction) : base(messageBoard)
+    {
+        this.terminateAction = terminateAction;
+    }
+
+    protected override void ExecuteCore(Message messageData)
+    {
+        Console.WriteLine(messageData.Get&lt;ConsoleMessageCreated&gt;().Message);
+        terminateAction();
+    }
+}
+</code></pre>
+<p>This agent prints the message that was generated by the <code>ConsoleMessageJoiner</code> to the actual console and afterwards terminates the program by executing the <code>terminateAction</code>. The <code>terminateAction</code> will later be passed to the agent.</p>
+<h2 id="gluing-it-all-together">Gluing it all together</h2>
+<p>Here we will look at all the classes that are necessary to glue together all classes we created previously. For that we will not use a DI framework, as it is easier to show what we need to setup with this. Additionally we will configure <a href="https://github.com/serilog/serilog">Serilog</a> to log the execution as this is important in order to &quot;debug&quot; Agents.Net.</p>
+<p><strong>1. Add Serilog to the project</strong></p>
+<pre><code class="lang-sh">dotnet add package Serilog
+dotnet add package Serilog.Sinks.Async
+dotnet add package Serilog.Sinks.File
+dotnet add package Serilog.Formatting.Compact
+</code></pre>
+<p><strong>2. Configure Serilog using the following code in the program's <code>main</code> method</strong></p>
+<pre><code class="lang-C#">//Setup logging
+File.Delete(&quot;log.json&quot;);
+Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Verbose()
+            .WriteTo.Async(l =&gt; l.File(new CompactJsonFormatter(), &quot;log.json&quot;))
+            .CreateLogger();
+</code></pre>
+<p>This will ensure that all Agents.Net message are logged - by setting the minimum level to verbose. Additionally this ensures that the impact on the execution time is minimal.</p>
+<p><strong>3. Setup the agent community using the following code in the program's <code>main</code> method</strong></p>
+<pre><code class="lang-C#">//Setup community
+using ManualResetEvent finishedEvent = new(false);
+IMessageBoard messageBoard = new MessageBoard();
+messageBoard.Register(new HelloAgent(messageBoard),
+                      new WorldAgent(messageBoard),
+                      new ConsoleMessageJoiner(messageBoard),
+                      new ConsoleMessageDisplayAgent(messageBoard,
+                                                     () =&gt; finishedEvent.Set()));
+</code></pre>
+<p><strong>4. Write start code in the program's <code>main</code> method</strong></p>
+<pre><code class="lang-C#">//Run
+messageBoard.Start();
+</code></pre>
+<h2 id="execute-the-program">Execute the program</h2>
+<p><img src="/images/ExecuteHelloWorld.gif" alt="Executing Hello World"></p>
+<details>
+<summary>Look into the execution log</summary>
+<br>
+<p>
+Here is the execution log that was generated for the execution of the implemented HelloWorldApp:
+</p>
+<div class="highlight highlight-source-json"><pre>{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8534304Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>WorldAgent<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Executing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>25ca3340-69c0-44b5-a538-0d97299499ec<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>InitializeMessage<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>c163f51a-c19b-42a3-aede-585186324d32<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}
+{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8534661Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>HelloAgent<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Executing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>c531c6be-d4e0-421c-9bbb-6d64a5f5d7b6<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>InitializeMessage<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>c163f51a-c19b-42a3-aede-585186324d32<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}
+{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8586857Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>WorldAgent<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Publishing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>25ca3340-69c0-44b5-a538-0d97299499ec<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>WorldConsoleMessage<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ca73e3bf-c380-4753-b7a8-987fca8ab56d<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[<span class="pl-s"><span class="pl-pds">"</span>c163f51a-c19b-42a3-aede-585186324d32<span class="pl-pds">"</span></span>],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Message: World<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}
+{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8587656Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>HelloAgent<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Publishing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>c531c6be-d4e0-421c-9bbb-6d64a5f5d7b6<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>HelloConsoleMessage<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>78d499a5-c1fc-4ab2-9eec-b882617e1994<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[<span class="pl-s"><span class="pl-pds">"</span>c163f51a-c19b-42a3-aede-585186324d32<span class="pl-pds">"</span></span>],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Message: Hello<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}
+{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8589578Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ConsoleMessageJoiner<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Executing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>961faab4-f394-4f70-83d2-79d5117e160d<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>WorldConsoleMessage<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ca73e3bf-c380-4753-b7a8-987fca8ab56d<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[<span class="pl-s"><span class="pl-pds">"</span>c163f51a-c19b-42a3-aede-585186324d32<span class="pl-pds">"</span></span>],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Message: World<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}
+{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8589626Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ConsoleMessageJoiner<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Executing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>961faab4-f394-4f70-83d2-79d5117e160d<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>HelloConsoleMessage<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>78d499a5-c1fc-4ab2-9eec-b882617e1994<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[<span class="pl-s"><span class="pl-pds">"</span>c163f51a-c19b-42a3-aede-585186324d32<span class="pl-pds">"</span></span>],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Message: Hello<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}
+{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8657758Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ConsoleMessageJoiner<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Publishing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>961faab4-f394-4f70-83d2-79d5117e160d<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ConsoleMessageCreated<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ec45ddf5-2baf-4062-8e22-78f3c498fc05<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[<span class="pl-s"><span class="pl-pds">"</span>78d499a5-c1fc-4ab2-9eec-b882617e1994<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>ca73e3bf-c380-4753-b7a8-987fca8ab56d<span class="pl-pds">"</span></span>],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Message: Hello World<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}
+{<span class="pl-s"><span class="pl-pds">"</span>@t<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>2020-12-24T17:52:51.8659039Z<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@mt<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>{@log}<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>@l<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Verbose<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>log<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Agent<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ConsoleMessageDisplayAgent<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Executing<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>AgentId<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>67adf5b1-d286-4e3f-9069-07264fafac32<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>:{<span class="pl-s"><span class="pl-pds">"</span>Name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ConsoleMessageCreated<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Id<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ec45ddf5-2baf-4062-8e22-78f3c498fc05<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Predecessors<span class="pl-pds">"</span></span>:[<span class="pl-s"><span class="pl-pds">"</span>78d499a5-c1fc-4ab2-9eec-b882617e1994<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>ca73e3bf-c380-4753-b7a8-987fca8ab56d<span class="pl-pds">"</span></span>],<span class="pl-s"><span class="pl-pds">"</span>Domain<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>3cf6acc6-a852-4c2e-a688-b247a94987eb<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Message: Hello World<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>Child<span class="pl-pds">"</span></span>:<span class="pl-c1">null</span>,<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>MessageLog<span class="pl-pds">"</span></span>},<span class="pl-s"><span class="pl-pds">"</span>$type<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>AgentLog<span class="pl-pds">"</span></span>}}</pre></div>
+<p>
+This view is optimized for speed as even a short "Hello World" will produce quite a bit of logging. To make is easier to read the <a href="https://github.com/agents-net/agents.net.logviewer">Agents.Net.LogViewer</a> was created. The log viewer is still in its early alpha state. Still it is possible to use. Here is what the log would look like in the log viewer:
+</p>
+<p><img src="https://github.com/agents-net/agents.net/wiki/images/HelloWorldLogViewer.gif"></p>
+</details>
+<h1 id="further-resources">Further Resources</h1>
+<ul>
+<li>read the <a href="https://agents-net.github.io/api/Agents.Net.html">API Documentation</a></li>
+<li>take a look at the <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net.Tests/Features/CoreUseCases.feature">BDD styled showcase tests</a></li>
+<li>ask a question in a new <a href="https://github.com/agents-net/agents.net/discussions">discussion</a></li>
+<li>contact us via <a href="mailto:agents-net@googlegroups.com">email</a></li>
+<li>try and learn ;-)</li>
+</ul>
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/agents-net/agents.net.wiki/blob/master/Getting-Started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright Tobias Wilker and contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
