@@ -801,15 +801,15 @@ references:
   fullName.vb: Agents.Net.MessageAggregator(Of T)
   nameWithType: MessageAggregator<T>
   nameWithType.vb: MessageAggregator(Of T)
-- uid: Agents.Net.MessageAggregator`1.#ctor(Action{IReadOnlyCollection{`0}})
-  name: MessageAggregator(Action<IReadOnlyCollection<T>>)
-  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1__ctor_Action_IReadOnlyCollection__0___
-  commentId: M:Agents.Net.MessageAggregator`1.#ctor(Action{IReadOnlyCollection{`0}})
-  name.vb: MessageAggregator(Action(Of IReadOnlyCollection(Of T)))
-  fullName: Agents.Net.MessageAggregator<T>.MessageAggregator(Action<IReadOnlyCollection<T>>)
-  fullName.vb: Agents.Net.MessageAggregator(Of T).MessageAggregator(Action(Of IReadOnlyCollection(Of T)))
-  nameWithType: MessageAggregator<T>.MessageAggregator(Action<IReadOnlyCollection<T>>)
-  nameWithType.vb: MessageAggregator(Of T).MessageAggregator(Action(Of IReadOnlyCollection(Of T)))
+- uid: Agents.Net.MessageAggregator`1.#ctor(Action{IReadOnlyCollection{`0}},System.Boolean)
+  name: MessageAggregator(Action<IReadOnlyCollection<T>>, Boolean)
+  href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1__ctor_Action_IReadOnlyCollection__0___System_Boolean_
+  commentId: M:Agents.Net.MessageAggregator`1.#ctor(Action{IReadOnlyCollection{`0}},System.Boolean)
+  name.vb: MessageAggregator(Action(Of IReadOnlyCollection(Of T)), Boolean)
+  fullName: Agents.Net.MessageAggregator<T>.MessageAggregator(Action<IReadOnlyCollection<T>>, System.Boolean)
+  fullName.vb: Agents.Net.MessageAggregator(Of T).MessageAggregator(Action(Of IReadOnlyCollection(Of T)), System.Boolean)
+  nameWithType: MessageAggregator<T>.MessageAggregator(Action<IReadOnlyCollection<T>>, Boolean)
+  nameWithType.vb: MessageAggregator(Of T).MessageAggregator(Action(Of IReadOnlyCollection(Of T)), Boolean)
 - uid: Agents.Net.MessageAggregator`1.#ctor*
   name: MessageAggregator
   href: api/Agents.Net.MessageAggregator-1.html#Agents_Net_MessageAggregator_1__ctor_
