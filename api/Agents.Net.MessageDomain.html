@@ -100,7 +100,7 @@
   <h5 id="Agents_Net_MessageDomain_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>
 Each message operates in a specific message domain. Usually that is the <a class="xref" href="Agents.Net.MessageDomain.html#Agents_Net_MessageDomain_DefaultMessageDomain">DefaultMessageDomain</a>. But there are situations where it is necessary to specify new domains for a message. Some of these situations are:
-<ul><li>when message are executed explicitly in parallel with <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean_">OnMessages(IReadOnlyCollection&lt;Message&gt;, Boolean)</a> in order to aggregate them again</li><li>when a sequential cycle of recurring message chains is executed in order to identify the start of the cycle when the next cycle starts</li><li>to separate message produced in a specific chain (e.g. UIEvent) from other messages</li></ul>
+<ul><li>when message are executed explicitly in parallel with <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__">OnMessages(IReadOnlyCollection&lt;Message&gt;)</a> in order to aggregate them again</li><li>when a sequential cycle of recurring message chains is executed in order to identify the start of the cycle when the next cycle starts</li><li>to separate message produced in a specific chain (e.g. UIEvent) from other messages</li></ul>
 </p>
 <p>
 Given is the following example:
@@ -128,7 +128,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_Children.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.Children%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L150">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L146">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_Children_" data-uid="Agents.Net.MessageDomain.Children*"></a>
   <h4 id="Agents_Net_MessageDomain_Children" data-uid="Agents.Net.MessageDomain.Children">Children</h4>
@@ -159,7 +159,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_DefaultMessageDomain.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.DefaultMessageDomain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L50">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L51">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_DefaultMessageDomain_" data-uid="Agents.Net.MessageDomain.DefaultMessageDomain*"></a>
   <h4 id="Agents_Net_MessageDomain_DefaultMessageDomain" data-uid="Agents.Net.MessageDomain.DefaultMessageDomain">DefaultMessageDomain</h4>
@@ -190,7 +190,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_IsTerminated.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.IsTerminated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L229">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L233">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_IsTerminated_" data-uid="Agents.Net.MessageDomain.IsTerminated*"></a>
   <h4 id="Agents_Net_MessageDomain_IsTerminated" data-uid="Agents.Net.MessageDomain.IsTerminated">IsTerminated</h4>
@@ -221,7 +221,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_Parent.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L137">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L133">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_Parent_" data-uid="Agents.Net.MessageDomain.Parent*"></a>
   <h4 id="Agents_Net_MessageDomain_Parent" data-uid="Agents.Net.MessageDomain.Parent">Parent</h4>
@@ -252,7 +252,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_Root.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.Root%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L132">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L128">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_Root_" data-uid="Agents.Net.MessageDomain.Root*"></a>
   <h4 id="Agents_Net_MessageDomain_Root" data-uid="Agents.Net.MessageDomain.Root">Root</h4>
@@ -283,7 +283,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_SiblingDomainRootMessages.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.SiblingDomainRootMessages%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L145">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L141">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_SiblingDomainRootMessages_" data-uid="Agents.Net.MessageDomain.SiblingDomainRootMessages*"></a>
   <h4 id="Agents_Net_MessageDomain_SiblingDomainRootMessages" data-uid="Agents.Net.MessageDomain.SiblingDomainRootMessages">SiblingDomainRootMessages</h4>
@@ -319,7 +319,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_CreateNewDomainsFor_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.CreateNewDomainsFor(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L70">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L71">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_CreateNewDomainsFor_" data-uid="Agents.Net.MessageDomain.CreateNewDomainsFor*"></a>
   <h4 id="Agents_Net_MessageDomain_CreateNewDomainsFor_Agents_Net_Message_" data-uid="Agents.Net.MessageDomain.CreateNewDomainsFor(Agents.Net.Message)">CreateNewDomainsFor(Message)</h4>
@@ -328,7 +328,7 @@ New messages inherit the domain for their predecessors. That means if there is a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MessageDomainsCreatedMessage CreateNewDomainsFor(Message newDomainRootMessage)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void CreateNewDomainsFor(Message newDomainRootMessage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -348,22 +348,6 @@ New messages inherit the domain for their predecessors. That means if there is a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Agents.Net.MessageDomainsCreatedMessage.html">MessageDomainsCreatedMessage</a></td>
-        <td><p>A <a class="xref" href="Agents.Net.MessageDomainsCreatedMessage.html">MessageDomainsCreatedMessage</a> which lives in the parent domain.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_CreateNewDomainsFor_IReadOnlyCollection_Agents_Net_Message__.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.CreateNewDomainsFor(IReadOnlyCollection%7BAgents.Net.Message%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -378,7 +362,7 @@ New messages inherit the domain for their predecessors. That means if there is a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MessageDomainsCreatedMessage CreateNewDomainsFor(IReadOnlyCollection&lt;Message&gt; newDomainRootMessages)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void CreateNewDomainsFor(IReadOnlyCollection&lt;Message&gt; newDomainRootMessages)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -398,28 +382,12 @@ New messages inherit the domain for their predecessors. That means if there is a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Agents.Net.MessageDomainsCreatedMessage.html">MessageDomainsCreatedMessage</a></td>
-        <td><p>A <a class="xref" href="Agents.Net.MessageDomainsCreatedMessage.html">MessageDomainsCreatedMessage</a> which lives in the parent domain.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_Equals_Agents_Net_MessageDomain_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.Equals(Agents.Net.MessageDomain)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L162">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L166">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_Equals_" data-uid="Agents.Net.MessageDomain.Equals*"></a>
   <h4 id="Agents_Net_MessageDomain_Equals_Agents_Net_MessageDomain_" data-uid="Agents.Net.MessageDomain.Equals(Agents.Net.MessageDomain)">Equals(MessageDomain)</h4>
@@ -466,7 +434,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L178">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L182">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_Equals_" data-uid="Agents.Net.MessageDomain.Equals*"></a>
   <h4 id="Agents_Net_MessageDomain_Equals_System_Object_" data-uid="Agents.Net.MessageDomain.Equals(System.Object)">Equals(Object)</h4>
@@ -513,7 +481,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_GetHashCode.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L199">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L203">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_GetHashCode_" data-uid="Agents.Net.MessageDomain.GetHashCode*"></a>
   <h4 id="Agents_Net_MessageDomain_GetHashCode" data-uid="Agents.Net.MessageDomain.GetHashCode">GetHashCode()</h4>
@@ -543,7 +511,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_TerminateDomainsOf_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.TerminateDomainsOf(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L104">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L102">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_TerminateDomainsOf_" data-uid="Agents.Net.MessageDomain.TerminateDomainsOf*"></a>
   <h4 id="Agents_Net_MessageDomain_TerminateDomainsOf_Agents_Net_Message_" data-uid="Agents.Net.MessageDomain.TerminateDomainsOf(Agents.Net.Message)">TerminateDomainsOf(Message)</h4>
@@ -552,7 +520,7 @@ New messages inherit the domain for their predecessors. That means if there is a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MessageDomainTerminatedMessage TerminateDomainsOf(Message domainMessage)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void TerminateDomainsOf(Message domainMessage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -572,28 +540,12 @@ New messages inherit the domain for their predecessors. That means if there is a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Agents.Net.MessageDomainTerminatedMessage.html">MessageDomainTerminatedMessage</a></td>
-        <td><p>A <a class="xref" href="Agents.Net.MessageDomainTerminatedMessage.html">MessageDomainTerminatedMessage</a> which lives in the parent domain.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_TerminateDomainsOf_IReadOnlyCollection_Agents_Net_Message__.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.TerminateDomainsOf(IReadOnlyCollection%7BAgents.Net.Message%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L115">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L112">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_TerminateDomainsOf_" data-uid="Agents.Net.MessageDomain.TerminateDomainsOf*"></a>
   <h4 id="Agents_Net_MessageDomain_TerminateDomainsOf_IReadOnlyCollection_Agents_Net_Message__" data-uid="Agents.Net.MessageDomain.TerminateDomainsOf(IReadOnlyCollection{Agents.Net.Message})">TerminateDomainsOf(IReadOnlyCollection&lt;Message&gt;)</h4>
@@ -602,7 +554,7 @@ New messages inherit the domain for their predecessors. That means if there is a
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MessageDomainTerminatedMessage TerminateDomainsOf(IReadOnlyCollection&lt;Message&gt; domainMessages)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void TerminateDomainsOf(IReadOnlyCollection&lt;Message&gt; domainMessages)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -622,22 +574,6 @@ New messages inherit the domain for their predecessors. That means if there is a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Agents.Net.MessageDomainTerminatedMessage.html">MessageDomainTerminatedMessage</a></td>
-        <td><p>A <a class="xref" href="Agents.Net.MessageDomainTerminatedMessage.html">MessageDomainTerminatedMessage</a> which lives in the parent domain.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="operators">Operators
   </h3>
   <span class="small pull-right mobile-hide">
@@ -645,7 +581,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_op_Equality_Agents_Net_MessageDomain_Agents_Net_MessageDomain_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.op_Equality(Agents.Net.MessageDomain%2CAgents.Net.MessageDomain)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L210">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L214">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_op_Equality_" data-uid="Agents.Net.MessageDomain.op_Equality*"></a>
   <h4 id="Agents_Net_MessageDomain_op_Equality_Agents_Net_MessageDomain_Agents_Net_MessageDomain_" data-uid="Agents.Net.MessageDomain.op_Equality(Agents.Net.MessageDomain,Agents.Net.MessageDomain)">Equality(MessageDomain, MessageDomain)</h4>
@@ -701,7 +637,7 @@ New messages inherit the domain for their predecessors. That means if there is a
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain_op_Inequality_Agents_Net_MessageDomain_Agents_Net_MessageDomain_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain.op_Inequality(Agents.Net.MessageDomain%2CAgents.Net.MessageDomain)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L221">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L225">View Source</a>
   </span>
   <a id="Agents_Net_MessageDomain_op_Inequality_" data-uid="Agents.Net.MessageDomain.op_Inequality*"></a>
   <h4 id="Agents_Net_MessageDomain_op_Inequality_Agents_Net_MessageDomain_Agents_Net_MessageDomain_" data-uid="Agents.Net.MessageDomain.op_Inequality(Agents.Net.MessageDomain,Agents.Net.MessageDomain)">Inequality(MessageDomain, MessageDomain)</h4>
@@ -763,7 +699,7 @@ New messages inherit the domain for their predecessors. That means if there is a
                     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDomain.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDomain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L45" class="contribution-link">View Source</a>
+                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDomain.cs/#L46" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

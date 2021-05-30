@@ -105,13 +105,13 @@
       <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_ReplaceWith_Agents_Net_Message_">Message.ReplaceWith(Message)</a>
     </div>
     <div>
-      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Predecessors">Message.Predecessors</a>
-    </div>
-    <div>
       <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_SetChild_Agents_Net_Message_">Message.SetChild(Message)</a>
     </div>
     <div>
       <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Is__1">Message.Is&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_HadPredecessor__1">Message.HadPredecessor&lt;T&gt;()</a>
     </div>
     <div>
       <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Get__1">Message.Get&lt;T&gt;()</a>
@@ -120,13 +120,7 @@
       <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_TryGet__1___0__">Message.TryGet&lt;T&gt;(T)</a>
     </div>
     <div>
-      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_TryGetPredecessor__1___0__">Message.TryGetPredecessor&lt;T&gt;(T)</a>
-    </div>
-    <div>
       <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_MessageDomain">Message.MessageDomain</a>
-    </div>
-    <div>
-      <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Child">Message.Child</a>
     </div>
     <div>
       <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_ToString">Message.ToString()</a>
@@ -237,7 +231,7 @@ SpecificMessageDecorator.Decorate(decoratedMessage);</code></pre>
     </tbody>
   </table>
   <h5 id="Agents_Net_MessageDecorator__ctor_Agents_Net_Message_IEnumerable_Agents_Net_Message___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">decoratedMessage</code> is not necessarily the direct <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_Child">Child</a> of this message, as it is undetermined which message decorator comes first when two decorators are applied at the same time. But it is thread safe to do so.</p>
+  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">decoratedMessage</code> is not necessarily the direct <span class="xref">Agents.Net.Message.Child</span> of this message, as it is undetermined which message decorator comes first when two decorators are applied at the same time. But it is thread safe to do so.</p>
 </div>
   <h3 id="methods">Methods
   </h3>
@@ -246,7 +240,7 @@ SpecificMessageDecorator.Decorate(decoratedMessage);</code></pre>
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageDecorator_IsDecorated_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageDecorator.IsDecorated(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDecorator.cs/#L76">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageDecorator.cs/#L75">View Source</a>
   </span>
   <a id="Agents_Net_MessageDecorator_IsDecorated_" data-uid="Agents.Net.MessageDecorator.IsDecorated*"></a>
   <h4 id="Agents_Net_MessageDecorator_IsDecorated_Agents_Net_Message_" data-uid="Agents.Net.MessageDecorator.IsDecorated(Agents.Net.Message)">IsDecorated(Message)</h4>

@@ -83,7 +83,7 @@
   
   <h1 id="Agents_Net_MessageAggregator_1" data-uid="Agents.Net.MessageAggregator`1" class="text-break">Class MessageAggregator&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is a helper which aggregates messages which were executed parallel with the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean_">OnMessages(IReadOnlyCollection&lt;Message&gt;, Boolean)</a> method.</p>
+  <div class="markdown level0 summary"><p>This class is a helper which aggregates messages which were executed parallel with the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__">OnMessages(IReadOnlyCollection&lt;Message&gt;)</a> method.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -115,7 +115,7 @@
   </table>
   <h5 id="Agents_Net_MessageAggregator_1_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>
-When a batch of messages is published using the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean_">OnMessages(IReadOnlyCollection&lt;Message&gt;, Boolean)</a> they can be united again when all last messages of the execution chain are of the same type.
+When a batch of messages is published using the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__">OnMessages(IReadOnlyCollection&lt;Message&gt;)</a> they can be united again when all last messages of the execution chain are of the same type.
 </p>
 <pre><code> --------------         ---------------------          -----------------
 | SplitMessage | ----> | IntermediateMessage | -----> | FinishedMessage |

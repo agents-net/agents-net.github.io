@@ -78,15 +78,15 @@ references:
   isSpec: "True"
   fullName: Agents.Net.Agent.OnMessage
   nameWithType: Agent.OnMessage
-- uid: Agents.Net.Agent.OnMessages(IReadOnlyCollection{Agents.Net.Message},System.Boolean)
-  name: OnMessages(IReadOnlyCollection<Message>, Boolean)
-  href: api/Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__System_Boolean_
-  commentId: M:Agents.Net.Agent.OnMessages(IReadOnlyCollection{Agents.Net.Message},System.Boolean)
-  name.vb: OnMessages(IReadOnlyCollection(Of Message), Boolean)
-  fullName: Agents.Net.Agent.OnMessages(IReadOnlyCollection<Agents.Net.Message>, System.Boolean)
-  fullName.vb: Agents.Net.Agent.OnMessages(IReadOnlyCollection(Of Agents.Net.Message), System.Boolean)
-  nameWithType: Agent.OnMessages(IReadOnlyCollection<Message>, Boolean)
-  nameWithType.vb: Agent.OnMessages(IReadOnlyCollection(Of Message), Boolean)
+- uid: Agents.Net.Agent.OnMessages(IReadOnlyCollection{Agents.Net.Message})
+  name: OnMessages(IReadOnlyCollection<Message>)
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__
+  commentId: M:Agents.Net.Agent.OnMessages(IReadOnlyCollection{Agents.Net.Message})
+  name.vb: OnMessages(IReadOnlyCollection(Of Message))
+  fullName: Agents.Net.Agent.OnMessages(IReadOnlyCollection<Agents.Net.Message>)
+  fullName.vb: Agents.Net.Agent.OnMessages(IReadOnlyCollection(Of Agents.Net.Message))
+  nameWithType: Agent.OnMessages(IReadOnlyCollection<Message>)
+  nameWithType.vb: Agent.OnMessages(IReadOnlyCollection(Of Message))
 - uid: Agents.Net.Agent.OnMessages*
   name: OnMessages
   href: api/Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_
@@ -521,19 +521,6 @@ references:
   isSpec: "True"
   fullName: Agents.Net.Message.Message
   nameWithType: Message.Message
-- uid: Agents.Net.Message.Child
-  name: Child
-  href: api/Agents.Net.Message.html#Agents_Net_Message_Child
-  commentId: P:Agents.Net.Message.Child
-  fullName: Agents.Net.Message.Child
-  nameWithType: Message.Child
-- uid: Agents.Net.Message.Child*
-  name: Child
-  href: api/Agents.Net.Message.html#Agents_Net_Message_Child_
-  commentId: Overload:Agents.Net.Message.Child
-  isSpec: "True"
-  fullName: Agents.Net.Message.Child
-  nameWithType: Message.Child
 - uid: Agents.Net.Message.DataToString
   name: DataToString()
   href: api/Agents.Net.Message.html#Agents_Net_Message_DataToString
@@ -627,6 +614,22 @@ references:
   isSpec: "True"
   fullName: Agents.Net.Message.GetHashCode
   nameWithType: Message.GetHashCode
+- uid: Agents.Net.Message.HadPredecessor*
+  name: HadPredecessor
+  href: api/Agents.Net.Message.html#Agents_Net_Message_HadPredecessor_
+  commentId: Overload:Agents.Net.Message.HadPredecessor
+  isSpec: "True"
+  fullName: Agents.Net.Message.HadPredecessor
+  nameWithType: Message.HadPredecessor
+- uid: Agents.Net.Message.HadPredecessor``1
+  name: HadPredecessor<T>()
+  href: api/Agents.Net.Message.html#Agents_Net_Message_HadPredecessor__1
+  commentId: M:Agents.Net.Message.HadPredecessor``1
+  name.vb: HadPredecessor(Of T)()
+  fullName: Agents.Net.Message.HadPredecessor<T>()
+  fullName.vb: Agents.Net.Message.HadPredecessor(Of T)()
+  nameWithType: Message.HadPredecessor<T>()
+  nameWithType.vb: Message.HadPredecessor(Of T)()
 - uid: Agents.Net.Message.Id
   name: Id
   href: api/Agents.Net.Message.html#Agents_Net_Message_Id
@@ -695,19 +698,6 @@ references:
   isSpec: "True"
   fullName: Agents.Net.Message.Inequality
   nameWithType: Message.Inequality
-- uid: Agents.Net.Message.Predecessors
-  name: Predecessors
-  href: api/Agents.Net.Message.html#Agents_Net_Message_Predecessors
-  commentId: P:Agents.Net.Message.Predecessors
-  fullName: Agents.Net.Message.Predecessors
-  nameWithType: Message.Predecessors
-- uid: Agents.Net.Message.Predecessors*
-  name: Predecessors
-  href: api/Agents.Net.Message.html#Agents_Net_Message_Predecessors_
-  commentId: Overload:Agents.Net.Message.Predecessors
-  isSpec: "True"
-  fullName: Agents.Net.Message.Predecessors
-  nameWithType: Message.Predecessors
 - uid: Agents.Net.Message.ReplaceWith(Agents.Net.Message)
   name: ReplaceWith(Message)
   href: api/Agents.Net.Message.html#Agents_Net_Message_ReplaceWith_Agents_Net_Message_
@@ -776,22 +766,6 @@ references:
   fullName.vb: Agents.Net.Message.TryGet(Of T)(ByRef T)
   nameWithType: Message.TryGet<T>(out T)
   nameWithType.vb: Message.TryGet(Of T)(ByRef T)
-- uid: Agents.Net.Message.TryGetPredecessor*
-  name: TryGetPredecessor
-  href: api/Agents.Net.Message.html#Agents_Net_Message_TryGetPredecessor_
-  commentId: Overload:Agents.Net.Message.TryGetPredecessor
-  isSpec: "True"
-  fullName: Agents.Net.Message.TryGetPredecessor
-  nameWithType: Message.TryGetPredecessor
-- uid: Agents.Net.Message.TryGetPredecessor``1(``0@)
-  name: TryGetPredecessor<T>(out T)
-  href: api/Agents.Net.Message.html#Agents_Net_Message_TryGetPredecessor__1___0__
-  commentId: M:Agents.Net.Message.TryGetPredecessor``1(``0@)
-  name.vb: TryGetPredecessor(Of T)(ByRef T)
-  fullName: Agents.Net.Message.TryGetPredecessor<T>(out T)
-  fullName.vb: Agents.Net.Message.TryGetPredecessor(Of T)(ByRef T)
-  nameWithType: Message.TryGetPredecessor<T>(out T)
-  nameWithType.vb: Message.TryGetPredecessor(Of T)(ByRef T)
 - uid: Agents.Net.MessageAggregator`1
   name: MessageAggregator<T>
   href: api/Agents.Net.MessageAggregator-1.html
@@ -2585,70 +2559,6 @@ references:
   isSpec: "True"
   fullName: Agents.Net.MessageDomain.TerminateDomainsOf
   nameWithType: MessageDomain.TerminateDomainsOf
-- uid: Agents.Net.MessageDomainsCreatedMessage
-  name: MessageDomainsCreatedMessage
-  href: api/Agents.Net.MessageDomainsCreatedMessage.html
-  commentId: T:Agents.Net.MessageDomainsCreatedMessage
-  fullName: Agents.Net.MessageDomainsCreatedMessage
-  nameWithType: MessageDomainsCreatedMessage
-- uid: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
-  name: CreatedDomains
-  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_CreatedDomains
-  commentId: P:Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
-  fullName: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
-  nameWithType: MessageDomainsCreatedMessage.CreatedDomains
-- uid: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains*
-  name: CreatedDomains
-  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_CreatedDomains_
-  commentId: Overload:Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
-  isSpec: "True"
-  fullName: Agents.Net.MessageDomainsCreatedMessage.CreatedDomains
-  nameWithType: MessageDomainsCreatedMessage.CreatedDomains
-- uid: Agents.Net.MessageDomainsCreatedMessage.DataToString
-  name: DataToString()
-  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_DataToString
-  commentId: M:Agents.Net.MessageDomainsCreatedMessage.DataToString
-  fullName: Agents.Net.MessageDomainsCreatedMessage.DataToString()
-  nameWithType: MessageDomainsCreatedMessage.DataToString()
-- uid: Agents.Net.MessageDomainsCreatedMessage.DataToString*
-  name: DataToString
-  href: api/Agents.Net.MessageDomainsCreatedMessage.html#Agents_Net_MessageDomainsCreatedMessage_DataToString_
-  commentId: Overload:Agents.Net.MessageDomainsCreatedMessage.DataToString
-  isSpec: "True"
-  fullName: Agents.Net.MessageDomainsCreatedMessage.DataToString
-  nameWithType: MessageDomainsCreatedMessage.DataToString
-- uid: Agents.Net.MessageDomainTerminatedMessage
-  name: MessageDomainTerminatedMessage
-  href: api/Agents.Net.MessageDomainTerminatedMessage.html
-  commentId: T:Agents.Net.MessageDomainTerminatedMessage
-  fullName: Agents.Net.MessageDomainTerminatedMessage
-  nameWithType: MessageDomainTerminatedMessage
-- uid: Agents.Net.MessageDomainTerminatedMessage.DataToString
-  name: DataToString()
-  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_DataToString
-  commentId: M:Agents.Net.MessageDomainTerminatedMessage.DataToString
-  fullName: Agents.Net.MessageDomainTerminatedMessage.DataToString()
-  nameWithType: MessageDomainTerminatedMessage.DataToString()
-- uid: Agents.Net.MessageDomainTerminatedMessage.DataToString*
-  name: DataToString
-  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_DataToString_
-  commentId: Overload:Agents.Net.MessageDomainTerminatedMessage.DataToString
-  isSpec: "True"
-  fullName: Agents.Net.MessageDomainTerminatedMessage.DataToString
-  nameWithType: MessageDomainTerminatedMessage.DataToString
-- uid: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
-  name: TerminatedDomains
-  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_TerminatedDomains
-  commentId: P:Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
-  fullName: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
-  nameWithType: MessageDomainTerminatedMessage.TerminatedDomains
-- uid: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains*
-  name: TerminatedDomains
-  href: api/Agents.Net.MessageDomainTerminatedMessage.html#Agents_Net_MessageDomainTerminatedMessage_TerminatedDomains_
-  commentId: Overload:Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
-  isSpec: "True"
-  fullName: Agents.Net.MessageDomainTerminatedMessage.TerminatedDomains
-  nameWithType: MessageDomainTerminatedMessage.TerminatedDomains
 - uid: Agents.Net.MessageLog
   name: MessageLog
   href: api/Agents.Net.MessageLog.html
