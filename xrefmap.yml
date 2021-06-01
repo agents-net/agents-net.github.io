@@ -614,22 +614,6 @@ references:
   isSpec: "True"
   fullName: Agents.Net.Message.GetHashCode
   nameWithType: Message.GetHashCode
-- uid: Agents.Net.Message.HadPredecessor*
-  name: HadPredecessor
-  href: api/Agents.Net.Message.html#Agents_Net_Message_HadPredecessor_
-  commentId: Overload:Agents.Net.Message.HadPredecessor
-  isSpec: "True"
-  fullName: Agents.Net.Message.HadPredecessor
-  nameWithType: Message.HadPredecessor
-- uid: Agents.Net.Message.HadPredecessor``1
-  name: HadPredecessor<T>()
-  href: api/Agents.Net.Message.html#Agents_Net_Message_HadPredecessor__1
-  commentId: M:Agents.Net.Message.HadPredecessor``1
-  name.vb: HadPredecessor(Of T)()
-  fullName: Agents.Net.Message.HadPredecessor<T>()
-  fullName.vb: Agents.Net.Message.HadPredecessor(Of T)()
-  nameWithType: Message.HadPredecessor<T>()
-  nameWithType.vb: Message.HadPredecessor(Of T)()
 - uid: Agents.Net.Message.Id
   name: Id
   href: api/Agents.Net.Message.html#Agents_Net_Message_Id
@@ -1515,23 +1499,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Execute
   nameWithType: MessageCollector<T1, T2>.Execute
   nameWithType.vb: MessageCollector(Of T1, T2).Execute
-- uid: Agents.Net.MessageCollector`2.FindSetsForDomain(Agents.Net.MessageDomain)
-  name: FindSetsForDomain(MessageDomain)
-  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_FindSetsForDomain_Agents_Net_MessageDomain_
-  commentId: M:Agents.Net.MessageCollector`2.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName: Agents.Net.MessageCollector<T1, T2>.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).FindSetsForDomain(Agents.Net.MessageDomain)
-  nameWithType: MessageCollector<T1, T2>.FindSetsForDomain(MessageDomain)
-  nameWithType.vb: MessageCollector(Of T1, T2).FindSetsForDomain(MessageDomain)
-- uid: Agents.Net.MessageCollector`2.FindSetsForDomain*
-  name: FindSetsForDomain
-  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_FindSetsForDomain_
-  commentId: Overload:Agents.Net.MessageCollector`2.FindSetsForDomain
+- uid: Agents.Net.MessageCollector`2.ExecutePushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection})
+  name: ExecutePushAndExecute(Message, Action<MessageCollection>)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_ExecutePushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__
+  commentId: M:Agents.Net.MessageCollector`2.ExecutePushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection})
+  name.vb: ExecutePushAndExecute(Message, Action(Of MessageCollection))
+  fullName: Agents.Net.MessageCollector<T1, T2>.ExecutePushAndExecute(Agents.Net.Message, Action<Agents.Net.MessageCollection>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).ExecutePushAndExecute(Agents.Net.Message, Action(Of Agents.Net.MessageCollection))
+  nameWithType: MessageCollector<T1, T2>.ExecutePushAndExecute(Message, Action<MessageCollection>)
+  nameWithType.vb: MessageCollector(Of T1, T2).ExecutePushAndExecute(Message, Action(Of MessageCollection))
+- uid: Agents.Net.MessageCollector`2.ExecutePushAndExecute*
+  name: ExecutePushAndExecute
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_ExecutePushAndExecute_
+  commentId: Overload:Agents.Net.MessageCollector`2.ExecutePushAndExecute
   isSpec: "True"
-  fullName: Agents.Net.MessageCollector<T1, T2>.FindSetsForDomain
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).FindSetsForDomain
-  nameWithType: MessageCollector<T1, T2>.FindSetsForDomain
-  nameWithType.vb: MessageCollector(Of T1, T2).FindSetsForDomain
+  fullName: Agents.Net.MessageCollector<T1, T2>.ExecutePushAndExecute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).ExecutePushAndExecute
+  nameWithType: MessageCollector<T1, T2>.ExecutePushAndExecute
+  nameWithType.vb: MessageCollector(Of T1, T2).ExecutePushAndExecute
 - uid: Agents.Net.MessageCollector`2.GetCompleteSets(Agents.Net.MessageDomain)
   name: GetCompleteSets(MessageDomain)
   href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_GetCompleteSets_Agents_Net_MessageDomain_
@@ -1618,6 +1603,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Push
   nameWithType: MessageCollector<T1, T2>.Push
   nameWithType.vb: MessageCollector(Of T1, T2).Push
+- uid: Agents.Net.MessageCollector`2.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1}})
+  name: PushAndExecute(Message, Action<MessageCollection<T1, T2>>)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1___
+  commentId: M:Agents.Net.MessageCollector`2.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1}})
+  name.vb: PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2)))
+  fullName: Agents.Net.MessageCollector<T1, T2>.PushAndExecute(Agents.Net.Message, Action<Agents.Net.MessageCollection<T1, T2>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).PushAndExecute(Agents.Net.Message, Action(Of Agents.Net.MessageCollection(Of T1, T2)))
+  nameWithType: MessageCollector<T1, T2>.PushAndExecute(Message, Action<MessageCollection<T1, T2>>)
+  nameWithType.vb: MessageCollector(Of T1, T2).PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2)))
+- uid: Agents.Net.MessageCollector`2.PushAndExecute*
+  name: PushAndExecute
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_PushAndExecute_
+  commentId: Overload:Agents.Net.MessageCollector`2.PushAndExecute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.PushAndExecute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).PushAndExecute
+  nameWithType: MessageCollector<T1, T2>.PushAndExecute
+  nameWithType.vb: MessageCollector(Of T1, T2).PushAndExecute
 - uid: Agents.Net.MessageCollector`2.RemoveMessage(Agents.Net.Message)
   name: RemoveMessage(Message)
   href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_RemoveMessage_Agents_Net_Message_
@@ -1749,23 +1752,6 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Execute
   nameWithType: MessageCollector<T1, T2, T3>.Execute
   nameWithType.vb: MessageCollector(Of T1, T2, T3).Execute
-- uid: Agents.Net.MessageCollector`3.FindSetsForDomain(Agents.Net.MessageDomain)
-  name: FindSetsForDomain(MessageDomain)
-  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_FindSetsForDomain_Agents_Net_MessageDomain_
-  commentId: M:Agents.Net.MessageCollector`3.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName: Agents.Net.MessageCollector<T1, T2, T3>.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).FindSetsForDomain(Agents.Net.MessageDomain)
-  nameWithType: MessageCollector<T1, T2, T3>.FindSetsForDomain(MessageDomain)
-  nameWithType.vb: MessageCollector(Of T1, T2, T3).FindSetsForDomain(MessageDomain)
-- uid: Agents.Net.MessageCollector`3.FindSetsForDomain*
-  name: FindSetsForDomain
-  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_FindSetsForDomain_
-  commentId: Overload:Agents.Net.MessageCollector`3.FindSetsForDomain
-  isSpec: "True"
-  fullName: Agents.Net.MessageCollector<T1, T2, T3>.FindSetsForDomain
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).FindSetsForDomain
-  nameWithType: MessageCollector<T1, T2, T3>.FindSetsForDomain
-  nameWithType.vb: MessageCollector(Of T1, T2, T3).FindSetsForDomain
 - uid: Agents.Net.MessageCollector`3.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
   name: IsCompleted(MessageDomain, out MessageCollection)
   href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
@@ -1801,6 +1787,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).Messages3
   nameWithType: MessageCollector<T1, T2, T3>.Messages3
   nameWithType.vb: MessageCollector(Of T1, T2, T3).Messages3
+- uid: Agents.Net.MessageCollector`3.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2}})
+  name: PushAndExecute(Message, Action<MessageCollection<T1, T2, T3>>)
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1__2___
+  commentId: M:Agents.Net.MessageCollector`3.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2}})
+  name.vb: PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.PushAndExecute(Agents.Net.Message, Action<Agents.Net.MessageCollection<T1, T2, T3>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).PushAndExecute(Agents.Net.Message, Action(Of Agents.Net.MessageCollection(Of T1, T2, T3)))
+  nameWithType: MessageCollector<T1, T2, T3>.PushAndExecute(Message, Action<MessageCollection<T1, T2, T3>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3)))
+- uid: Agents.Net.MessageCollector`3.PushAndExecute*
+  name: PushAndExecute
+  href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_PushAndExecute_
+  commentId: Overload:Agents.Net.MessageCollector`3.PushAndExecute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3>.PushAndExecute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3).PushAndExecute
+  nameWithType: MessageCollector<T1, T2, T3>.PushAndExecute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3).PushAndExecute
 - uid: Agents.Net.MessageCollector`3.RemoveMessage(Agents.Net.Message)
   name: RemoveMessage(Message)
   href: api/Agents.Net.MessageCollector-3.html#Agents_Net_MessageCollector_3_RemoveMessage_Agents_Net_Message_
@@ -1879,23 +1883,6 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Execute
   nameWithType: MessageCollector<T1, T2, T3, T4>.Execute
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Execute
-- uid: Agents.Net.MessageCollector`4.FindSetsForDomain(Agents.Net.MessageDomain)
-  name: FindSetsForDomain(MessageDomain)
-  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_FindSetsForDomain_Agents_Net_MessageDomain_
-  commentId: M:Agents.Net.MessageCollector`4.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain(Agents.Net.MessageDomain)
-  nameWithType: MessageCollector<T1, T2, T3, T4>.FindSetsForDomain(MessageDomain)
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain(MessageDomain)
-- uid: Agents.Net.MessageCollector`4.FindSetsForDomain*
-  name: FindSetsForDomain
-  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_FindSetsForDomain_
-  commentId: Overload:Agents.Net.MessageCollector`4.FindSetsForDomain
-  isSpec: "True"
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.FindSetsForDomain
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain
-  nameWithType: MessageCollector<T1, T2, T3, T4>.FindSetsForDomain
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).FindSetsForDomain
 - uid: Agents.Net.MessageCollector`4.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
   name: IsCompleted(MessageDomain, out MessageCollection)
   href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
@@ -1931,6 +1918,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).Messages4
   nameWithType: MessageCollector<T1, T2, T3, T4>.Messages4
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).Messages4
+- uid: Agents.Net.MessageCollector`4.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3}})
+  name: PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4>>)
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1__2__3___
+  commentId: M:Agents.Net.MessageCollector`4.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3}})
+  name.vb: PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.PushAndExecute(Agents.Net.Message, Action<Agents.Net.MessageCollection<T1, T2, T3, T4>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).PushAndExecute(Agents.Net.Message, Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4)))
+  nameWithType: MessageCollector<T1, T2, T3, T4>.PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4)))
+- uid: Agents.Net.MessageCollector`4.PushAndExecute*
+  name: PushAndExecute
+  href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_PushAndExecute_
+  commentId: Overload:Agents.Net.MessageCollector`4.PushAndExecute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4>.PushAndExecute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4).PushAndExecute
+  nameWithType: MessageCollector<T1, T2, T3, T4>.PushAndExecute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4).PushAndExecute
 - uid: Agents.Net.MessageCollector`4.RemoveMessage(Agents.Net.Message)
   name: RemoveMessage(Message)
   href: api/Agents.Net.MessageCollector-4.html#Agents_Net_MessageCollector_4_RemoveMessage_Agents_Net_Message_
@@ -2009,23 +2014,6 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Execute
   nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Execute
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Execute
-- uid: Agents.Net.MessageCollector`5.FindSetsForDomain(Agents.Net.MessageDomain)
-  name: FindSetsForDomain(MessageDomain)
-  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_FindSetsForDomain_Agents_Net_MessageDomain_
-  commentId: M:Agents.Net.MessageCollector`5.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain(Agents.Net.MessageDomain)
-  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain(MessageDomain)
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain(MessageDomain)
-- uid: Agents.Net.MessageCollector`5.FindSetsForDomain*
-  name: FindSetsForDomain
-  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_FindSetsForDomain_
-  commentId: Overload:Agents.Net.MessageCollector`5.FindSetsForDomain
-  isSpec: "True"
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain
-  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.FindSetsForDomain
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).FindSetsForDomain
 - uid: Agents.Net.MessageCollector`5.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
   name: IsCompleted(MessageDomain, out MessageCollection)
   href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
@@ -2061,6 +2049,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).Messages5
   nameWithType: MessageCollector<T1, T2, T3, T4, T5>.Messages5
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).Messages5
+- uid: Agents.Net.MessageCollector`5.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4}})
+  name: PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4, T5>>)
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1__2__3__4___
+  commentId: M:Agents.Net.MessageCollector`5.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4}})
+  name.vb: PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4, T5)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.PushAndExecute(Agents.Net.Message, Action<Agents.Net.MessageCollection<T1, T2, T3, T4, T5>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).PushAndExecute(Agents.Net.Message, Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5)))
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4, T5>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4, T5)))
+- uid: Agents.Net.MessageCollector`5.PushAndExecute*
+  name: PushAndExecute
+  href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_PushAndExecute_
+  commentId: Overload:Agents.Net.MessageCollector`5.PushAndExecute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5>.PushAndExecute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5).PushAndExecute
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5>.PushAndExecute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5).PushAndExecute
 - uid: Agents.Net.MessageCollector`5.RemoveMessage(Agents.Net.Message)
   name: RemoveMessage(Message)
   href: api/Agents.Net.MessageCollector-5.html#Agents_Net_MessageCollector_5_RemoveMessage_Agents_Net_Message_
@@ -2139,23 +2145,6 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Execute
   nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Execute
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Execute
-- uid: Agents.Net.MessageCollector`6.FindSetsForDomain(Agents.Net.MessageDomain)
-  name: FindSetsForDomain(MessageDomain)
-  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_FindSetsForDomain_Agents_Net_MessageDomain_
-  commentId: M:Agents.Net.MessageCollector`6.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain(Agents.Net.MessageDomain)
-  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain(MessageDomain)
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain(MessageDomain)
-- uid: Agents.Net.MessageCollector`6.FindSetsForDomain*
-  name: FindSetsForDomain
-  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_FindSetsForDomain_
-  commentId: Overload:Agents.Net.MessageCollector`6.FindSetsForDomain
-  isSpec: "True"
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain
-  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.FindSetsForDomain
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).FindSetsForDomain
 - uid: Agents.Net.MessageCollector`6.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
   name: IsCompleted(MessageDomain, out MessageCollection)
   href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
@@ -2191,6 +2180,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).Messages6
   nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.Messages6
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).Messages6
+- uid: Agents.Net.MessageCollector`6.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5}})
+  name: PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4, T5, T6>>)
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1__2__3__4__5___
+  commentId: M:Agents.Net.MessageCollector`6.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5}})
+  name.vb: PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.PushAndExecute(Agents.Net.Message, Action<Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).PushAndExecute(Agents.Net.Message, Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6)))
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4, T5, T6>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6)))
+- uid: Agents.Net.MessageCollector`6.PushAndExecute*
+  name: PushAndExecute
+  href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_PushAndExecute_
+  commentId: Overload:Agents.Net.MessageCollector`6.PushAndExecute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6>.PushAndExecute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6).PushAndExecute
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6>.PushAndExecute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6).PushAndExecute
 - uid: Agents.Net.MessageCollector`6.RemoveMessage(Agents.Net.Message)
   name: RemoveMessage(Message)
   href: api/Agents.Net.MessageCollector-6.html#Agents_Net_MessageCollector_6_RemoveMessage_Agents_Net_Message_
@@ -2269,23 +2276,6 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Execute
   nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Execute
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Execute
-- uid: Agents.Net.MessageCollector`7.FindSetsForDomain(Agents.Net.MessageDomain)
-  name: FindSetsForDomain(MessageDomain)
-  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_FindSetsForDomain_Agents_Net_MessageDomain_
-  commentId: M:Agents.Net.MessageCollector`7.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain(Agents.Net.MessageDomain)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain(Agents.Net.MessageDomain)
-  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain(MessageDomain)
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain(MessageDomain)
-- uid: Agents.Net.MessageCollector`7.FindSetsForDomain*
-  name: FindSetsForDomain
-  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_FindSetsForDomain_
-  commentId: Overload:Agents.Net.MessageCollector`7.FindSetsForDomain
-  isSpec: "True"
-  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain
-  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.FindSetsForDomain
-  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).FindSetsForDomain
 - uid: Agents.Net.MessageCollector`7.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)
   name: IsCompleted(MessageDomain, out MessageCollection)
   href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__
@@ -2321,6 +2311,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Messages7
   nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.Messages7
   nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).Messages7
+- uid: Agents.Net.MessageCollector`7.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5,`6}})
+  name: PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4, T5, T6, T7>>)
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1__2__3__4__5__6___
+  commentId: M:Agents.Net.MessageCollector`7.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1,`2,`3,`4,`5,`6}})
+  name.vb: PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)))
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.PushAndExecute(Agents.Net.Message, Action<Agents.Net.MessageCollection<T1, T2, T3, T4, T5, T6, T7>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).PushAndExecute(Agents.Net.Message, Action(Of Agents.Net.MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)))
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.PushAndExecute(Message, Action<MessageCollection<T1, T2, T3, T4, T5, T6, T7>>)
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).PushAndExecute(Message, Action(Of MessageCollection(Of T1, T2, T3, T4, T5, T6, T7)))
+- uid: Agents.Net.MessageCollector`7.PushAndExecute*
+  name: PushAndExecute
+  href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_PushAndExecute_
+  commentId: Overload:Agents.Net.MessageCollector`7.PushAndExecute
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2, T3, T4, T5, T6, T7>.PushAndExecute
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).PushAndExecute
+  nameWithType: MessageCollector<T1, T2, T3, T4, T5, T6, T7>.PushAndExecute
+  nameWithType.vb: MessageCollector(Of T1, T2, T3, T4, T5, T6, T7).PushAndExecute
 - uid: Agents.Net.MessageCollector`7.RemoveMessage(Agents.Net.Message)
   name: RemoveMessage(Message)
   href: api/Agents.Net.MessageCollector-7.html#Agents_Net_MessageCollector_7_RemoveMessage_Agents_Net_Message_
