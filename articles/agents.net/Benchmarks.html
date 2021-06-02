@@ -79,15 +79,15 @@
             <article class="content wrap" id="_content" data-uid="Benchmarks">
 
 
-<p>This page should be updated with each release. This benchmark was made with 2021.0.0.</p>
+<p>This page should be updated with each release. This benchmark was made with 2021.6.0.</p>
 <h1 id="minimal-overhead">Minimal overhead</h1>
 <p>This benchmark shows the minimal overhead needed to delegate the work to background threads.</p>
 <pre><code class="lang-ini">
-BenchmarkDotNet=v0.12.1, OS=Windows 10.0.18363.1256 (1909/November2018Update/19H2)
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19042
 Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
-.NET Core SDK=5.0.101
-  [Host]     : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
-  DefaultJob : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
+.NET Core SDK=5.0.203
+  [Host]     : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
 
 
 </code></pre>
@@ -105,38 +105,38 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <tbody>
 <tr>
 <td>SingleThread</td>
-<td style="text-align: right;">657.7 μs</td>
-<td style="text-align: right;">13.08 μs</td>
-<td style="text-align: right;">26.43 μs</td>
+<td style="text-align: right;">879.3 μs</td>
+<td style="text-align: right;">17.54 μs</td>
+<td style="text-align: right;">39.60 μs</td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr>
 <td>ThreadPool</td>
-<td style="text-align: right;">1,463.3 μs</td>
-<td style="text-align: right;">29.11 μs</td>
-<td style="text-align: right;">36.81 μs</td>
-<td style="text-align: right;">2.22</td>
-<td style="text-align: right;">0.09</td>
+<td style="text-align: right;">1,951.7 μs</td>
+<td style="text-align: right;">35.41 μs</td>
+<td style="text-align: right;">33.12 μs</td>
+<td style="text-align: right;">2.12</td>
+<td style="text-align: right;">0.11</td>
 </tr>
 <tr>
 <td>TaskRun</td>
-<td style="text-align: right;">1,603.9 μs</td>
-<td style="text-align: right;">31.82 μs</td>
-<td style="text-align: right;">46.64 μs</td>
-<td style="text-align: right;">2.43</td>
-<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">2,100.1 μs</td>
+<td style="text-align: right;">35.64 μs</td>
+<td style="text-align: right;">33.33 μs</td>
+<td style="text-align: right;">2.28</td>
+<td style="text-align: right;">0.12</td>
 </tr>
 </tbody>
 </table>
 <h1 id="sequential-overhead">Sequential overhead</h1>
 <p>This compares sequential execution - which is the worst case scenario for the framework - of simple single thread execution with the agent framework. Duration -1 means using <code>Thread.SpinWait(15)</code> and 1 means using <code>Thread.Sleep(1)</code>.</p>
 <pre><code class="lang-ini">
-BenchmarkDotNet=v0.12.1, OS=Windows 10.0.18363.1256 (1909/November2018Update/19H2)
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19042
 Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
-.NET Core SDK=5.0.101
-  [Host]     : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
-  DefaultJob : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
+.NET Core SDK=5.0.203
+  [Host]     : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
 
 
 </code></pre>
@@ -156,29 +156,29 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <tr>
 <td><strong>SingleThread</strong></td>
 <td><strong>-1</strong></td>
-<td style="text-align: right;"><strong>645.3 μs</strong></td>
-<td style="text-align: right;"><strong>12.71 μs</strong></td>
-<td style="text-align: right;"><strong>11.89 μs</strong></td>
+<td style="text-align: right;"><strong>695.8 μs</strong></td>
+<td style="text-align: right;"><strong>12.29 μs</strong></td>
+<td style="text-align: right;"><strong>18.02 μs</strong></td>
 <td style="text-align: right;"><strong>1.00</strong></td>
 <td style="text-align: right;"><strong>0.00</strong></td>
 </tr>
 <tr>
 <td>AgentFramework</td>
 <td>-1</td>
-<td style="text-align: right;">2,145.9 μs</td>
-<td style="text-align: right;">41.63 μs</td>
-<td style="text-align: right;">46.27 μs</td>
-<td style="text-align: right;">3.32</td>
+<td style="text-align: right;">2,525.7 μs</td>
+<td style="text-align: right;">34.86 μs</td>
+<td style="text-align: right;">29.11 μs</td>
+<td style="text-align: right;">3.59</td>
 <td style="text-align: right;">0.09</td>
 </tr>
 <tr>
 <td>AgentFrameworkReusingMessage</td>
 <td>-1</td>
-<td style="text-align: right;">1,761.5 μs</td>
-<td style="text-align: right;">21.50 μs</td>
-<td style="text-align: right;">19.06 μs</td>
-<td style="text-align: right;">2.73</td>
-<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">1,776.0 μs</td>
+<td style="text-align: right;">21.11 μs</td>
+<td style="text-align: right;">16.48 μs</td>
+<td style="text-align: right;">2.52</td>
+<td style="text-align: right;">0.06</td>
 </tr>
 <tr>
 <td></td>
@@ -192,40 +192,40 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <tr>
 <td><strong>SingleThread</strong></td>
 <td><strong>1</strong></td>
-<td style="text-align: right;"><strong>16,842,688.1 μs</strong></td>
-<td style="text-align: right;"><strong>203,896.57 μs</strong></td>
-<td style="text-align: right;"><strong>180,749.00 μs</strong></td>
+<td style="text-align: right;"><strong>2,001,126.8 μs</strong></td>
+<td style="text-align: right;"><strong>3,253.75 μs</strong></td>
+<td style="text-align: right;"><strong>2,540.31 μs</strong></td>
 <td style="text-align: right;"><strong>1.00</strong></td>
 <td style="text-align: right;"><strong>0.00</strong></td>
 </tr>
 <tr>
 <td>AgentFramework</td>
 <td>1</td>
-<td style="text-align: right;">16,901,956.1 μs</td>
-<td style="text-align: right;">179,898.70 μs</td>
-<td style="text-align: right;">168,277.36 μs</td>
+<td style="text-align: right;">1,996,151.6 μs</td>
+<td style="text-align: right;">2,506.85 μs</td>
+<td style="text-align: right;">2,344.91 μs</td>
 <td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.00</td>
 </tr>
 <tr>
 <td>AgentFrameworkReusingMessage</td>
 <td>1</td>
-<td style="text-align: right;">16,854,929.9 μs</td>
-<td style="text-align: right;">153,595.07 μs</td>
-<td style="text-align: right;">143,672.92 μs</td>
+<td style="text-align: right;">1,998,115.7 μs</td>
+<td style="text-align: right;">2,298.14 μs</td>
+<td style="text-align: right;">2,149.69 μs</td>
 <td style="text-align: right;">1.00</td>
-<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.00</td>
 </tr>
 </tbody>
 </table>
 <h1 id="logging-overhead">Logging overhead</h1>
 <p>This benchmark shows the sequential overhead when logging is enabled. To make it fair the comparison also logs each cycle in the single thread case. Duration -1 means using <code>Thread.SpinWait(15)</code> and 1 means using <code>Thread.Sleep(1)</code>.</p>
 <pre><code class="lang-ini">
-BenchmarkDotNet=v0.12.1, OS=Windows 10.0.18363.1256 (1909/November2018Update/19H2)
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19042
 Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
-.NET Core SDK=5.0.101
-  [Host]     : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
-  DefaultJob : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
+.NET Core SDK=5.0.203
+  [Host]     : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
 
 
 </code></pre>
@@ -245,20 +245,20 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <tr>
 <td><strong>SingleThread</strong></td>
 <td><strong>-1</strong></td>
-<td style="text-align: right;"><strong>2.015 ms</strong></td>
-<td style="text-align: right;"><strong>0.0395 ms</strong></td>
-<td style="text-align: right;"><strong>0.0527 ms</strong></td>
+<td style="text-align: right;"><strong>2.084 ms</strong></td>
+<td style="text-align: right;"><strong>0.0406 ms</strong></td>
+<td style="text-align: right;"><strong>0.0417 ms</strong></td>
 <td style="text-align: right;"><strong>1.00</strong></td>
 <td style="text-align: right;"><strong>0.00</strong></td>
 </tr>
 <tr>
 <td>AgentFramework</td>
 <td>-1</td>
-<td style="text-align: right;">30.057 ms</td>
-<td style="text-align: right;">0.5983 ms</td>
-<td style="text-align: right;">1.4102 ms</td>
-<td style="text-align: right;">14.83</td>
-<td style="text-align: right;">0.78</td>
+<td style="text-align: right;">31.059 ms</td>
+<td style="text-align: right;">0.7493 ms</td>
+<td style="text-align: right;">2.1619 ms</td>
+<td style="text-align: right;">14.12</td>
+<td style="text-align: right;">1.01</td>
 </tr>
 <tr>
 <td></td>
@@ -272,18 +272,18 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <tr>
 <td><strong>SingleThread</strong></td>
 <td><strong>1</strong></td>
-<td style="text-align: right;"><strong>16,889.451 ms</strong></td>
-<td style="text-align: right;"><strong>96.3038 ms</strong></td>
-<td style="text-align: right;"><strong>80.4181 ms</strong></td>
+<td style="text-align: right;"><strong>2,001.834 ms</strong></td>
+<td style="text-align: right;"><strong>6.6619 ms</strong></td>
+<td style="text-align: right;"><strong>5.2012 ms</strong></td>
 <td style="text-align: right;"><strong>1.00</strong></td>
 <td style="text-align: right;"><strong>0.00</strong></td>
 </tr>
 <tr>
 <td>AgentFramework</td>
 <td>1</td>
-<td style="text-align: right;">16,902.116 ms</td>
-<td style="text-align: right;">106.0149 ms</td>
-<td style="text-align: right;">99.1664 ms</td>
+<td style="text-align: right;">2,004.502 ms</td>
+<td style="text-align: right;">12.5968 ms</td>
+<td style="text-align: right;">11.1667 ms</td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.01</td>
 </tr>
@@ -292,11 +292,11 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <h1 id="parallel-execution">Parallel execution</h1>
 <p>This benchmark executes 2000 workloads parallel. It compares the agent framework with <code>Parallel.ForEach</code> - which should be the gold standard - and sequential execution.</p>
 <pre><code class="lang-ini">
-BenchmarkDotNet=v0.12.1, OS=Windows 10.0.18363.1256 (1909/November2018Update/19H2)
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19042
 Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
-.NET Core SDK=5.0.101
-  [Host]     : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
-  DefaultJob : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
+.NET Core SDK=5.0.203
+  [Host]     : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
 
 
 </code></pre>
@@ -307,41 +307,45 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <th style="text-align: right;">Mean</th>
 <th style="text-align: right;">Error</th>
 <th style="text-align: right;">StdDev</th>
+<th style="text-align: right;">Median</th>
 <th style="text-align: right;">Ratio</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>SingleThread</td>
-<td style="text-align: right;">32.131 s</td>
-<td style="text-align: right;">0.1227 s</td>
-<td style="text-align: right;">0.1025 s</td>
+<td style="text-align: right;">11,437.8 ms</td>
+<td style="text-align: right;">44.23 ms</td>
+<td style="text-align: right;">41.37 ms</td>
+<td style="text-align: right;">11,440.4 ms</td>
 <td style="text-align: right;">1.00</td>
 </tr>
 <tr>
 <td>ParallelForEach</td>
-<td style="text-align: right;">1.046 s</td>
-<td style="text-align: right;">0.1482 s</td>
-<td style="text-align: right;">0.4205 s</td>
-<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">493.3 ms</td>
+<td style="text-align: right;">70.48 ms</td>
+<td style="text-align: right;">201.09 ms</td>
+<td style="text-align: right;">414.6 ms</td>
+<td style="text-align: right;">0.07</td>
 </tr>
 <tr>
 <td>AgentFramework</td>
-<td style="text-align: right;">1.144 s</td>
-<td style="text-align: right;">0.0587 s</td>
-<td style="text-align: right;">0.1711 s</td>
-<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">425.5 ms</td>
+<td style="text-align: right;">25.89 ms</td>
+<td style="text-align: right;">73.45 ms</td>
+<td style="text-align: right;">420.7 ms</td>
+<td style="text-align: right;">0.05</td>
 </tr>
 </tbody>
 </table>
 <h1 id="file-manipulation">File Manipulation</h1>
 <p>This is more of a real life scenario. 2000 files are scanned from which 400 files are manipulated. Again the agent framework is compared to <code>Parallel.ForEach</code> and sequential execution and a combination of the agent framework with <code>Parallel.ForEach</code>.</p>
 <pre><code class="lang-ini">
-BenchmarkDotNet=v0.12.1, OS=Windows 10.0.18363.1256 (1909/November2018Update/19H2)
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19042
 Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
-.NET Core SDK=5.0.101
-  [Host]     : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
-  DefaultJob : .NET Core 3.1.7 (CoreCLR 4.700.20.36602, CoreFX 4.700.20.37001), X64 RyuJIT
+.NET Core SDK=5.0.203
+  [Host]     : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.15 (CoreCLR 4.700.21.21202, CoreFX 4.700.21.21402), X64 RyuJIT
 
 
 </code></pre>
@@ -360,39 +364,39 @@ Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 <tbody>
 <tr>
 <td>SingleThread</td>
-<td style="text-align: right;">235.25 ms</td>
-<td style="text-align: right;">4.671 ms</td>
-<td style="text-align: right;">9.953 ms</td>
-<td style="text-align: right;">234.34 ms</td>
+<td style="text-align: right;">308.78 ms</td>
+<td style="text-align: right;">6.080 ms</td>
+<td style="text-align: right;">12.419 ms</td>
+<td style="text-align: right;">308.97 ms</td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 </tr>
 <tr>
 <td>ParallelForEach</td>
-<td style="text-align: right;">76.73 ms</td>
-<td style="text-align: right;">2.048 ms</td>
-<td style="text-align: right;">6.005 ms</td>
-<td style="text-align: right;">76.91 ms</td>
-<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">88.10 ms</td>
+<td style="text-align: right;">2.270 ms</td>
+<td style="text-align: right;">6.586 ms</td>
+<td style="text-align: right;">87.23 ms</td>
+<td style="text-align: right;">0.28</td>
 <td style="text-align: right;">0.03</td>
 </tr>
 <tr>
 <td>AgentFramework</td>
-<td style="text-align: right;">81.01 ms</td>
-<td style="text-align: right;">1.593 ms</td>
-<td style="text-align: right;">3.464 ms</td>
-<td style="text-align: right;">79.78 ms</td>
-<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">112.81 ms</td>
+<td style="text-align: right;">2.235 ms</td>
+<td style="text-align: right;">6.042 ms</td>
+<td style="text-align: right;">112.91 ms</td>
+<td style="text-align: right;">0.37</td>
 <td style="text-align: right;">0.02</td>
 </tr>
 <tr>
 <td>AgentFrameworkParallelForEach</td>
-<td style="text-align: right;">75.68 ms</td>
-<td style="text-align: right;">1.494 ms</td>
-<td style="text-align: right;">3.609 ms</td>
-<td style="text-align: right;">75.21 ms</td>
-<td style="text-align: right;">0.32</td>
-<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">90.47 ms</td>
+<td style="text-align: right;">2.852 ms</td>
+<td style="text-align: right;">8.136 ms</td>
+<td style="text-align: right;">87.67 ms</td>
+<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">0.03</td>
 </tr>
 </tbody>
 </table>
