@@ -552,6 +552,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageGate-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageGate-2.html",
+          "hash": "LtlbBYKnBw2A1aNdlLqwUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageGateResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageGateResult-1.html",
+          "hash": "NpmwRu+bxfe70NmPL2Sgew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.MessageGateResultKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.MessageGateResultKind.html",
+          "hash": "+y9kMeIHRzIapgNtN8sL7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Agents.Net.MessageLog.yml",
       "output": {
         ".html": {
@@ -592,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.html",
-          "hash": "9XzZ+WdzBO5e2y7pui7COg=="
+          "hash": "zrK4s+lO8bwltYxnl5O+kw=="
         }
       },
       "is_incremental": false,
@@ -604,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "a69vxmM5mOAXc12iTpgurA=="
+          "hash": "L7KEnjjkxC9br9bqO80yYA=="
         }
       },
       "is_incremental": false,
@@ -643,7 +679,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 31,
+          "total_file_count": 34,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

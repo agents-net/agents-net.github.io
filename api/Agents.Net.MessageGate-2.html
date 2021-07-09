@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MessageGate&lt;TStart, TEnd&gt;
+   | Agents.Net Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MessageGate&lt;TStart, TEnd&gt;
+   | Agents.Net Documentation ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Agents.Net.MessageGate`2">
+  
+  
+  <h1 id="Agents_Net_MessageGate_2" data-uid="Agents.Net.MessageGate`2" class="text-break">Class MessageGate&lt;TStart, TEnd&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>This is a helper class which allows to collect a message pair consisting of a start and an end message.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">MessageGate&lt;TStart, TEnd&gt;</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Agents.Net.html">Agents.Net</a></h6>
+  <h6><strong>Assembly</strong>: Agents.Net.dll</h6>
+  <h5 id="Agents_Net_MessageGate_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MessageGate&lt;TStart, TEnd&gt; : object where TStart : Message where TEnd : Message</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TStart</span></td>
+        <td><p>Type of the start message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEnd</span></td>
+        <td><p>Type of the end message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_MessageGate_2_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This helper should be used with caution as it breaks the basic concept of the agent framework,
+that each agent does exactly one thing. There are only two use cases were this helper should be used.
+<ol><li><strong>An agent serving as a legacy bridge:</strong><br>
+        When working in a legacy system it is sometimes necessary to have an agent serving a service interface.
+        In this case it is often so that the service call provides some parameters and expects a
+        specific result.<br>
+        To achieve that the service agent needs to wait inside the service call for a specific end message.
+        In addition to that, the service call need to terminate once an exception message was send. It would
+        wait forever otherwise.
+</li><li><strong>Calling a simple basic operation inside the agent framework:</strong><br>
+    Let&apos;s assume the following use case: The application has a file system abstraction which can
+    execute CRUD operations on files and directories. Now I want to create an agent, that creates
+    a new configuration file.<br>
+    Without this class the solution would look like this:
+<pre><code> ---------------         -------------          --------------------------
+| ConfigCreator | ----> | FileCreator | -----> | ConfigFileCreatedWatcher |
+ ---------------         -------------          --------------------------
+FileCreating             FileCreated            ConfigFileCreated</code></pre>
+        The <code>ConfigCreator</code> would only create the <code>FileCreating</code> message and mark it somehow
+        for the <code>ConfigFileCreatedWatcher</code> which only marks the <code>FileCreated</code> message. This would
+        unnecessarily increase the amount of agents in the system.<br>
+        With this class the solution would look like this:
+<pre><code> ---------------          -------------
+| ConfigCreator | &lt;----> | FileCreator |
+ ---------------          -------------
+FileCreating             FileCreated
+ConfigFileCreated</code></pre>
+        Similar are operations such as executing an external process or database operations are more examples
+        were the second use case would helpful.
+</li></ol>
+</p>
+<p> Internally this helper uses <a class="xref" href="Agents.Net.MessageCollector-2.html">MessageCollector&lt;T1, T2&gt;</a>s to execute the boilerplate code.
+Therefore all information regarding the <a class="xref" href="Agents.Net.MessageCollector-2.html">MessageCollector&lt;T1, T2&gt;</a> applies here to, such as
+considering message domains.
+</p>
+<p> Speaking of domains. The class will internally use a message domain to mark the start message. It is
+not necessary to do this by the calling code.
+</p>
+</div>
+  <h5 id="Agents_Net_MessageGate_2_examples"><strong>Examples</strong></h5>
+  <p>This example shows the first use case of a legacy service call.</p>
+<pre><code>[Consumes(typeof(TEnd))]
+[Consumes(typeof(ExceptionMessage))]
+[Produces(typeof(TStart))]
+public class ServiceAgentImplementation : Agent, IService
+{
+    private readonly MessageGate&lt;TStart,TEnd> gate = new MessageGate&lt;TStart,TEnd>();
+
+    public ServiceAgentImplementation(IMessageBoard messageBoard) : base(messageBoard)
+    {
+    }
+
+    protected override void ExecuteCore(Message messageData)
+    {
+        gate.Check(messageData);
+    }
+
+    public TResult ServiceCall(TParam parameters)
+    {
+        MessageGateResult&lt;TEnd> result = gate.SendAndAwait(parameters, OnMessage);
+        //evaluate result and return TResult
+    }
+}</code></pre>
+
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2__ctor.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L110">View Source</a>
+  </span>
+  <a id="Agents_Net_MessageGate_2__ctor_" data-uid="Agents.Net.MessageGate`2.#ctor*"></a>
+  <h4 id="Agents_Net_MessageGate_2__ctor" data-uid="Agents.Net.MessageGate`2.#ctor">MessageGate()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="Agents.Net.MessageGate-2.html">MessageGate&lt;TStart, TEnd&gt;</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageGate()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2_NoTimout.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.NoTimout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L139">View Source</a>
+  </span>
+  <h4 id="Agents_Net_MessageGate_2_NoTimout" data-uid="Agents.Net.MessageGate`2.NoTimout">NoTimout</h4>
+  <div class="markdown level1 summary"><p>A constant value to tell the <a class="xref" href="Agents.Net.MessageGate-2.html">MessageGate&lt;TStart, TEnd&gt;</a> that it has to wait forever.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NoTimout = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2_Check_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.Check(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L247">View Source</a>
+  </span>
+  <a id="Agents_Net_MessageGate_2_Check_" data-uid="Agents.Net.MessageGate`2.Check*"></a>
+  <h4 id="Agents_Net_MessageGate_2_Check_Agents_Net_Message_" data-uid="Agents.Net.MessageGate`2.Check(Agents.Net.Message)">Check(Message)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the provided exception message is the end message or an exception message for the awaited <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_">SendAndAwait(TStart, Action&lt;Message&gt;, Int32, CancellationToken)</a> operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Check(Message message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code>, if the message was the end message or an exception message for the <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_">SendAndAwait(TStart, Action&lt;Message&gt;, Int32, CancellationToken)</a> operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_MessageGate_2_Check_Agents_Net_Message__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For an example how to use this class see the type documentation.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.SendAndAwait(%600%2CAction%7BAgents.Net.Message%7D%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L156">View Source</a>
+  </span>
+  <a id="Agents_Net_MessageGate_2_SendAndAwait_" data-uid="Agents.Net.MessageGate`2.SendAndAwait*"></a>
+  <h4 id="Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_" data-uid="Agents.Net.MessageGate`2.SendAndAwait(`0,Action{Agents.Net.Message},System.Int32,CancellationToken)">SendAndAwait(TStart, Action&lt;Message&gt;, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>The method to send a start message and wait for the end message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageGateResult&lt;TEnd&gt; SendAndAwait(TStart startMessage, Action&lt;Message&gt; onMessage, int timeout = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStart</span></td>
+        <td><span class="parametername">startMessage</span></td>
+        <td><p>The start message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Agents.Net.Message.html">Message</a>&gt;</td>
+        <td><span class="parametername">onMessage</span></td>
+        <td><p>The action to send the message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">timeout</span></td>
+        <td><p>Optionally a timeout after which the method will return, without sending the result.
+By default the timeout is <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_NoTimout">NoTimout</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>Optionally a cancellation token to cancel the wait operation. This is helpful, when for example the
+imitated service call is an async method. By default no CancellationToken will be used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.MessageGateResult-1.html">MessageGateResult</a>&lt;TEnd&gt;</td>
+        <td><p>The <a class="xref" href="Agents.Net.MessageGateResult-1.html">MessageGateResult&lt;TEnd&gt;</a> of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For an example how to use this class see the type documentation.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L98" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © Copyright Tobias Wilker and contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

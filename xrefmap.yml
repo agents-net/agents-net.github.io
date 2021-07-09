@@ -2599,6 +2599,183 @@ references:
   isSpec: "True"
   fullName: Agents.Net.MessageDomain.TerminateDomainsOf
   nameWithType: MessageDomain.TerminateDomainsOf
+- uid: Agents.Net.MessageGate`2
+  name: MessageGate<TStart, TEnd>
+  href: api/Agents.Net.MessageGate-2.html
+  commentId: T:Agents.Net.MessageGate`2
+  name.vb: MessageGate(Of TStart, TEnd)
+  fullName: Agents.Net.MessageGate<TStart, TEnd>
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd)
+  nameWithType: MessageGate<TStart, TEnd>
+  nameWithType.vb: MessageGate(Of TStart, TEnd)
+- uid: Agents.Net.MessageGate`2.#ctor
+  name: MessageGate()
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2__ctor
+  commentId: M:Agents.Net.MessageGate`2.#ctor
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.MessageGate()
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).MessageGate()
+  nameWithType: MessageGate<TStart, TEnd>.MessageGate()
+  nameWithType.vb: MessageGate(Of TStart, TEnd).MessageGate()
+- uid: Agents.Net.MessageGate`2.#ctor*
+  name: MessageGate
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2__ctor_
+  commentId: Overload:Agents.Net.MessageGate`2.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.MessageGate
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).MessageGate
+  nameWithType: MessageGate<TStart, TEnd>.MessageGate
+  nameWithType.vb: MessageGate(Of TStart, TEnd).MessageGate
+- uid: Agents.Net.MessageGate`2.Check(Agents.Net.Message)
+  name: Check(Message)
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_Check_Agents_Net_Message_
+  commentId: M:Agents.Net.MessageGate`2.Check(Agents.Net.Message)
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.Check(Agents.Net.Message)
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).Check(Agents.Net.Message)
+  nameWithType: MessageGate<TStart, TEnd>.Check(Message)
+  nameWithType.vb: MessageGate(Of TStart, TEnd).Check(Message)
+- uid: Agents.Net.MessageGate`2.Check*
+  name: Check
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_Check_
+  commentId: Overload:Agents.Net.MessageGate`2.Check
+  isSpec: "True"
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.Check
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).Check
+  nameWithType: MessageGate<TStart, TEnd>.Check
+  nameWithType.vb: MessageGate(Of TStart, TEnd).Check
+- uid: Agents.Net.MessageGate`2.NoTimout
+  name: NoTimout
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_NoTimout
+  commentId: F:Agents.Net.MessageGate`2.NoTimout
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.NoTimout
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).NoTimout
+  nameWithType: MessageGate<TStart, TEnd>.NoTimout
+  nameWithType.vb: MessageGate(Of TStart, TEnd).NoTimout
+- uid: Agents.Net.MessageGate`2.SendAndAwait(`0,Action{Agents.Net.Message},System.Int32,CancellationToken)
+  name: SendAndAwait(TStart, Action<Message>, Int32, CancellationToken)
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_
+  commentId: M:Agents.Net.MessageGate`2.SendAndAwait(`0,Action{Agents.Net.Message},System.Int32,CancellationToken)
+  name.vb: SendAndAwait(TStart, Action(Of Message), Int32, CancellationToken)
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.SendAndAwait(TStart, Action<Agents.Net.Message>, System.Int32, CancellationToken)
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndAwait(TStart, Action(Of Agents.Net.Message), System.Int32, CancellationToken)
+  nameWithType: MessageGate<TStart, TEnd>.SendAndAwait(TStart, Action<Message>, Int32, CancellationToken)
+  nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndAwait(TStart, Action(Of Message), Int32, CancellationToken)
+- uid: Agents.Net.MessageGate`2.SendAndAwait*
+  name: SendAndAwait
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAwait_
+  commentId: Overload:Agents.Net.MessageGate`2.SendAndAwait
+  isSpec: "True"
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.SendAndAwait
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndAwait
+  nameWithType: MessageGate<TStart, TEnd>.SendAndAwait
+  nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndAwait
+- uid: Agents.Net.MessageGateResult`1
+  name: MessageGateResult<TEnd>
+  href: api/Agents.Net.MessageGateResult-1.html
+  commentId: T:Agents.Net.MessageGateResult`1
+  name.vb: MessageGateResult(Of TEnd)
+  fullName: Agents.Net.MessageGateResult<TEnd>
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd)
+  nameWithType: MessageGateResult<TEnd>
+  nameWithType.vb: MessageGateResult(Of TEnd)
+- uid: Agents.Net.MessageGateResult`1.#ctor(Agents.Net.MessageGateResultKind,`0,IEnumerable{Agents.Net.ExceptionMessage})
+  name: MessageGateResult(MessageGateResultKind, TEnd, IEnumerable<ExceptionMessage>)
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1__ctor_Agents_Net_MessageGateResultKind__0_IEnumerable_Agents_Net_ExceptionMessage__
+  commentId: M:Agents.Net.MessageGateResult`1.#ctor(Agents.Net.MessageGateResultKind,`0,IEnumerable{Agents.Net.ExceptionMessage})
+  name.vb: MessageGateResult(MessageGateResultKind, TEnd, IEnumerable(Of ExceptionMessage))
+  fullName: Agents.Net.MessageGateResult<TEnd>.MessageGateResult(Agents.Net.MessageGateResultKind, TEnd, IEnumerable<Agents.Net.ExceptionMessage>)
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).MessageGateResult(Agents.Net.MessageGateResultKind, TEnd, IEnumerable(Of Agents.Net.ExceptionMessage))
+  nameWithType: MessageGateResult<TEnd>.MessageGateResult(MessageGateResultKind, TEnd, IEnumerable<ExceptionMessage>)
+  nameWithType.vb: MessageGateResult(Of TEnd).MessageGateResult(MessageGateResultKind, TEnd, IEnumerable(Of ExceptionMessage))
+- uid: Agents.Net.MessageGateResult`1.#ctor*
+  name: MessageGateResult
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1__ctor_
+  commentId: Overload:Agents.Net.MessageGateResult`1.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageGateResult<TEnd>.MessageGateResult
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).MessageGateResult
+  nameWithType: MessageGateResult<TEnd>.MessageGateResult
+  nameWithType.vb: MessageGateResult(Of TEnd).MessageGateResult
+- uid: Agents.Net.MessageGateResult`1.EndMessage
+  name: EndMessage
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1_EndMessage
+  commentId: P:Agents.Net.MessageGateResult`1.EndMessage
+  fullName: Agents.Net.MessageGateResult<TEnd>.EndMessage
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).EndMessage
+  nameWithType: MessageGateResult<TEnd>.EndMessage
+  nameWithType.vb: MessageGateResult(Of TEnd).EndMessage
+- uid: Agents.Net.MessageGateResult`1.EndMessage*
+  name: EndMessage
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1_EndMessage_
+  commentId: Overload:Agents.Net.MessageGateResult`1.EndMessage
+  isSpec: "True"
+  fullName: Agents.Net.MessageGateResult<TEnd>.EndMessage
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).EndMessage
+  nameWithType: MessageGateResult<TEnd>.EndMessage
+  nameWithType.vb: MessageGateResult(Of TEnd).EndMessage
+- uid: Agents.Net.MessageGateResult`1.Exceptions
+  name: Exceptions
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1_Exceptions
+  commentId: P:Agents.Net.MessageGateResult`1.Exceptions
+  fullName: Agents.Net.MessageGateResult<TEnd>.Exceptions
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).Exceptions
+  nameWithType: MessageGateResult<TEnd>.Exceptions
+  nameWithType.vb: MessageGateResult(Of TEnd).Exceptions
+- uid: Agents.Net.MessageGateResult`1.Exceptions*
+  name: Exceptions
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1_Exceptions_
+  commentId: Overload:Agents.Net.MessageGateResult`1.Exceptions
+  isSpec: "True"
+  fullName: Agents.Net.MessageGateResult<TEnd>.Exceptions
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).Exceptions
+  nameWithType: MessageGateResult<TEnd>.Exceptions
+  nameWithType.vb: MessageGateResult(Of TEnd).Exceptions
+- uid: Agents.Net.MessageGateResult`1.Result
+  name: Result
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1_Result
+  commentId: P:Agents.Net.MessageGateResult`1.Result
+  fullName: Agents.Net.MessageGateResult<TEnd>.Result
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).Result
+  nameWithType: MessageGateResult<TEnd>.Result
+  nameWithType.vb: MessageGateResult(Of TEnd).Result
+- uid: Agents.Net.MessageGateResult`1.Result*
+  name: Result
+  href: api/Agents.Net.MessageGateResult-1.html#Agents_Net_MessageGateResult_1_Result_
+  commentId: Overload:Agents.Net.MessageGateResult`1.Result
+  isSpec: "True"
+  fullName: Agents.Net.MessageGateResult<TEnd>.Result
+  fullName.vb: Agents.Net.MessageGateResult(Of TEnd).Result
+  nameWithType: MessageGateResult<TEnd>.Result
+  nameWithType.vb: MessageGateResult(Of TEnd).Result
+- uid: Agents.Net.MessageGateResultKind
+  name: MessageGateResultKind
+  href: api/Agents.Net.MessageGateResultKind.html
+  commentId: T:Agents.Net.MessageGateResultKind
+  fullName: Agents.Net.MessageGateResultKind
+  nameWithType: MessageGateResultKind
+- uid: Agents.Net.MessageGateResultKind.Canceled
+  name: Canceled
+  href: api/Agents.Net.MessageGateResultKind.html#Agents_Net_MessageGateResultKind_Canceled
+  commentId: F:Agents.Net.MessageGateResultKind.Canceled
+  fullName: Agents.Net.MessageGateResultKind.Canceled
+  nameWithType: MessageGateResultKind.Canceled
+- uid: Agents.Net.MessageGateResultKind.Exception
+  name: Exception
+  href: api/Agents.Net.MessageGateResultKind.html#Agents_Net_MessageGateResultKind_Exception
+  commentId: F:Agents.Net.MessageGateResultKind.Exception
+  fullName: Agents.Net.MessageGateResultKind.Exception
+  nameWithType: MessageGateResultKind.Exception
+- uid: Agents.Net.MessageGateResultKind.Success
+  name: Success
+  href: api/Agents.Net.MessageGateResultKind.html#Agents_Net_MessageGateResultKind_Success
+  commentId: F:Agents.Net.MessageGateResultKind.Success
+  fullName: Agents.Net.MessageGateResultKind.Success
+  nameWithType: MessageGateResultKind.Success
+- uid: Agents.Net.MessageGateResultKind.Timeout
+  name: Timeout
+  href: api/Agents.Net.MessageGateResultKind.html#Agents_Net_MessageGateResultKind_Timeout
+  commentId: F:Agents.Net.MessageGateResultKind.Timeout
+  fullName: Agents.Net.MessageGateResultKind.Timeout
+  nameWithType: MessageGateResultKind.Timeout
 - uid: Agents.Net.MessageLog
   name: MessageLog
   href: api/Agents.Net.MessageLog.html
