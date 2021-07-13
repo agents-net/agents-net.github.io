@@ -103,6 +103,12 @@ class in order to receive messages from the <a class="xref" href="Agents.Net.IMe
       <h4><a class="xref" href="Agents.Net.InitializeMessage.html">InitializeMessage</a></h4>
       <section><p>The first message in the lifetime of a <a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a>. It is produced the by the <a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a> when the <a class="xref" href="Agents.Net.IMessageBoard.html#Agents_Net_IMessageBoard_Start">Start()</a> method is called.</p>
 </section>
+      <h4><a class="xref" href="Agents.Net.InterceptionAction.html">InterceptionAction</a></h4>
+      <section><p>The action that should be taken with the message that was intercepted.</p>
+</section>
+      <h4><a class="xref" href="Agents.Net.InterceptionDelayToken.html">InterceptionDelayToken</a></h4>
+      <section><p>The delay token to release a message that was delayed with the <a class="xref" href="Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_Delay_Agents_Net_InterceptionDelayToken__">Delay(out InterceptionDelayToken)</a> result.</p>
+</section>
       <h4><a class="xref" href="Agents.Net.InterceptorAgent.html">InterceptorAgent</a></h4>
       <section><p>Base class for all agents that want to intercept a message.</p>
 </section>
@@ -185,9 +191,6 @@ class in order to receive messages from the <a class="xref" href="Agents.Net.IMe
 </section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="Agents.Net.InterceptionAction.html">InterceptionAction</a></h4>
-      <section><p>The action that should be taken with the message that was intercepted.</p>
-</section>
       <h4><a class="xref" href="Agents.Net.MessageGateResultKind.html">MessageGateResultKind</a></h4>
       <section><p>The result kind of the <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_">SendAndAwait(TStart, Action&lt;Message&gt;, Int32, CancellationToken)</a> method.</p>
 </section>

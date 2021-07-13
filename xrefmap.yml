@@ -426,15 +426,64 @@ references:
 - uid: Agents.Net.InterceptionAction.Continue
   name: Continue
   href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_Continue
-  commentId: F:Agents.Net.InterceptionAction.Continue
+  commentId: P:Agents.Net.InterceptionAction.Continue
   fullName: Agents.Net.InterceptionAction.Continue
   nameWithType: InterceptionAction.Continue
+- uid: Agents.Net.InterceptionAction.Continue*
+  name: Continue
+  href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_Continue_
+  commentId: Overload:Agents.Net.InterceptionAction.Continue
+  isSpec: "True"
+  fullName: Agents.Net.InterceptionAction.Continue
+  nameWithType: InterceptionAction.Continue
+- uid: Agents.Net.InterceptionAction.Delay(Agents.Net.InterceptionDelayToken@)
+  name: Delay(out InterceptionDelayToken)
+  href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_Delay_Agents_Net_InterceptionDelayToken__
+  commentId: M:Agents.Net.InterceptionAction.Delay(Agents.Net.InterceptionDelayToken@)
+  name.vb: Delay(ByRef InterceptionDelayToken)
+  fullName: Agents.Net.InterceptionAction.Delay(out Agents.Net.InterceptionDelayToken)
+  fullName.vb: Agents.Net.InterceptionAction.Delay(ByRef Agents.Net.InterceptionDelayToken)
+  nameWithType: InterceptionAction.Delay(out InterceptionDelayToken)
+  nameWithType.vb: InterceptionAction.Delay(ByRef InterceptionDelayToken)
+- uid: Agents.Net.InterceptionAction.Delay*
+  name: Delay
+  href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_Delay_
+  commentId: Overload:Agents.Net.InterceptionAction.Delay
+  isSpec: "True"
+  fullName: Agents.Net.InterceptionAction.Delay
+  nameWithType: InterceptionAction.Delay
 - uid: Agents.Net.InterceptionAction.DoNotPublish
   name: DoNotPublish
   href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_DoNotPublish
-  commentId: F:Agents.Net.InterceptionAction.DoNotPublish
+  commentId: P:Agents.Net.InterceptionAction.DoNotPublish
   fullName: Agents.Net.InterceptionAction.DoNotPublish
   nameWithType: InterceptionAction.DoNotPublish
+- uid: Agents.Net.InterceptionAction.DoNotPublish*
+  name: DoNotPublish
+  href: api/Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_DoNotPublish_
+  commentId: Overload:Agents.Net.InterceptionAction.DoNotPublish
+  isSpec: "True"
+  fullName: Agents.Net.InterceptionAction.DoNotPublish
+  nameWithType: InterceptionAction.DoNotPublish
+- uid: Agents.Net.InterceptionDelayToken
+  name: InterceptionDelayToken
+  href: api/Agents.Net.InterceptionDelayToken.html
+  commentId: T:Agents.Net.InterceptionDelayToken
+  fullName: Agents.Net.InterceptionDelayToken
+  nameWithType: InterceptionDelayToken
+- uid: Agents.Net.InterceptionDelayToken.Release
+  name: Release()
+  href: api/Agents.Net.InterceptionDelayToken.html#Agents_Net_InterceptionDelayToken_Release
+  commentId: M:Agents.Net.InterceptionDelayToken.Release
+  fullName: Agents.Net.InterceptionDelayToken.Release()
+  nameWithType: InterceptionDelayToken.Release()
+- uid: Agents.Net.InterceptionDelayToken.Release*
+  name: Release
+  href: api/Agents.Net.InterceptionDelayToken.html#Agents_Net_InterceptionDelayToken_Release_
+  commentId: Overload:Agents.Net.InterceptionDelayToken.Release
+  isSpec: "True"
+  fullName: Agents.Net.InterceptionDelayToken.Release
+  nameWithType: InterceptionDelayToken.Release
 - uid: Agents.Net.InterceptorAgent
   name: InterceptorAgent
   href: api/Agents.Net.InterceptorAgent.html
@@ -1531,6 +1580,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Execute
   nameWithType: MessageCollector<T1, T2>.Execute
   nameWithType.vb: MessageCollector(Of T1, T2).Execute
+- uid: Agents.Net.MessageCollector`2.ExecutePushAndContinue(Agents.Net.Message,Action{Agents.Net.MessageCollection},CancellationToken)
+  name: ExecutePushAndContinue(Message, Action<MessageCollection>, CancellationToken)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_ExecutePushAndContinue_Agents_Net_Message_Action_Agents_Net_MessageCollection__CancellationToken_
+  commentId: M:Agents.Net.MessageCollector`2.ExecutePushAndContinue(Agents.Net.Message,Action{Agents.Net.MessageCollection},CancellationToken)
+  name.vb: ExecutePushAndContinue(Message, Action(Of MessageCollection), CancellationToken)
+  fullName: Agents.Net.MessageCollector<T1, T2>.ExecutePushAndContinue(Agents.Net.Message, Action<Agents.Net.MessageCollection>, CancellationToken)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).ExecutePushAndContinue(Agents.Net.Message, Action(Of Agents.Net.MessageCollection), CancellationToken)
+  nameWithType: MessageCollector<T1, T2>.ExecutePushAndContinue(Message, Action<MessageCollection>, CancellationToken)
+  nameWithType.vb: MessageCollector(Of T1, T2).ExecutePushAndContinue(Message, Action(Of MessageCollection), CancellationToken)
+- uid: Agents.Net.MessageCollector`2.ExecutePushAndContinue*
+  name: ExecutePushAndContinue
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_ExecutePushAndContinue_
+  commentId: Overload:Agents.Net.MessageCollector`2.ExecutePushAndContinue
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.ExecutePushAndContinue
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).ExecutePushAndContinue
+  nameWithType: MessageCollector<T1, T2>.ExecutePushAndContinue
+  nameWithType.vb: MessageCollector(Of T1, T2).ExecutePushAndContinue
 - uid: Agents.Net.MessageCollector`2.ExecutePushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection},CancellationToken)
   name: ExecutePushAndExecute(Message, Action<MessageCollection>, CancellationToken)
   href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_ExecutePushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__CancellationToken_
@@ -1635,6 +1702,24 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2).Push
   nameWithType: MessageCollector<T1, T2>.Push
   nameWithType.vb: MessageCollector(Of T1, T2).Push
+- uid: Agents.Net.MessageCollector`2.PushAndContinue(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1}},CancellationToken)
+  name: PushAndContinue(Message, Action<MessageCollection<T1, T2>>, CancellationToken)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_PushAndContinue_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1___CancellationToken_
+  commentId: M:Agents.Net.MessageCollector`2.PushAndContinue(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1}},CancellationToken)
+  name.vb: PushAndContinue(Message, Action(Of MessageCollection(Of T1, T2)), CancellationToken)
+  fullName: Agents.Net.MessageCollector<T1, T2>.PushAndContinue(Agents.Net.Message, Action<Agents.Net.MessageCollection<T1, T2>>, CancellationToken)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).PushAndContinue(Agents.Net.Message, Action(Of Agents.Net.MessageCollection(Of T1, T2)), CancellationToken)
+  nameWithType: MessageCollector<T1, T2>.PushAndContinue(Message, Action<MessageCollection<T1, T2>>, CancellationToken)
+  nameWithType.vb: MessageCollector(Of T1, T2).PushAndContinue(Message, Action(Of MessageCollection(Of T1, T2)), CancellationToken)
+- uid: Agents.Net.MessageCollector`2.PushAndContinue*
+  name: PushAndContinue
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_PushAndContinue_
+  commentId: Overload:Agents.Net.MessageCollector`2.PushAndContinue
+  isSpec: "True"
+  fullName: Agents.Net.MessageCollector<T1, T2>.PushAndContinue
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).PushAndContinue
+  nameWithType: MessageCollector<T1, T2>.PushAndContinue
+  nameWithType.vb: MessageCollector(Of T1, T2).PushAndContinue
 - uid: Agents.Net.MessageCollector`2.PushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1}},CancellationToken)
   name: PushAndExecute(Message, Action<MessageCollection<T1, T2>>, CancellationToken)
   href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1___CancellationToken_
@@ -2668,6 +2753,24 @@ references:
   fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndAwait
   nameWithType: MessageGate<TStart, TEnd>.SendAndAwait
   nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndAwait
+- uid: Agents.Net.MessageGate`2.SendAndContinue(`0,Action{Agents.Net.Message},Action{Agents.Net.MessageGateResult{`1}},System.Int32,CancellationToken)
+  name: SendAndContinue(TStart, Action<Message>, Action<MessageGateResult<TEnd>>, Int32, CancellationToken)
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndContinue__0_Action_Agents_Net_Message__Action_Agents_Net_MessageGateResult__1___System_Int32_CancellationToken_
+  commentId: M:Agents.Net.MessageGate`2.SendAndContinue(`0,Action{Agents.Net.Message},Action{Agents.Net.MessageGateResult{`1}},System.Int32,CancellationToken)
+  name.vb: SendAndContinue(TStart, Action(Of Message), Action(Of MessageGateResult(Of TEnd)), Int32, CancellationToken)
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.SendAndContinue(TStart, Action<Agents.Net.Message>, Action<Agents.Net.MessageGateResult<TEnd>>, System.Int32, CancellationToken)
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndContinue(TStart, Action(Of Agents.Net.Message), Action(Of Agents.Net.MessageGateResult(Of TEnd)), System.Int32, CancellationToken)
+  nameWithType: MessageGate<TStart, TEnd>.SendAndContinue(TStart, Action<Message>, Action<MessageGateResult<TEnd>>, Int32, CancellationToken)
+  nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndContinue(TStart, Action(Of Message), Action(Of MessageGateResult(Of TEnd)), Int32, CancellationToken)
+- uid: Agents.Net.MessageGate`2.SendAndContinue*
+  name: SendAndContinue
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndContinue_
+  commentId: Overload:Agents.Net.MessageGate`2.SendAndContinue
+  isSpec: "True"
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.SendAndContinue
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndContinue
+  nameWithType: MessageGate<TStart, TEnd>.SendAndContinue
+  nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndContinue
 - uid: Agents.Net.MessageGateResult`1
   name: MessageGateResult<TEnd>
   href: api/Agents.Net.MessageGateResult-1.html

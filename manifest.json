@@ -304,7 +304,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.InterceptionAction.html",
-          "hash": "AFyeucgMd9Iun85qVW/eFQ=="
+          "hash": "Yod0lABygah/slAEly+oWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.InterceptionDelayToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.InterceptionDelayToken.html",
+          "hash": "OEtR/m0bOcmQp1WmJbzwbA=="
         }
       },
       "is_incremental": false,
@@ -460,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.MessageCollector-2.html",
-          "hash": "xWmyznXZb+pUyluv32eIbA=="
+          "hash": "9dA9+s7Rz0rKLSATb0ymYQ=="
         }
       },
       "is_incremental": false,
@@ -472,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.MessageCollector-3.html",
-          "hash": "vRhMnxN3VeCk49t+z5DISA=="
+          "hash": "i1uBfcQ9esgK4xPCBrS13g=="
         }
       },
       "is_incremental": false,
@@ -484,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.MessageCollector-4.html",
-          "hash": "6lPEOxDUsn868Yd9aA8+xg=="
+          "hash": "4J1djbbWRBqjuBQ9l25P5A=="
         }
       },
       "is_incremental": false,
@@ -496,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.MessageCollector-5.html",
-          "hash": "31Ozri04GVBbGFrGmSkNjA=="
+          "hash": "TCDMdY1ieVCcl9ekwvxtlw=="
         }
       },
       "is_incremental": false,
@@ -508,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.MessageCollector-6.html",
-          "hash": "DAUlwqG6dlGBhii8LwRZLw=="
+          "hash": "OW7W5WBsJswxrjWZmFDx6g=="
         }
       },
       "is_incremental": false,
@@ -520,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.MessageCollector-7.html",
-          "hash": "IWHsgZK+Rd69/nzHGkZxwg=="
+          "hash": "CE5fsqi403334C1/3hQ44g=="
         }
       },
       "is_incremental": false,
@@ -556,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.MessageGate-2.html",
-          "hash": "LtlbBYKnBw2A1aNdlLqwUQ=="
+          "hash": "0bOrH9jrSJlv7LHY9IzV/Q=="
         }
       },
       "is_incremental": false,
@@ -628,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.html",
-          "hash": "zrK4s+lO8bwltYxnl5O+kw=="
+          "hash": "0sFGhPYSN8erIgnUIfjR8g=="
         }
       },
       "is_incremental": false,
@@ -640,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "L7KEnjjkxC9br9bqO80yYA=="
+          "hash": "J5lrhM9XwLzqvcQyQMHtpg=="
         }
       },
       "is_incremental": false,
@@ -679,7 +691,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 34,
+          "total_file_count": 35,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

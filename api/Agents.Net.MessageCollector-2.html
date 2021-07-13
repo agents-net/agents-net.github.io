@@ -286,7 +286,7 @@ public class MessageCollectorAgent : Agent
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_Aggregate_Agents_Net_Message_System_Boolean_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.Aggregate(Agents.Net.Message%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L352">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L400">View Source</a>
   </span>
   <a id="Agents_Net_MessageCollector_2_Aggregate_" data-uid="Agents.Net.MessageCollector`2.Aggregate*"></a>
   <h4 id="Agents_Net_MessageCollector_2_Aggregate_Agents_Net_Message_System_Boolean_" data-uid="Agents.Net.MessageCollector`2.Aggregate(Agents.Net.Message,System.Boolean)">Aggregate(Message, Boolean)</h4>
@@ -342,7 +342,7 @@ public class MessageCollectorAgent : Agent
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_Execute_Agents_Net_MessageCollection_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.Execute(Agents.Net.MessageCollection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L339">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L387">View Source</a>
   </span>
   <a id="Agents_Net_MessageCollector_2_Execute_" data-uid="Agents.Net.MessageCollector`2.Execute*"></a>
   <h4 id="Agents_Net_MessageCollector_2_Execute_Agents_Net_MessageCollection_" data-uid="Agents.Net.MessageCollector`2.Execute(Agents.Net.MessageCollection)">Execute(MessageCollection)</h4>
@@ -373,10 +373,55 @@ public class MessageCollectorAgent : Agent
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_ExecutePushAndContinue_Agents_Net_Message_Action_Agents_Net_MessageCollection__CancellationToken_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.ExecutePushAndContinue(Agents.Net.Message%2CAction%7BAgents.Net.MessageCollection%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L263">View Source</a>
+  </span>
+  <a id="Agents_Net_MessageCollector_2_ExecutePushAndContinue_" data-uid="Agents.Net.MessageCollector`2.ExecutePushAndContinue*"></a>
+  <h4 id="Agents_Net_MessageCollector_2_ExecutePushAndContinue_Agents_Net_Message_Action_Agents_Net_MessageCollection__CancellationToken_" data-uid="Agents.Net.MessageCollector`2.ExecutePushAndContinue(Agents.Net.Message,Action{Agents.Net.MessageCollection},CancellationToken)">ExecutePushAndContinue(Message, Action&lt;MessageCollection&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Execute the routine for <a class="xref" href="Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1___CancellationToken_">PushAndExecute(Message, Action&lt;MessageCollection&lt;T1, T2&gt;&gt;, CancellationToken)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ExecutePushAndContinue(Message message, Action&lt;MessageCollection&gt; executeAction, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message which is pushed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Agents.Net.MessageCollection.html">MessageCollection</a>&gt;</td>
+        <td><span class="parametername">executeAction</span></td>
+        <td><p>The action which should execute the action which was passed to the <a class="xref" href="Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_PushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1___CancellationToken_">PushAndExecute(Message, Action&lt;MessageCollection&lt;T1, T2&gt;&gt;, CancellationToken)</a> method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_ExecutePushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__CancellationToken_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.ExecutePushAndExecute(Agents.Net.Message%2CAction%7BAgents.Net.MessageCollection%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L208">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L220">View Source</a>
   </span>
   <a id="Agents_Net_MessageCollector_2_ExecutePushAndExecute_" data-uid="Agents.Net.MessageCollector`2.ExecutePushAndExecute*"></a>
   <h4 id="Agents_Net_MessageCollector_2_ExecutePushAndExecute_Agents_Net_Message_Action_Agents_Net_MessageCollection__CancellationToken_" data-uid="Agents.Net.MessageCollector`2.ExecutePushAndExecute(Agents.Net.Message,Action{Agents.Net.MessageCollection},CancellationToken)">ExecutePushAndExecute(Message, Action&lt;MessageCollection&gt;, CancellationToken)</h4>
@@ -438,7 +483,7 @@ public class MessageCollectorAgent : Agent
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_GetCompleteSets_Agents_Net_MessageDomain_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.GetCompleteSets(Agents.Net.MessageDomain)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L249">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L297">View Source</a>
   </span>
   <a id="Agents_Net_MessageCollector_2_GetCompleteSets_" data-uid="Agents.Net.MessageCollector`2.GetCompleteSets*"></a>
   <h4 id="Agents_Net_MessageCollector_2_GetCompleteSets_Agents_Net_MessageDomain_" data-uid="Agents.Net.MessageCollector`2.GetCompleteSets(Agents.Net.MessageDomain)">GetCompleteSets(MessageDomain)</h4>
@@ -488,7 +533,7 @@ public class MessageCollectorAgent : Agent
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.IsCompleted(Agents.Net.MessageDomain%2CAgents.Net.MessageCollection%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L292">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L340">View Source</a>
   </span>
   <a id="Agents_Net_MessageCollector_2_IsCompleted_" data-uid="Agents.Net.MessageCollector`2.IsCompleted*"></a>
   <h4 id="Agents_Net_MessageCollector_2_IsCompleted_Agents_Net_MessageDomain_Agents_Net_MessageCollection__" data-uid="Agents.Net.MessageCollector`2.IsCompleted(Agents.Net.MessageDomain,Agents.Net.MessageCollection@)">IsCompleted(MessageDomain, out MessageCollection)</h4>
@@ -569,6 +614,52 @@ public class MessageCollectorAgent : Agent
         <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message object to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_PushAndContinue_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1___CancellationToken_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.PushAndContinue(Agents.Net.Message%2CAction%7BAgents.Net.MessageCollection%7B%600%2C%601%7D%7D%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L208">View Source</a>
+  </span>
+  <a id="Agents_Net_MessageCollector_2_PushAndContinue_" data-uid="Agents.Net.MessageCollector`2.PushAndContinue*"></a>
+  <h4 id="Agents_Net_MessageCollector_2_PushAndContinue_Agents_Net_Message_Action_Agents_Net_MessageCollection__0__1___CancellationToken_" data-uid="Agents.Net.MessageCollector`2.PushAndContinue(Agents.Net.Message,Action{Agents.Net.MessageCollection{`0,`1}},CancellationToken)">PushAndContinue(Message, Action&lt;MessageCollection&lt;T1, T2&gt;&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Add a message to the collector and continue with the specified action once when the set is found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void PushAndContinue(Message message, Action&lt;MessageCollection&lt;T1, T2&gt;&gt; onCollected, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Agents.Net.Message.html">Message</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message which is added to the collector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Agents.Net.MessageCollection-2.html">MessageCollection</a>&lt;T1, T2&gt;&gt;</td>
+        <td><span class="parametername">onCollected</span></td>
+        <td><p>The action which is executed when the complete set is found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>Cancellation token to stop the continue operation.</p>
 </td>
       </tr>
     </tbody>
@@ -678,7 +769,7 @@ public class MessageCollectorAgent : Agent
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_TryGetMessageFittingDomain__1_Agents_Net_MessageDomain_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___Agents_Net_MessageStore___0___.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.TryGetMessageFittingDomain%60%601(Agents.Net.MessageDomain%2CDictionary%7BAgents.Net.MessageDomain%2CAgents.Net.MessageStore%7B%60%600%7D%7D%2CAgents.Net.MessageStore%7B%60%600%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L314">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L362">View Source</a>
   </span>
   <a id="Agents_Net_MessageCollector_2_TryGetMessageFittingDomain_" data-uid="Agents.Net.MessageCollector`2.TryGetMessageFittingDomain*"></a>
   <h4 id="Agents_Net_MessageCollector_2_TryGetMessageFittingDomain__1_Agents_Net_MessageDomain_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___Agents_Net_MessageStore___0___" data-uid="Agents.Net.MessageCollector`2.TryGetMessageFittingDomain``1(Agents.Net.MessageDomain,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}},Agents.Net.MessageStore{``0}@)">TryGetMessageFittingDomain&lt;T&gt;(MessageDomain, Dictionary&lt;MessageDomain, MessageStore&lt;T&gt;&gt;, out MessageStore&lt;T&gt;)</h4>
@@ -807,7 +898,7 @@ public class MessageCollectorAgent : Agent
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageCollector_2_UpdateMessagePool__1___0_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___.md&amp;value=---%0Auid%3A%20Agents.Net.MessageCollector%602.UpdateMessagePool%60%601(%60%600%2CDictionary%7BAgents.Net.MessageDomain%2CAgents.Net.MessageStore%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L385">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageCollector.cs/#L433">View Source</a>
   </span>
   <a id="Agents_Net_MessageCollector_2_UpdateMessagePool_" data-uid="Agents.Net.MessageCollector`2.UpdateMessagePool*"></a>
   <h4 id="Agents_Net_MessageCollector_2_UpdateMessagePool__1___0_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___" data-uid="Agents.Net.MessageCollector`2.UpdateMessagePool``1(``0,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}})">UpdateMessagePool&lt;T&gt;(T, Dictionary&lt;MessageDomain, MessageStore&lt;T&gt;&gt;)</h4>

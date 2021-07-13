@@ -120,7 +120,7 @@
   </table>
   <h5 id="Agents_Net_MessageGate_2_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This helper should be used with caution as it breaks the basic concept of the agent framework,
-that each agent does exactly one thing. There are only two use cases were this helper should be used.
+that each agent does exactly one thing. There are only three use cases were this helper should be used.
 <ol><li><strong>An agent serving as a legacy bridge:</strong><br>
         When working in a legacy system it is sometimes necessary to have an agent serving a service interface.
         In this case it is often so that the service call provides some parameters and expects a
@@ -128,6 +128,10 @@ that each agent does exactly one thing. There are only two use cases were this h
         To achieve that the service agent needs to wait inside the service call for a specific end message.
         In addition to that, the service call need to terminate once an exception message was send. It would
         wait forever otherwise.
+        Use <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_">SendAndAwait(TStart, Action&lt;Message&gt;, Int32, CancellationToken)</a> for that use case.
+</li><li><strong>When a single agent&apos;s task is to handle message pairs:</strong><br>
+    This is necessary for example when handling transactions. In this case the gate can be used to determine whether to rollback the transaction or not. Another example would be when an <a class="xref" href="Agents.Net.InterceptorAgent.html">InterceptorAgent</a> that delays the execution of a message so that an injected message chain can be executed.
+    Use <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndContinue__0_Action_Agents_Net_Message__Action_Agents_Net_MessageGateResult__1___System_Int32_CancellationToken_">SendAndContinue(TStart, Action&lt;Message&gt;, Action&lt;MessageGateResult&lt;TEnd&gt;&gt;, Int32, CancellationToken)</a> for that use case.
 </li><li><strong>Calling a simple basic operation inside the agent framework:</strong><br>
     Let&apos;s assume the following use case: The application has a file system abstraction which can
     execute CRUD operations on files and directories. Now I want to create an agent, that creates
@@ -148,6 +152,7 @@ FileCreating             FileCreated
 ConfigFileCreated</code></pre>
         Similar are operations such as executing an external process or database operations are more examples
         were the second use case would helpful.
+        Use <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndContinue__0_Action_Agents_Net_Message__Action_Agents_Net_MessageGateResult__1___System_Int32_CancellationToken_">SendAndContinue(TStart, Action&lt;Message&gt;, Action&lt;MessageGateResult&lt;TEnd&gt;&gt;, Int32, CancellationToken)</a> for that use case.
 </li></ol>
 </p>
 <p> Internally this helper uses <a class="xref" href="Agents.Net.MessageCollector-2.html">MessageCollector&lt;T1, T2&gt;</a>s to execute the boilerplate code.
@@ -190,7 +195,7 @@ public class ServiceAgentImplementation : Agent, IService
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2__ctor.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L110">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L120">View Source</a>
   </span>
   <a id="Agents_Net_MessageGate_2__ctor_" data-uid="Agents.Net.MessageGate`2.#ctor*"></a>
   <h4 id="Agents_Net_MessageGate_2__ctor" data-uid="Agents.Net.MessageGate`2.#ctor">MessageGate()</h4>
@@ -208,7 +213,7 @@ public class ServiceAgentImplementation : Agent, IService
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2_NoTimout.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.NoTimout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L139">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L149">View Source</a>
   </span>
   <h4 id="Agents_Net_MessageGate_2_NoTimout" data-uid="Agents.Net.MessageGate`2.NoTimout">NoTimout</h4>
   <div class="markdown level1 summary"><p>A constant value to tell the <a class="xref" href="Agents.Net.MessageGate-2.html">MessageGate&lt;TStart, TEnd&gt;</a> that it has to wait forever.</p>
@@ -240,7 +245,7 @@ public class ServiceAgentImplementation : Agent, IService
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2_Check_Agents_Net_Message_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.Check(Agents.Net.Message)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L247">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L328">View Source</a>
   </span>
   <a id="Agents_Net_MessageGate_2_Check_" data-uid="Agents.Net.MessageGate`2.Check*"></a>
   <h4 id="Agents_Net_MessageGate_2_Check_Agents_Net_Message_" data-uid="Agents.Net.MessageGate`2.Check(Agents.Net.Message)">Check(Message)</h4>
@@ -293,7 +298,7 @@ public class ServiceAgentImplementation : Agent, IService
     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.SendAndAwait(%600%2CAction%7BAgents.Net.Message%7D%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L156">View Source</a>
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L172">View Source</a>
   </span>
   <a id="Agents_Net_MessageGate_2_SendAndAwait_" data-uid="Agents.Net.MessageGate`2.SendAndAwait*"></a>
   <h4 id="Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_" data-uid="Agents.Net.MessageGate`2.SendAndAwait(`0,Action{Agents.Net.Message},System.Int32,CancellationToken)">SendAndAwait(TStart, Action&lt;Message&gt;, Int32, CancellationToken)</h4>
@@ -360,6 +365,72 @@ imitated service call is an async method. By default no CancellationToken will b
   </table>
   <h5 id="Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>For an example how to use this class see the type documentation.</p>
+<p>
+WARNING: Extensive use of this method will lead to time gaps in the execution. See .net issue on github: https://github.com/dotnet/runtime/issues/55562
+Use this method only for the legacy service call. Of all other scenarios use <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndContinue__0_Action_Agents_Net_Message__Action_Agents_Net_MessageGateResult__1___System_Int32_CancellationToken_">SendAndContinue(TStart, Action&lt;Message&gt;, Action&lt;MessageGateResult&lt;TEnd&gt;&gt;, Int32, CancellationToken)</a>.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2_SendAndContinue__0_Action_Agents_Net_Message__Action_Agents_Net_MessageGateResult__1___System_Int32_CancellationToken_.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602.SendAndContinue(%600%2CAction%7BAgents.Net.Message%7D%2CAction%7BAgents.Net.MessageGateResult%7B%601%7D%7D%2CSystem.Int32%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L217">View Source</a>
+  </span>
+  <a id="Agents_Net_MessageGate_2_SendAndContinue_" data-uid="Agents.Net.MessageGate`2.SendAndContinue*"></a>
+  <h4 id="Agents_Net_MessageGate_2_SendAndContinue__0_Action_Agents_Net_Message__Action_Agents_Net_MessageGateResult__1___System_Int32_CancellationToken_" data-uid="Agents.Net.MessageGate`2.SendAndContinue(`0,Action{Agents.Net.Message},Action{Agents.Net.MessageGateResult{`1}},System.Int32,CancellationToken)">SendAndContinue(TStart, Action&lt;Message&gt;, Action&lt;MessageGateResult&lt;TEnd&gt;&gt;, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>The method to send a start message and wait for the end message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendAndContinue(TStart startMessage, Action&lt;Message&gt; onMessage, Action&lt;MessageGateResult&lt;TEnd&gt;&gt; continueAction, int timeout = null, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStart</span></td>
+        <td><span class="parametername">startMessage</span></td>
+        <td><p>The start message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Agents.Net.Message.html">Message</a>&gt;</td>
+        <td><span class="parametername">onMessage</span></td>
+        <td><p>The action to send the message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Agents.Net.MessageGateResult-1.html">MessageGateResult</a>&lt;TEnd&gt;&gt;</td>
+        <td><span class="parametername">continueAction</span></td>
+        <td><p>The action to execute once a <a class="xref" href="Agents.Net.MessageGateResult-1.html">MessageGateResult&lt;TEnd&gt;</a> was created.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">timeout</span></td>
+        <td><p>Optionally a timeout after which the method will return, without sending the result.
+By default the timeout is <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_NoTimout">NoTimout</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>Optionally a cancellation token to cancel the continue operation. By default no CancellationToken will be used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Agents_Net_MessageGate_2_SendAndContinue__0_Action_Agents_Net_Message__Action_Agents_Net_MessageGateResult__1___System_Int32_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For an example how to use this class see the type documentation.</p>
 </div>
 </article>
           </div>
@@ -372,7 +443,7 @@ imitated service call is an async method. By default no CancellationToken will b
                     <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_MessageGate_2.md&amp;value=---%0Auid%3A%20Agents.Net.MessageGate%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L98" class="contribution-link">View Source</a>
+                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/MessageGate.cs/#L108" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
