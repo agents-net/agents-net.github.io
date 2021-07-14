@@ -264,6 +264,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Agents.Net.DelayTokenReleaseIntention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Agents.Net.DelayTokenReleaseIntention.html",
+          "hash": "BqXFIFvEo3GNMgTNV4z6Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Agents.Net.ExceptionMessage.yml",
       "output": {
         ".html": {
@@ -316,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.InterceptionDelayToken.html",
-          "hash": "OEtR/m0bOcmQp1WmJbzwbA=="
+          "hash": "SMjtyra0hJlwWdnGDIyBOg=="
         }
       },
       "is_incremental": false,
@@ -640,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Agents.Net.html",
-          "hash": "0sFGhPYSN8erIgnUIfjR8g=="
+          "hash": "TTjLuHNfLSnuk1fIQpH9ww=="
         }
       },
       "is_incremental": false,
@@ -652,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "J5lrhM9XwLzqvcQyQMHtpg=="
+          "hash": "ZFWnYJtD6wHNzrFfaqEGwg=="
         }
       },
       "is_incremental": false,
@@ -691,7 +703,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 35,
+          "total_file_count": 36,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

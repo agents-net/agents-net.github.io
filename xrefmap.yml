@@ -242,6 +242,24 @@ references:
   isSpec: "True"
   fullName: Agents.Net.ConsumesAttribute.MessageType
   nameWithType: ConsumesAttribute.MessageType
+- uid: Agents.Net.DelayTokenReleaseIntention
+  name: DelayTokenReleaseIntention
+  href: api/Agents.Net.DelayTokenReleaseIntention.html
+  commentId: T:Agents.Net.DelayTokenReleaseIntention
+  fullName: Agents.Net.DelayTokenReleaseIntention
+  nameWithType: DelayTokenReleaseIntention
+- uid: Agents.Net.DelayTokenReleaseIntention.DoNotPublish
+  name: DoNotPublish
+  href: api/Agents.Net.DelayTokenReleaseIntention.html#Agents_Net_DelayTokenReleaseIntention_DoNotPublish
+  commentId: F:Agents.Net.DelayTokenReleaseIntention.DoNotPublish
+  fullName: Agents.Net.DelayTokenReleaseIntention.DoNotPublish
+  nameWithType: DelayTokenReleaseIntention.DoNotPublish
+- uid: Agents.Net.DelayTokenReleaseIntention.Publish
+  name: Publish
+  href: api/Agents.Net.DelayTokenReleaseIntention.html#Agents_Net_DelayTokenReleaseIntention_Publish
+  commentId: F:Agents.Net.DelayTokenReleaseIntention.Publish
+  fullName: Agents.Net.DelayTokenReleaseIntention.Publish
+  nameWithType: DelayTokenReleaseIntention.Publish
 - uid: Agents.Net.ExceptionMessage
   name: ExceptionMessage
   href: api/Agents.Net.ExceptionMessage.html
@@ -471,12 +489,12 @@ references:
   commentId: T:Agents.Net.InterceptionDelayToken
   fullName: Agents.Net.InterceptionDelayToken
   nameWithType: InterceptionDelayToken
-- uid: Agents.Net.InterceptionDelayToken.Release
-  name: Release()
-  href: api/Agents.Net.InterceptionDelayToken.html#Agents_Net_InterceptionDelayToken_Release
-  commentId: M:Agents.Net.InterceptionDelayToken.Release
-  fullName: Agents.Net.InterceptionDelayToken.Release()
-  nameWithType: InterceptionDelayToken.Release()
+- uid: Agents.Net.InterceptionDelayToken.Release(Agents.Net.DelayTokenReleaseIntention)
+  name: Release(DelayTokenReleaseIntention)
+  href: api/Agents.Net.InterceptionDelayToken.html#Agents_Net_InterceptionDelayToken_Release_Agents_Net_DelayTokenReleaseIntention_
+  commentId: M:Agents.Net.InterceptionDelayToken.Release(Agents.Net.DelayTokenReleaseIntention)
+  fullName: Agents.Net.InterceptionDelayToken.Release(Agents.Net.DelayTokenReleaseIntention)
+  nameWithType: InterceptionDelayToken.Release(DelayTokenReleaseIntention)
 - uid: Agents.Net.InterceptionDelayToken.Release*
   name: Release
   href: api/Agents.Net.InterceptionDelayToken.html#Agents_Net_InterceptionDelayToken_Release_

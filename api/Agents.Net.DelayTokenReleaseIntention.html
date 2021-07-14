@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InterceptionDelayToken
+    <title>Enum DelayTokenReleaseIntention
    | Agents.Net Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InterceptionDelayToken
+    <meta name="title" content="Enum DelayTokenReleaseIntention
    | Agents.Net Documentation ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -78,64 +78,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Agents.Net.InterceptionDelayToken">
+            <article class="content wrap" id="_content" data-uid="Agents.Net.DelayTokenReleaseIntention">
   
   
-  <h1 id="Agents_Net_InterceptionDelayToken" data-uid="Agents.Net.InterceptionDelayToken" class="text-break">Class InterceptionDelayToken
+  <h1 id="Agents_Net_DelayTokenReleaseIntention" data-uid="Agents.Net.DelayTokenReleaseIntention" class="text-break">Enum DelayTokenReleaseIntention
   </h1>
-  <div class="markdown level0 summary"><p>The delay token to release a message that was delayed with the <a class="xref" href="Agents.Net.InterceptionAction.html#Agents_Net_InterceptionAction_Delay_Agents_Net_InterceptionDelayToken__">Delay(out InterceptionDelayToken)</a> result.</p>
+  <div class="markdown level0 summary"><p>The intention for the <a class="xref" href="Agents.Net.InterceptionDelayToken.html#Agents_Net_InterceptionDelayToken_Release_Agents_Net_DelayTokenReleaseIntention_">Release(DelayTokenReleaseIntention)</a> method.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">InterceptionDelayToken</span></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Agents.Net.html">Agents.Net</a></h6>
   <h6><strong>Assembly</strong>: Agents.Net.dll</h6>
-  <h5 id="Agents_Net_InterceptionDelayToken_syntax">Syntax</h5>
+  <h5 id="Agents_Net_DelayTokenReleaseIntention_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InterceptionDelayToken : object</code></pre>
+    <pre><code class="lang-csharp hljs">public enum DelayTokenReleaseIntention : int</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_InterceptionDelayToken_Release_Agents_Net_DelayTokenReleaseIntention_.md&amp;value=---%0Auid%3A%20Agents.Net.InterceptionDelayToken.Release(Agents.Net.DelayTokenReleaseIntention)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/InterceptionDelayToken.cs/#L33">View Source</a>
-  </span>
-  <a id="Agents_Net_InterceptionDelayToken_Release_" data-uid="Agents.Net.InterceptionDelayToken.Release*"></a>
-  <h4 id="Agents_Net_InterceptionDelayToken_Release_Agents_Net_DelayTokenReleaseIntention_" data-uid="Agents.Net.InterceptionDelayToken.Release(Agents.Net.DelayTokenReleaseIntention)">Release(DelayTokenReleaseIntention)</h4>
-  <div class="markdown level1 summary"><p>Release the message. After this the intercepted message will be send.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Release(DelayTokenReleaseIntention intention = DelayTokenReleaseIntention.Publish)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    </thead>
+    <thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Agents.Net.DelayTokenReleaseIntention.html">DelayTokenReleaseIntention</a></td>
-        <td><span class="parametername">intention</span></td>
-        <td><p>Indicates whether to publish the delayed message or not.</p>
+        <td id="Agents_Net_DelayTokenReleaseIntention_DoNotPublish">DoNotPublish</td>
+        <td><p>Do not publish the delayed message</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Agents_Net_DelayTokenReleaseIntention_Publish">Publish</td>
+        <td><p>Publish the delayed message</p>
 </td>
       </tr>
     </tbody>
-  </table>
-  <h5 id="Agents_Net_InterceptionDelayToken_Release_Agents_Net_DelayTokenReleaseIntention__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>If at least one <a class="xref" href="Agents.Net.InterceptionDelayToken.html">InterceptionDelayToken</a> returns the intention <a class="xref" href="Agents.Net.DelayTokenReleaseIntention.html#Agents_Net_DelayTokenReleaseIntention_DoNotPublish">DoNotPublish</a> the delayed message is not published.</p>
-</div>
+  </thead></thead></table>
 </article>
           </div>
           
@@ -144,10 +122,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_InterceptionDelayToken.md&amp;value=---%0Auid%3A%20Agents.Net.InterceptionDelayToken%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/agents-net/agents.net/new/master/apiSpec/new?filename=Agents_Net_DelayTokenReleaseIntention.md&amp;value=---%0Auid%3A%20Agents.Net.DelayTokenReleaseIntention%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/InterceptionDelayToken.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/agents-net/agents.net/blob/master/src/Agents.Net/InterceptionDelayToken.cs/#L42" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
