@@ -118,8 +118,11 @@ class in order to receive messages from the <a class="xref" href="Agents.Net.IMe
       <h4><a class="xref" href="Agents.Net.Message.html">Message</a></h4>
       <section><p>Base class for all messages that are executed by the agents.</p>
 </section>
+      <h4><a class="xref" href="Agents.Net.MessageAggregationResult-1.html">MessageAggregationResult&lt;TEnd&gt;</a></h4>
+      <section><p>The result of the <see cref="!:MessageGate&lt;TStart,TEnd>.SendAndContinue(IReadOnlyCollection&lt;TStart>,System.Action&lt;Agents.Net.Message>,System.Action&lt;Agents.Net.MessageAggregationResult&lt;TEnd>>,int,System.Threading.CancellationToken)"></see> method.</p>
+</section>
       <h4><a class="xref" href="Agents.Net.MessageAggregator-1.html">MessageAggregator&lt;T&gt;</a></h4>
-      <section><p>This class is a helper which aggregates messages which were executed parallel with the <a class="xref" href="Agents.Net.Agent.html#Agents_Net_Agent_OnMessages_IReadOnlyCollection_Agents_Net_Message__">OnMessages(IReadOnlyCollection&lt;Message&gt;)</a> method.</p>
+      <section><p>This class is deprecated. Please use <a class="xref" href="Agents.Net.MessageGate-2.html">MessageGate&lt;TStart, TEnd&gt;</a> instead.</p>
 </section>
       <h4><a class="xref" href="Agents.Net.MessageBoard.html">MessageBoard</a></h4>
       <section><p>This implementation implements the <a class="xref" href="Agents.Net.IMessageBoard.html">IMessageBoard</a> interface for in-process agents.</p>
@@ -177,6 +180,9 @@ class in order to receive messages from the <a class="xref" href="Agents.Net.IMe
 </section>
       <h4><a class="xref" href="Agents.Net.MessageLog.html">MessageLog</a></h4>
       <section><p>This class is used to log a message in JSON format.</p>
+</section>
+      <h4><a class="xref" href="Agents.Net.MessagesAggregated-1.html">MessagesAggregated&lt;T&gt;</a></h4>
+      <section><p>This is the message that will be send automatically by the <a class="xref" href="Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAggregate_IReadOnlyCollection__0__Action_Agents_Net_Message__">SendAndAggregate(IReadOnlyCollection&lt;TStart&gt;, Action&lt;Message&gt;)</a> method.</p>
 </section>
       <h4><a class="xref" href="Agents.Net.MessageStore-1.html">MessageStore&lt;T&gt;</a></h4>
       <section><p>A wrapper class for a message that automatically uses <a class="xref" href="Agents.Net.Message.html#Agents_Net_Message_DelayDispose">DelayDispose()</a> to delay the message disposal until this store is disposed.</p>

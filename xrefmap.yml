@@ -13,12 +13,12 @@ references:
   commentId: T:Agents.Net.Agent
   fullName: Agents.Net.Agent
   nameWithType: Agent
-- uid: Agents.Net.Agent.#ctor(Agents.Net.IMessageBoard,System.String)
-  name: Agent(IMessageBoard, String)
-  href: api/Agents.Net.Agent.html#Agents_Net_Agent__ctor_Agents_Net_IMessageBoard_System_String_
-  commentId: M:Agents.Net.Agent.#ctor(Agents.Net.IMessageBoard,System.String)
-  fullName: Agents.Net.Agent.Agent(Agents.Net.IMessageBoard, System.String)
-  nameWithType: Agent.Agent(IMessageBoard, String)
+- uid: Agents.Net.Agent.#ctor(Agents.Net.IMessageBoard)
+  name: Agent(IMessageBoard)
+  href: api/Agents.Net.Agent.html#Agents_Net_Agent__ctor_Agents_Net_IMessageBoard_
+  commentId: M:Agents.Net.Agent.#ctor(Agents.Net.IMessageBoard)
+  fullName: Agents.Net.Agent.Agent(Agents.Net.IMessageBoard)
+  nameWithType: Agent.Agent(IMessageBoard)
 - uid: Agents.Net.Agent.#ctor*
   name: Agent
   href: api/Agents.Net.Agent.html#Agents_Net_Agent__ctor_
@@ -598,21 +598,21 @@ references:
   commentId: T:Agents.Net.Message
   fullName: Agents.Net.Message
   nameWithType: Message
-- uid: Agents.Net.Message.#ctor(Agents.Net.Message,System.String)
-  name: Message(Message, String)
-  href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_Agents_Net_Message_System_String_
-  commentId: M:Agents.Net.Message.#ctor(Agents.Net.Message,System.String)
-  fullName: Agents.Net.Message.Message(Agents.Net.Message, System.String)
-  nameWithType: Message.Message(Message, String)
-- uid: Agents.Net.Message.#ctor(IEnumerable{Agents.Net.Message},System.String)
-  name: Message(IEnumerable<Message>, String)
-  href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_IEnumerable_Agents_Net_Message__System_String_
-  commentId: M:Agents.Net.Message.#ctor(IEnumerable{Agents.Net.Message},System.String)
-  name.vb: Message(IEnumerable(Of Message), String)
-  fullName: Agents.Net.Message.Message(IEnumerable<Agents.Net.Message>, System.String)
-  fullName.vb: Agents.Net.Message.Message(IEnumerable(Of Agents.Net.Message), System.String)
-  nameWithType: Message.Message(IEnumerable<Message>, String)
-  nameWithType.vb: Message.Message(IEnumerable(Of Message), String)
+- uid: Agents.Net.Message.#ctor(Agents.Net.Message)
+  name: Message(Message)
+  href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_Agents_Net_Message_
+  commentId: M:Agents.Net.Message.#ctor(Agents.Net.Message)
+  fullName: Agents.Net.Message.Message(Agents.Net.Message)
+  nameWithType: Message.Message(Message)
+- uid: Agents.Net.Message.#ctor(IEnumerable{Agents.Net.Message})
+  name: Message(IEnumerable<Message>)
+  href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_IEnumerable_Agents_Net_Message__
+  commentId: M:Agents.Net.Message.#ctor(IEnumerable{Agents.Net.Message})
+  name.vb: Message(IEnumerable(Of Message))
+  fullName: Agents.Net.Message.Message(IEnumerable<Agents.Net.Message>)
+  fullName.vb: Agents.Net.Message.Message(IEnumerable(Of Agents.Net.Message))
+  nameWithType: Message.Message(IEnumerable<Message>)
+  nameWithType.vb: Message.Message(IEnumerable(Of Message))
 - uid: Agents.Net.Message.#ctor*
   name: Message
   href: api/Agents.Net.Message.html#Agents_Net_Message__ctor_
@@ -849,6 +849,101 @@ references:
   fullName.vb: Agents.Net.Message.TryGet(Of T)(ByRef T)
   nameWithType: Message.TryGet<T>(out T)
   nameWithType.vb: Message.TryGet(Of T)(ByRef T)
+- uid: Agents.Net.MessageAggregationResult`1
+  name: MessageAggregationResult<TEnd>
+  href: api/Agents.Net.MessageAggregationResult-1.html
+  commentId: T:Agents.Net.MessageAggregationResult`1
+  name.vb: MessageAggregationResult(Of TEnd)
+  fullName: Agents.Net.MessageAggregationResult<TEnd>
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd)
+  nameWithType: MessageAggregationResult<TEnd>
+  nameWithType.vb: MessageAggregationResult(Of TEnd)
+- uid: Agents.Net.MessageAggregationResult`1.#ctor(Agents.Net.MessageGateResultKind,IReadOnlyCollection{`0},IReadOnlyCollection{Agents.Net.ExceptionMessage})
+  name: MessageAggregationResult(MessageGateResultKind, IReadOnlyCollection<TEnd>, IReadOnlyCollection<ExceptionMessage>)
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1__ctor_Agents_Net_MessageGateResultKind_IReadOnlyCollection__0__IReadOnlyCollection_Agents_Net_ExceptionMessage__
+  commentId: M:Agents.Net.MessageAggregationResult`1.#ctor(Agents.Net.MessageGateResultKind,IReadOnlyCollection{`0},IReadOnlyCollection{Agents.Net.ExceptionMessage})
+  name.vb: MessageAggregationResult(MessageGateResultKind, IReadOnlyCollection(Of TEnd), IReadOnlyCollection(Of ExceptionMessage))
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.MessageAggregationResult(Agents.Net.MessageGateResultKind, IReadOnlyCollection<TEnd>, IReadOnlyCollection<Agents.Net.ExceptionMessage>)
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).MessageAggregationResult(Agents.Net.MessageGateResultKind, IReadOnlyCollection(Of TEnd), IReadOnlyCollection(Of Agents.Net.ExceptionMessage))
+  nameWithType: MessageAggregationResult<TEnd>.MessageAggregationResult(MessageGateResultKind, IReadOnlyCollection<TEnd>, IReadOnlyCollection<ExceptionMessage>)
+  nameWithType.vb: MessageAggregationResult(Of TEnd).MessageAggregationResult(MessageGateResultKind, IReadOnlyCollection(Of TEnd), IReadOnlyCollection(Of ExceptionMessage))
+- uid: Agents.Net.MessageAggregationResult`1.#ctor*
+  name: MessageAggregationResult
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1__ctor_
+  commentId: Overload:Agents.Net.MessageAggregationResult`1.#ctor
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.MessageAggregationResult
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).MessageAggregationResult
+  nameWithType: MessageAggregationResult<TEnd>.MessageAggregationResult
+  nameWithType.vb: MessageAggregationResult(Of TEnd).MessageAggregationResult
+- uid: Agents.Net.MessageAggregationResult`1.EndMessages
+  name: EndMessages
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_EndMessages
+  commentId: P:Agents.Net.MessageAggregationResult`1.EndMessages
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.EndMessages
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).EndMessages
+  nameWithType: MessageAggregationResult<TEnd>.EndMessages
+  nameWithType.vb: MessageAggregationResult(Of TEnd).EndMessages
+- uid: Agents.Net.MessageAggregationResult`1.EndMessages*
+  name: EndMessages
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_EndMessages_
+  commentId: Overload:Agents.Net.MessageAggregationResult`1.EndMessages
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.EndMessages
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).EndMessages
+  nameWithType: MessageAggregationResult<TEnd>.EndMessages
+  nameWithType.vb: MessageAggregationResult(Of TEnd).EndMessages
+- uid: Agents.Net.MessageAggregationResult`1.Exceptions
+  name: Exceptions
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_Exceptions
+  commentId: P:Agents.Net.MessageAggregationResult`1.Exceptions
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.Exceptions
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).Exceptions
+  nameWithType: MessageAggregationResult<TEnd>.Exceptions
+  nameWithType.vb: MessageAggregationResult(Of TEnd).Exceptions
+- uid: Agents.Net.MessageAggregationResult`1.Exceptions*
+  name: Exceptions
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_Exceptions_
+  commentId: Overload:Agents.Net.MessageAggregationResult`1.Exceptions
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.Exceptions
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).Exceptions
+  nameWithType: MessageAggregationResult<TEnd>.Exceptions
+  nameWithType.vb: MessageAggregationResult(Of TEnd).Exceptions
+- uid: Agents.Net.MessageAggregationResult`1.Result
+  name: Result
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_Result
+  commentId: P:Agents.Net.MessageAggregationResult`1.Result
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.Result
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).Result
+  nameWithType: MessageAggregationResult<TEnd>.Result
+  nameWithType.vb: MessageAggregationResult(Of TEnd).Result
+- uid: Agents.Net.MessageAggregationResult`1.Result*
+  name: Result
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_Result_
+  commentId: Overload:Agents.Net.MessageAggregationResult`1.Result
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.Result
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).Result
+  nameWithType: MessageAggregationResult<TEnd>.Result
+  nameWithType.vb: MessageAggregationResult(Of TEnd).Result
+- uid: Agents.Net.MessageAggregationResult`1.ToString
+  name: ToString()
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_ToString
+  commentId: M:Agents.Net.MessageAggregationResult`1.ToString
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.ToString()
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).ToString()
+  nameWithType: MessageAggregationResult<TEnd>.ToString()
+  nameWithType.vb: MessageAggregationResult(Of TEnd).ToString()
+- uid: Agents.Net.MessageAggregationResult`1.ToString*
+  name: ToString
+  href: api/Agents.Net.MessageAggregationResult-1.html#Agents_Net_MessageAggregationResult_1_ToString_
+  commentId: Overload:Agents.Net.MessageAggregationResult`1.ToString
+  isSpec: "True"
+  fullName: Agents.Net.MessageAggregationResult<TEnd>.ToString
+  fullName.vb: Agents.Net.MessageAggregationResult(Of TEnd).ToString
+  nameWithType: MessageAggregationResult<TEnd>.ToString
+  nameWithType.vb: MessageAggregationResult(Of TEnd).ToString
 - uid: Agents.Net.MessageAggregator`1
   name: MessageAggregator<T>
   href: api/Agents.Net.MessageAggregator-1.html
@@ -2843,6 +2938,24 @@ references:
   fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).NoTimout
   nameWithType: MessageGate<TStart, TEnd>.NoTimout
   nameWithType.vb: MessageGate(Of TStart, TEnd).NoTimout
+- uid: Agents.Net.MessageGate`2.SendAndAggregate(IReadOnlyCollection{`0},Action{Agents.Net.Message})
+  name: SendAndAggregate(IReadOnlyCollection<TStart>, Action<Message>)
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAggregate_IReadOnlyCollection__0__Action_Agents_Net_Message__
+  commentId: M:Agents.Net.MessageGate`2.SendAndAggregate(IReadOnlyCollection{`0},Action{Agents.Net.Message})
+  name.vb: SendAndAggregate(IReadOnlyCollection(Of TStart), Action(Of Message))
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.SendAndAggregate(IReadOnlyCollection<TStart>, Action<Agents.Net.Message>)
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndAggregate(IReadOnlyCollection(Of TStart), Action(Of Agents.Net.Message))
+  nameWithType: MessageGate<TStart, TEnd>.SendAndAggregate(IReadOnlyCollection<TStart>, Action<Message>)
+  nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndAggregate(IReadOnlyCollection(Of TStart), Action(Of Message))
+- uid: Agents.Net.MessageGate`2.SendAndAggregate*
+  name: SendAndAggregate
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAggregate_
+  commentId: Overload:Agents.Net.MessageGate`2.SendAndAggregate
+  isSpec: "True"
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.SendAndAggregate
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndAggregate
+  nameWithType: MessageGate<TStart, TEnd>.SendAndAggregate
+  nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndAggregate
 - uid: Agents.Net.MessageGate`2.SendAndAwait(`0,Action{Agents.Net.Message},System.Int32,CancellationToken)
   name: SendAndAwait(TStart, Action<Message>, Int32, CancellationToken)
   href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndAwait__0_Action_Agents_Net_Message__System_Int32_CancellationToken_
@@ -2870,6 +2983,15 @@ references:
   fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndContinue(TStart, Action(Of Agents.Net.Message), Action(Of Agents.Net.MessageGateResult(Of TEnd)), System.Int32, CancellationToken)
   nameWithType: MessageGate<TStart, TEnd>.SendAndContinue(TStart, Action<Message>, Action<MessageGateResult<TEnd>>, Int32, CancellationToken)
   nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndContinue(TStart, Action(Of Message), Action(Of MessageGateResult(Of TEnd)), Int32, CancellationToken)
+- uid: Agents.Net.MessageGate`2.SendAndContinue(IReadOnlyCollection{`0},Action{Agents.Net.Message},Action{Agents.Net.MessageAggregationResult{`1}},System.Int32,CancellationToken)
+  name: SendAndContinue(IReadOnlyCollection<TStart>, Action<Message>, Action<MessageAggregationResult<TEnd>>, Int32, CancellationToken)
+  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndContinue_IReadOnlyCollection__0__Action_Agents_Net_Message__Action_Agents_Net_MessageAggregationResult__1___System_Int32_CancellationToken_
+  commentId: M:Agents.Net.MessageGate`2.SendAndContinue(IReadOnlyCollection{`0},Action{Agents.Net.Message},Action{Agents.Net.MessageAggregationResult{`1}},System.Int32,CancellationToken)
+  name.vb: SendAndContinue(IReadOnlyCollection(Of TStart), Action(Of Message), Action(Of MessageAggregationResult(Of TEnd)), Int32, CancellationToken)
+  fullName: Agents.Net.MessageGate<TStart, TEnd>.SendAndContinue(IReadOnlyCollection<TStart>, Action<Agents.Net.Message>, Action<Agents.Net.MessageAggregationResult<TEnd>>, System.Int32, CancellationToken)
+  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).SendAndContinue(IReadOnlyCollection(Of TStart), Action(Of Agents.Net.Message), Action(Of Agents.Net.MessageAggregationResult(Of TEnd)), System.Int32, CancellationToken)
+  nameWithType: MessageGate<TStart, TEnd>.SendAndContinue(IReadOnlyCollection<TStart>, Action<Message>, Action<MessageAggregationResult<TEnd>>, Int32, CancellationToken)
+  nameWithType.vb: MessageGate(Of TStart, TEnd).SendAndContinue(IReadOnlyCollection(Of TStart), Action(Of Message), Action(Of MessageAggregationResult(Of TEnd)), Int32, CancellationToken)
 - uid: Agents.Net.MessageGate`2.SendAndContinue*
   name: SendAndContinue
   href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_SendAndContinue_
@@ -3087,6 +3209,49 @@ references:
   isSpec: "True"
   fullName: Agents.Net.MessageLog.Predecessors
   nameWithType: MessageLog.Predecessors
+- uid: Agents.Net.MessagesAggregated`1
+  name: MessagesAggregated<T>
+  href: api/Agents.Net.MessagesAggregated-1.html
+  commentId: T:Agents.Net.MessagesAggregated`1
+  name.vb: MessagesAggregated(Of T)
+  fullName: Agents.Net.MessagesAggregated<T>
+  fullName.vb: Agents.Net.MessagesAggregated(Of T)
+  nameWithType: MessagesAggregated<T>
+  nameWithType.vb: MessagesAggregated(Of T)
+- uid: Agents.Net.MessagesAggregated`1.DataToString
+  name: DataToString()
+  href: api/Agents.Net.MessagesAggregated-1.html#Agents_Net_MessagesAggregated_1_DataToString
+  commentId: M:Agents.Net.MessagesAggregated`1.DataToString
+  fullName: Agents.Net.MessagesAggregated<T>.DataToString()
+  fullName.vb: Agents.Net.MessagesAggregated(Of T).DataToString()
+  nameWithType: MessagesAggregated<T>.DataToString()
+  nameWithType.vb: MessagesAggregated(Of T).DataToString()
+- uid: Agents.Net.MessagesAggregated`1.DataToString*
+  name: DataToString
+  href: api/Agents.Net.MessagesAggregated-1.html#Agents_Net_MessagesAggregated_1_DataToString_
+  commentId: Overload:Agents.Net.MessagesAggregated`1.DataToString
+  isSpec: "True"
+  fullName: Agents.Net.MessagesAggregated<T>.DataToString
+  fullName.vb: Agents.Net.MessagesAggregated(Of T).DataToString
+  nameWithType: MessagesAggregated<T>.DataToString
+  nameWithType.vb: MessagesAggregated(Of T).DataToString
+- uid: Agents.Net.MessagesAggregated`1.Result
+  name: Result
+  href: api/Agents.Net.MessagesAggregated-1.html#Agents_Net_MessagesAggregated_1_Result
+  commentId: P:Agents.Net.MessagesAggregated`1.Result
+  fullName: Agents.Net.MessagesAggregated<T>.Result
+  fullName.vb: Agents.Net.MessagesAggregated(Of T).Result
+  nameWithType: MessagesAggregated<T>.Result
+  nameWithType.vb: MessagesAggregated(Of T).Result
+- uid: Agents.Net.MessagesAggregated`1.Result*
+  name: Result
+  href: api/Agents.Net.MessagesAggregated-1.html#Agents_Net_MessagesAggregated_1_Result_
+  commentId: Overload:Agents.Net.MessagesAggregated`1.Result
+  isSpec: "True"
+  fullName: Agents.Net.MessagesAggregated<T>.Result
+  fullName.vb: Agents.Net.MessagesAggregated(Of T).Result
+  nameWithType: MessagesAggregated<T>.Result
+  nameWithType.vb: MessagesAggregated(Of T).Result
 - uid: Agents.Net.MessageStore`1
   name: MessageStore<T>
   href: api/Agents.Net.MessageStore-1.html
