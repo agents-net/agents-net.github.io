@@ -2896,23 +2896,6 @@ references:
   fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd)
   nameWithType: MessageGate<TStart, TEnd>
   nameWithType.vb: MessageGate(Of TStart, TEnd)
-- uid: Agents.Net.MessageGate`2.#ctor
-  name: MessageGate()
-  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2__ctor
-  commentId: M:Agents.Net.MessageGate`2.#ctor
-  fullName: Agents.Net.MessageGate<TStart, TEnd>.MessageGate()
-  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).MessageGate()
-  nameWithType: MessageGate<TStart, TEnd>.MessageGate()
-  nameWithType.vb: MessageGate(Of TStart, TEnd).MessageGate()
-- uid: Agents.Net.MessageGate`2.#ctor*
-  name: MessageGate
-  href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2__ctor_
-  commentId: Overload:Agents.Net.MessageGate`2.#ctor
-  isSpec: "True"
-  fullName: Agents.Net.MessageGate<TStart, TEnd>.MessageGate
-  fullName.vb: Agents.Net.MessageGate(Of TStart, TEnd).MessageGate
-  nameWithType: MessageGate<TStart, TEnd>.MessageGate
-  nameWithType.vb: MessageGate(Of TStart, TEnd).MessageGate
 - uid: Agents.Net.MessageGate`2.Check(Agents.Net.Message)
   name: Check(Message)
   href: api/Agents.Net.MessageGate-2.html#Agents_Net_MessageGate_2_Check_Agents_Net_Message_
