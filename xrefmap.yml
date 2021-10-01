@@ -1877,15 +1877,15 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2).TryGetMessageFittingDomain
   nameWithType: MessageCollector<T1, T2>.TryGetMessageFittingDomain
   nameWithType.vb: MessageCollector(Of T1, T2).TryGetMessageFittingDomain
-- uid: Agents.Net.MessageCollector`2.TryGetMessageFittingDomain``1(Agents.Net.MessageDomain,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}},Agents.Net.MessageStore{``0}@)
-  name: TryGetMessageFittingDomain<T>(MessageDomain, Dictionary<MessageDomain, MessageStore<T>>, out MessageStore<T>)
-  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_TryGetMessageFittingDomain__1_Agents_Net_MessageDomain_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___Agents_Net_MessageStore___0___
-  commentId: M:Agents.Net.MessageCollector`2.TryGetMessageFittingDomain``1(Agents.Net.MessageDomain,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}},Agents.Net.MessageStore{``0}@)
-  name.vb: TryGetMessageFittingDomain(Of T)(MessageDomain, Dictionary(Of MessageDomain, MessageStore(Of T)), ByRef MessageStore(Of T))
-  fullName: Agents.Net.MessageCollector<T1, T2>.TryGetMessageFittingDomain<T>(Agents.Net.MessageDomain, Dictionary<Agents.Net.MessageDomain, Agents.Net.MessageStore<T>>, out Agents.Net.MessageStore<T>)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).TryGetMessageFittingDomain(Of T)(Agents.Net.MessageDomain, Dictionary(Of Agents.Net.MessageDomain, Agents.Net.MessageStore(Of T)), ByRef Agents.Net.MessageStore(Of T))
-  nameWithType: MessageCollector<T1, T2>.TryGetMessageFittingDomain<T>(MessageDomain, Dictionary<MessageDomain, MessageStore<T>>, out MessageStore<T>)
-  nameWithType.vb: MessageCollector(Of T1, T2).TryGetMessageFittingDomain(Of T)(MessageDomain, Dictionary(Of MessageDomain, MessageStore(Of T)), ByRef MessageStore(Of T))
+- uid: Agents.Net.MessageCollector`2.TryGetMessageFittingDomain``1(Agents.Net.MessageDomain,ConcurrentDictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}},Agents.Net.MessageStore{``0}@)
+  name: TryGetMessageFittingDomain<T>(MessageDomain, ConcurrentDictionary<MessageDomain, MessageStore<T>>, out MessageStore<T>)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_TryGetMessageFittingDomain__1_Agents_Net_MessageDomain_ConcurrentDictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___Agents_Net_MessageStore___0___
+  commentId: M:Agents.Net.MessageCollector`2.TryGetMessageFittingDomain``1(Agents.Net.MessageDomain,ConcurrentDictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}},Agents.Net.MessageStore{``0}@)
+  name.vb: TryGetMessageFittingDomain(Of T)(MessageDomain, ConcurrentDictionary(Of MessageDomain, MessageStore(Of T)), ByRef MessageStore(Of T))
+  fullName: Agents.Net.MessageCollector<T1, T2>.TryGetMessageFittingDomain<T>(Agents.Net.MessageDomain, ConcurrentDictionary<Agents.Net.MessageDomain, Agents.Net.MessageStore<T>>, out Agents.Net.MessageStore<T>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).TryGetMessageFittingDomain(Of T)(Agents.Net.MessageDomain, ConcurrentDictionary(Of Agents.Net.MessageDomain, Agents.Net.MessageStore(Of T)), ByRef Agents.Net.MessageStore(Of T))
+  nameWithType: MessageCollector<T1, T2>.TryGetMessageFittingDomain<T>(MessageDomain, ConcurrentDictionary<MessageDomain, MessageStore<T>>, out MessageStore<T>)
+  nameWithType.vb: MessageCollector(Of T1, T2).TryGetMessageFittingDomain(Of T)(MessageDomain, ConcurrentDictionary(Of MessageDomain, MessageStore(Of T)), ByRef MessageStore(Of T))
 - uid: Agents.Net.MessageCollector`2.TryPush(Agents.Net.Message)
   name: TryPush(Message)
   href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_TryPush_Agents_Net_Message_
@@ -1912,15 +1912,15 @@ references:
   fullName.vb: Agents.Net.MessageCollector(Of T1, T2).UpdateMessagePool
   nameWithType: MessageCollector<T1, T2>.UpdateMessagePool
   nameWithType.vb: MessageCollector(Of T1, T2).UpdateMessagePool
-- uid: Agents.Net.MessageCollector`2.UpdateMessagePool``1(``0,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}})
-  name: UpdateMessagePool<T>(T, Dictionary<MessageDomain, MessageStore<T>>)
-  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_UpdateMessagePool__1___0_Dictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___
-  commentId: M:Agents.Net.MessageCollector`2.UpdateMessagePool``1(``0,Dictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}})
-  name.vb: UpdateMessagePool(Of T)(T, Dictionary(Of MessageDomain, MessageStore(Of T)))
-  fullName: Agents.Net.MessageCollector<T1, T2>.UpdateMessagePool<T>(T, Dictionary<Agents.Net.MessageDomain, Agents.Net.MessageStore<T>>)
-  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).UpdateMessagePool(Of T)(T, Dictionary(Of Agents.Net.MessageDomain, Agents.Net.MessageStore(Of T)))
-  nameWithType: MessageCollector<T1, T2>.UpdateMessagePool<T>(T, Dictionary<MessageDomain, MessageStore<T>>)
-  nameWithType.vb: MessageCollector(Of T1, T2).UpdateMessagePool(Of T)(T, Dictionary(Of MessageDomain, MessageStore(Of T)))
+- uid: Agents.Net.MessageCollector`2.UpdateMessagePool``1(``0,ConcurrentDictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}})
+  name: UpdateMessagePool<T>(T, ConcurrentDictionary<MessageDomain, MessageStore<T>>)
+  href: api/Agents.Net.MessageCollector-2.html#Agents_Net_MessageCollector_2_UpdateMessagePool__1___0_ConcurrentDictionary_Agents_Net_MessageDomain_Agents_Net_MessageStore___0___
+  commentId: M:Agents.Net.MessageCollector`2.UpdateMessagePool``1(``0,ConcurrentDictionary{Agents.Net.MessageDomain,Agents.Net.MessageStore{``0}})
+  name.vb: UpdateMessagePool(Of T)(T, ConcurrentDictionary(Of MessageDomain, MessageStore(Of T)))
+  fullName: Agents.Net.MessageCollector<T1, T2>.UpdateMessagePool<T>(T, ConcurrentDictionary<Agents.Net.MessageDomain, Agents.Net.MessageStore<T>>)
+  fullName.vb: Agents.Net.MessageCollector(Of T1, T2).UpdateMessagePool(Of T)(T, ConcurrentDictionary(Of Agents.Net.MessageDomain, Agents.Net.MessageStore(Of T)))
+  nameWithType: MessageCollector<T1, T2>.UpdateMessagePool<T>(T, ConcurrentDictionary<MessageDomain, MessageStore<T>>)
+  nameWithType.vb: MessageCollector(Of T1, T2).UpdateMessagePool(Of T)(T, ConcurrentDictionary(Of MessageDomain, MessageStore(Of T)))
 - uid: Agents.Net.MessageCollector`3
   name: MessageCollector<T1, T2, T3>
   href: api/Agents.Net.MessageCollector-3.html
